@@ -1,36 +1,74 @@
-/* Dark-only design */
+/* Pastell Hellblau + Schwarze Schrift, große Overlays */
 :root{
-  --bg:#0b1220;
-  --panel:#0f172a;
-  --border:#1f2a44;
-  --text:#e5e7eb;
-  --muted:#94a3b8;
-  --primary:#6366f1;
-  --success:#059669;
+  --bg:#dceeff; /* sanft pastelliges Blau */
+  --ink:#000000; /* schwarze Schrift */
+  --panel:#ffffff;
+  --border:#000000;
+  --muted:#333333;
+  --primary:#3b82f6;      /* Blau für Buttons */
+  --success:#16a34a;      /* Grün */
+  --danger:#dc2626;       /* Rot */
 }
-body{background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji"}
-.logo{height:2.25rem;width:2.25rem;border-radius:1rem;background:rgba(99,102,241,.15);border:1px solid rgba(99,102,241,.35);display:flex;align-items:center;justify-content:center;font-weight:900;color:#c7d2fe}
-.card{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:1rem;padding:1rem}
-.btn-primary{background:var(--primary);color:#fff;border-radius:.75rem;padding:.5rem .75rem}
-.btn-success{background:var(--success);color:#fff;border-radius:.75rem;padding:.5rem .75rem}
-.btn-outline{border:1px solid var(--border);border-radius:.75rem;padding:.5rem .75rem;color:var(--text);background:transparent}
-.btn-danger{border:1px solid rgba(239,68,68,.5);color:#fca5a5;border-radius:.75rem;padding:.5rem .75rem;background:transparent}
-.input{border:1px solid var(--border);border-radius:.75rem;padding:.5rem .75rem;background:transparent;color:var(--text)}
-.input.small{padding:.35rem .5rem}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI","Helvetica Neue",Arial,"Noto Sans"}
+.wrap{max-width:1200px;margin:0 auto;padding:16px 16px 64px}
+.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{height:40px;width:40px;border-radius:12px;background:#a5c8ff;display:flex;align-items:center;justify-content:center;border:2px solid var(--border);font-weight:900}
+.titling h1{font-size:22px;margin:0}
+.titling p{margin:2px 0 0;color:var(--muted);font-size:12px}
+.top-actions .btn{margin-left:8px}
+
+.tabs{position:sticky;top:0;background:rgba(220,238,255,.8);backdrop-filter:blur(6px);border:2px solid var(--border);border-radius:14px;padding:8px;margin-bottom:12px}
+.tab{border:2px solid var(--border);background:var(--panel);color:var(--ink);border-radius:10px;padding:8px 12px;margin-right:6px;cursor:pointer}
+.tab.active{background:var(--ink);color:#fff}
+
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:12px}
+.stat{background:var(--panel);border:2px solid var(--border);border-radius:12px;padding:10px;text-align:center}
+.stat div:first-child{font-size:12px;color:var(--muted)}
+.stat div:last-child{font-size:20px;font-weight:700}
+
 .view.hidden{display:none}
-.tabs{position:sticky;top:0;z-index:10;background:rgba(2,6,23,.6);backdrop-filter:blur(6px);border:1px solid var(--border);border-radius:1rem;padding:.5rem;margin-bottom:1rem}
-.tab{border:1px solid var(--border);border-radius:.75rem;padding:.5rem .75rem;margin-right:.5rem;color:var(--text);background:transparent}
-.tab.active{background:var(--primary);color:#fff;border-color:transparent}
-.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem;margin-bottom:1rem}
-@media (min-width:640px){.stats{grid-template-columns:repeat(4,minmax(0,1fr))}}
-.stat{background:var(--panel);border:1px solid var(--border);border-radius:1rem;padding:.75rem}
-.dashed{border-style:dashed}
-.center{min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center}
-.row{display:flex;align-items:center;justify-content:space-between;margin-bottom:.5rem}
+.learn-grid{display:grid;grid-template-columns:2fr 1fr;gap:12px}
+.panel{background:var(--panel);border:2px solid var(--border);border-radius:16px;padding:14px}
+.panel.main .bar{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.panel.main .left{display:flex;gap:8px;flex-wrap:wrap}
+.panel.side h3{margin:0 0 8px}
+.list{margin:0;padding-left:18px}
+.list li{margin:6px 0}
+
+.card.large{min-height:360px}
+.dashed{border-style:solid}
+.center{display:flex;align-items:center;justify-content:center;text-align:center}
+
+.row{display:flex;gap:8px;align-items:center;margin:8px 0}
+.row.wrap{flex-wrap:wrap}
+.row.between{justify-content:space-between}
+.right{text-align:right}
+.bold{font-weight:700}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+.input{border:2px solid var(--border);border-radius:10px;background:#fff;color:var(--ink);padding:8px 10px}
+.input.small{padding:6px 8px}
+.input.w80{width:80px}
+.input.w180{width:180px}
+textarea.input{width:100%}
+
+.btn{border:2px solid var(--border);border-radius:10px;background:#fff;color:var(--ink);padding:8px 12px;cursor:pointer}
+.btn.primary{background:#e6f1ff;border-color:var(--border)}
+.btn.success{background:#eaffea;border-color:var(--border)}
+.btn.danger{background:#ffecec;border-color:var(--border)}
+.btn:hover{filter:brightness(.95)}
+
+.tablewrap{overflow:auto}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border-bottom:1px solid #000;padding:6px 8px}
+.table thead th{background:#eef5ff}
+
 .muted{color:var(--muted)}
-.pill{border:1px solid var(--border);border-radius:999px;padding:.25rem .5rem;margin:.25rem;display:inline-flex;align-items:center;gap:.25rem;background:transparent;color:var(--text)}
-.pill button{border:none;background:transparent;cursor:pointer;color:inherit}
-.wordbank{display:flex;flex-wrap:wrap;gap:.5rem;margin:.5rem 0}
-.sentence{min-height:2.5rem;border:1px dashed var(--border);border-radius:.75rem;padding:.5rem;display:flex;flex-wrap:wrap;gap:.5rem}
-table thead th{font-weight:600}
-code{background:#111827;border:1px solid var(--border);padding:.1rem .35rem;border-radius:.35rem}
+
+@media (max-width:960px){
+  .learn-grid{grid-template-columns:1fr}
+  .card.large{min-height:300px}
+}
