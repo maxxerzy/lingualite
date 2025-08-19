@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LinguaLite – Vokabeltrainer (offline, Single-File)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    /* Optional: sanfte Animations-Utilities */
+    .fade-in { animation: fade-in 200ms ease-out; }
+    @keyframes fade-in { from { opacity: .0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Dark-Mode via System-Preference oder Settings-Schalter */
+    :root { --card: white; --card-ink: #111827; }
+    @media (prefers-color-scheme: dark) {
+      :root { --card: #0b1220; --card-ink: #f3f4f6; }
+    }
+    .card { background: var(--card); color: var(--card-ink); }
+    input[type="text"], textarea { outline: none; }
+  </style>
+</head>
+<body class="h-full bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+  <div class="max-w-5xl mx-auto p-4 sm:p-6">
+    <!-- Header -->
+    <header class="flex items-center justify-between gap-4 mb-4">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-2xl bg-indigo-600/10 border border-indigo-600/30 flex items-center justify-center">
+          <span class="font-black text-indigo-600">L</span>
+        </div>
+        <div>
+          <h1 class="text-xl sm:text-2xl font-bold">LinguaLite</h1>
+          <p class="text-xs text-slate-500">Single-File Vokabeltrainer – lokal, offline, exportierbar</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="darkToggle" class="px-3 py-2 rounded-xl border border-slate-300/60 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Dark/Light</button>
+        <button id="resetApp" class="px-3 py-2 rounded-xl border border-red-300/60 text-red-700 hover:bg-red-50 dark:hover:bg-red-900/20 text-sm">Zurücksetzen</button>
+      </div>
+    </header>
+
+    <!-- Tabs -->
+    <nav class="sticky top-0 z-10 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur supports-[backdrop-filter]:bg-slate-50/60 dark:supports-[backdrop-filter]:bg-slate-900/60 rounded-2xl border border-slate-200 dark:border-slate-800 p-2 mb-4">
+      <ul class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-sm">
+        <li><button data-tab="learn" class="tab-btn w-full px-3 py-2 rounded-xl bg-indigo-600 text-white">Lernen</button></li>
+        <li><button data-tab="decks" class="tab-btn w-full px-3 py-2 rounded-xl card border border-slate-200 dark:border-slate-800">Decks</button></li>
+        <li><button data-tab="import" class="tab-btn w-full px-3 py-2 rounded-xl card border border-slate-200 dark:border-slate-800">Import/Export</button></li>
+        <li><button data-tab="settings" class="tab-btn w-full px-3 py-2 rounded-xl card border border-slate-200 dark:border-slate-800">Einstellungen</button></li>
+      </ul>
+    </nav>
+
+    <!-- Statusbar -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4 text-xs">
+      <div class="card rounded-2xl p-3 border border-slate-200 dark:border-slate-800"><div class="text-slate-500">XP</div><div id="xp" class="font-semibold">0</div></div>
+      <div class="card rounded-2xl p-3 border border-slate-200 dark:border-slate-800"><div class="text-slate-500">Streak</div><div id="streak" class="font-semibold">0 🔥</div></div>
+      <div class="card rounded-2xl p-3 border border-slate-200 dark:border-slate-800"><div class="text-slate-500">Fällig</div><div id="dueCount" class="font-semibold">0</div></div>
+      <div class="card rounded-2xl p-3 border border-slate-200 dark:border-slate-800"><div class="text-slate-500">Heute gelernt</div><div id="learnedToday" class="font-semibold">0</div></div>
+    </section>
+
+    <!-- Views -->
+    <main>
+      <section id="view-learn" class="fade-in">
+        <div id="cardArea" class="min-h-[220px] flex flex-col items-center justify-center text-center rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 p-6">
+          <p class="text-slate-500">Wähle ein Deck und starte eine Session.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
