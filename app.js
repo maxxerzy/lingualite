@@ -1,4 +1,4 @@
-// LinguaLite modular app
+// LinguaLite modular app (dark-only)
 const $ = (sel, root=document) => root.querySelector(sel);
 const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
 const todayKey = () => new Date().toISOString().slice(0,10);
@@ -7,7 +7,7 @@ function lev(a,b){ a=a||""; b=b||""; const m=a.length,n=b.length; if(!m)return n
 const shuffle = (arr)=>arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
 function download(filename, dataStr){ const blob=new Blob([dataStr],{type:'application/json'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download=filename; a.click(); URL.revokeObjectURL(url); }
 
-const STORAGE_KEY = 'lingualite_v2';
+const STORAGE_KEY = 'lingualite_v2_dark';
 function term(front, back, example='', tags=''){ return { id: crypto.randomUUID(), front, back, example, tags, due: todayKey(), ease: 2.5, interval: 0, reps: 0, lapses: 0, lastGrade: null }; }
 
 const defaultData = {
@@ -21,7 +21,7 @@ const defaultData = {
     ]},
     (function(){
       const deck = { id: crypto.randomUUID(), name: 'DE → DA (Dänisch Startdeck)', src: 'DE', tgt: 'DA', cards: [] };
-      const rows = [["Hallo", "hej", "Hej! Hvordan går det?", "begrüßung"], ["Guten Morgen", "godmorgen", "Godmorgen!", "begrüßung"], ["Guten Abend", "god aften", "God aften!", "begrüßung"], ["Gute Nacht", "godnat", "Godnat og sov godt.", "begrüßung"], ["Tschüss", "hej hej", "Vi ses, hej hej!", "begrüßung"], ["Wie geht es dir?", "Hvordan har du det?", "Hvordan har du det i dag?", "smalltalk"], ["Mir geht es gut", "Jeg har det godt", "Tak, jeg har det godt.", "smalltalk"], ["Ich heiße Maxim", "Jeg hedder Maxim", "Hej, jeg hedder Maxim.", "vorstellung"], ["Ich komme aus Deutschland", "Jeg kommer fra Tyskland", "Jeg kommer fra Tyskland.", "vorstellung"], ["Ich spreche ein bisschen Dänisch", "Jeg taler lidt dansk", "Jeg taler kun lidt dansk.", "sprache"], ["Ja", "ja", "Ja, tak.", "grundwort"], ["Nein", "nej", "Nej, tak.", "grundwort"], ["Vielleicht", "måske", "Måske senere.", "grundwort"], ["Danke", "tak", "Mange tak!", "höflichkeit"], ["Danke schön", "mange tak", "Tusind tak!", "höflichkeit"], ["Bitte schön (gern geschehen)", "velbekomme", "Tak! – Velbekomme.", "höflichkeit"], ["Entschuldigung", "undskyld", "Undskyld, jeg er forsinket.", "höflichkeit"], ["Hilfe!", "hjælp!", "Hjælp! Er der nogen?", "notfall"], ["Wo ist die Toilette?", "Hvor er toilettet?", "Undskyld, hvor er toilettet?", "reise"], ["Wie viel kostet das?", "Hvor meget koster det?", "Hvor meget koster det her?", "einkauf"], ["Zahlen bitte", "Jeg vil gerne betale", "Undskyld, jeg vil gerne betale.", "einkauf"], ["Ich hätte gern einen Kaffee", "Jeg vil gerne have en kaffe", "Jeg vil gerne have en kaffe, tak.", "cafe"], ["Wasser", "vand", "Et glas vand, tak.", "essen"], ["Brot", "brød", "Friskt brød smager godt.", "essen"], ["Zug", "tog", "Toget kommer om fem minutter.", "reise"], ["Bahnhof", "banegård", "Hvor er banegården?", "reise"], ["Krankenhaus", "hospital", "Hvor er det nærmeste hospital?", "reise"], ["links", "venstre", "Drej til venstre ved hjørnet.", "richtung"], ["rechts", "højre", "Drej til højre ved lyskrydset.", "richtung"], ["geradeaus", "lige ud", "Gå lige ud i to hundrede meter.", "richtung"]];
+      const rows = window.__DE_DA__ || [];
       rows.forEach(r=>deck.cards.push(term(r[0], r[1], r[2], r[3])));
       return deck;
     })()
@@ -138,8 +138,8 @@ function renderMC(card, deck){
     btn.textContent=opt;
     btn.onclick=()=>{
       const correct = normalize(opt, DB.settings.accentInsensitive)===normalize(card.back, DB.settings.accentInsensitive);
-      if(correct){ $('#feedback').innerHTML='<div class="text-emerald-600 mb-2">Richtig ✓</div>'; onGrade(2, true);}
-      else { SESSION.correctFirstTry=false; $('#feedback').innerHTML=`<div class="text-red-600 mb-2">Falsch ✗ – richtig: <span class="font-medium">${escapeHTML(card.back)}</span></div>`; onGrade(0, false);}
+      if(correct){ $('#feedback').innerHTML='<div class="text-emerald-500 mb-2">Richtig ✓</div>'; onGrade(2, true);}
+      else { SESSION.correctFirstTry=false; $('#feedback').innerHTML=`<div class="text-red-400 mb-2">Falsch ✗ – richtig: <span class="font-medium">${escapeHTML(card.back)}</span></div>`; onGrade(0, false);}
     };
     box.appendChild(btn);
   });
@@ -167,8 +167,8 @@ function renderWrite(card){
     const b=normalize(card.back, DB.settings.accentInsensitive);
     const distance=lev(a,b);
     const correct=(a===b)||(distance<=1 && b.length>4);
-    if(correct){ $('#feedback').innerHTML='<div class="text-emerald-600 mb-2">Richtig ✓</div>'; onGrade(2, true);}
-    else { SESSION.correctFirstTry=false; $('#feedback').innerHTML=`<div class="text-red-600 mb-2">Falsch ✗ – richtig: <span class="font-medium">${escapeHTML(card.back)}</span></div>`; onGrade(0,false);}
+    if(correct){ $('#feedback').innerHTML='<div class="text-emerald-500 mb-2">Richtig ✓</div>'; onGrade(2, true);}
+    else { SESSION.correctFirstTry=false; $('#feedback').innerHTML=`<div class="text-red-400 mb-2">Falsch ✗ – richtig: <span class="font-medium">${escapeHTML(card.back)}</span></div>`; onGrade(0,false);}
   };
   $('#showAnswer').onclick = ()=>{ SESSION.correctFirstTry=false; $('#feedback').innerHTML = `<div class="mb-2">Antwort: <span class="font-medium">${escapeHTML(card.back)}</span></div>`; };
 }
@@ -213,8 +213,8 @@ function renderPuzzle(card){
   $('#checkPuzzle').onclick=()=>{
     const guess = Array.from(assembled.querySelectorAll('button')).map(b=>b.textContent).join(' ').trim();
     const correct = normalize(guess)===normalize(target);
-    if(correct){ $('#pFeedback').innerHTML='<div class="text-emerald-600 mb-2">Richtig ✓</div>'; onGrade(2,true); } 
-    else { SESSION.correctFirstTry=false; $('#pFeedback').innerHTML=`<div class="text-red-600 mb-2">Falsch ✗ – richtig: <span class="font-medium">${escapeHTML(target)}</span></div>`; onGrade(0,false); }
+    if(correct){ $('#pFeedback').innerHTML='<div class="text-emerald-500 mb-2">Richtig ✓</div>'; onGrade(2,true); } 
+    else { SESSION.correctFirstTry=false; $('#pFeedback').innerHTML=`<div class="text-red-400 mb-2">Falsch ✗ – richtig: <span class="font-medium">${escapeHTML(target)}</span></div>`; onGrade(0,false); }
   };
 }
 
@@ -229,7 +229,7 @@ function renderDecks(){
     const tbody=$('.deck-cards', node);
     deck.cards.forEach(c=>{
       const tr=document.createElement('tr');
-      tr.innerHTML = `<td class="py-1 pr-2">${escapeHTML(c.front)}</td><td class="pr-2">${escapeHTML(c.back)}</td><td class="pr-2 muted">${escapeHTML(c.example||'')}</td><td class="pr-2 muted">${escapeHTML(c.tags||'')}</td><td class="text-right"><button class="text-red-600 hover:underline" data-id="${c.id}">Löschen</button></td>`;
+      tr.innerHTML = `<td class="py-1 pr-2">${escapeHTML(c.front)}</td><td class="pr-2">${escapeHTML(c.back)}</td><td class="pr-2 muted">${escapeHTML(c.example||'')}</td><td class="pr-2 muted">${escapeHTML(c.tags||'')}</td><td class="text-right"><button class="text-red-400 hover:underline" data-id="${c.id}">Löschen</button></td>`;
       $('button', tr).onclick = ()=>{ deck.cards = deck.cards.filter(x=>x.id!==c.id); save(); renderDecks(); populateDeckSelect(); };
       tbody.appendChild(tr);
     });
@@ -316,12 +316,10 @@ function renderTopBar(){
   $('#ttsToggle').checked = DB.settings.tts;
 }
 
-function toggleDark(){ const html=document.documentElement; const dark=html.classList.toggle('dark'); try{ localStorage.setItem('ll_dark', dark? '1':'0'); }catch(e){} }
-function initDark(){ const pref=localStorage.getItem('ll_dark'); if(pref==='1') document.documentElement.classList.add('dark'); if(pref==='0') document.documentElement.classList.remove('dark'); }
-function escapeHTML(str){ return (str||'').replace(/[&<>\"']/g, s=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[s])); }
+function escapeHTML(str){ return (str||'').replace(/[&<>\"']/g, s=>({"&":"&amp;","<":"&lt;","&gt;":"&gt;","\"":"&quot;","'":"&#39;"}[s])); }
 
 function init(){
-  initDark();
+  // Dark mode enforced; no switch present
   populateDeckSelect();
   renderDecks();
   renderTopBar();
@@ -343,7 +341,6 @@ function init(){
   $('#accentToggle').onchange = (e)=>{ DB.settings.accentInsensitive = !!e.target.checked; save(); };
   $('#ttsToggle').onchange = (e)=>{ DB.settings.tts = !!e.target.checked; save(); };
 
-  $('#darkToggle').onclick = toggleDark;
   $('#resetApp').onclick = ()=>{ if(confirm('Wirklich alle Daten löschen und zurücksetzen?')){ localStorage.removeItem(STORAGE_KEY); location.reload(); } };
 
   if('speechSynthesis' in window){ loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; $('#voiceSelect').onchange = (e)=>{ DB.settings.voiceURI = e.target.value; save(); }; } else { $('#ttsToggle').disabled = true; $('#voiceSelect').disabled = true; }
