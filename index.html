@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="de" class="h-full">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LinguaLite – Vokabeltrainer (offline, Single-File)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    .fade-in { animation: fade-in 200ms ease-out; }
+    @keyframes fade-in { from { opacity: .0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+    :root { --card: white; --card-ink: #111827; }
+    @media (prefers-color-scheme: dark) { :root { --card: #0b1220; --card-ink: #f3f4f6; } }
+    .card { background: var(--card); color: var(--card-ink); }
+    input[type="text"], textarea { outline: none; }
+  </style>
+</head>
+<body class="h-full bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+  <div class="max-w-5xl mx-auto p-4 sm:p-6">
+    <header class="flex items-center justify-between gap-4 mb-4">
+      <div class="flex items-center gap-3">
+        <div class="h-9 w-9 rounded-2xl bg-indigo-600/10 border border-indigo-600/30 flex items-center justify-center">
+          <span class="font-black text-indigo-600">L</span>
+        </div>
+        <div>
+          <h1 class="text-xl sm:text-2xl font-bold">LinguaLite</h1>
+          <p class="text-xs text-slate-500">Single-File Vokabeltrainer – lokal, offline, exportierbar</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <button id="darkToggle" class="px-3 py-2 rounded-xl border border-slate-300/60 dark:border-slate-700 hover:bg-slate-100 dark:hover:bg-slate-800 text-sm">Dark/Light</button>
+        <button id="resetApp" class="px-3 py-2 rounded-xl border border-red-300/60 text-red-700 hover:bg-red-50 dark:hover:bg-red-900/20 text-sm">Zurücksetzen</button>
+      </div>
+    </header>
+
+    <nav class="sticky top-0 z-10 bg-slate-50/80 dark:bg-slate-900/80 backdrop-blur rounded-2xl border border-slate-200 dark:border-slate-800 p-2 mb-4">
+      <ul class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-sm">
+        <li><button data-tab="learn" class="tab-btn w-full px-3 py-2 rounded-xl bg-indigo-600 text-white">Lernen</button></li>
+        <li><button data-tab="decks" class="tab-btn w-full px-3 py-2 rounded-xl card border border-slate-200 dark:border-slate-800">Decks</button></li>
+        <li><button data-tab="import" class="tab-btn w-full px-3 py-2 rounded-xl card border border-slate-200 dark:border-slate-800">Import/Export</button></li>
+        <li><button data-tab="settings" class="tab-btn w-full px-3 py-2 rounded-xl card border border-slate-200 dark:border-slate-800">Einstellungen</button></li>
+      </ul>
+    </nav>
+
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4 text-xs">
+      <div class="card rounded-2xl p-3 border border-slate-200 dark:border-slate-800"><div class="text-slate-500">XP</div><div id="xp" class="font-semibold">0</div></div>
+      <div class="card rounded-2xl p-3 border border-slate-200 dark:border-slate-800"><div class="text-slate-500">Streak</div><div id="streak" class="font-semibold">0 🔥</div></div>
+      <div class="card rounded-2xl p-3 border border-slate-200 dark:border-slate-800"><div class="text-slate-500">Fällig</div><div id="dueCount" class="font-semibold">0</div></div>
+      <div class="card rounded-2xl p-3 border border-slate-200 dark:border-slate-800"><div class="text-slate-500">Heute gelernt</div><div id="learnedToday" class="font-semibold">0</div></div>
+    </section>
+
+    <main>
+      <section id="view-learn" class="fade-in">
+        <div class="grid md:grid-cols-3 gap-3 mb-3">
+          <div class="card rounded-2xl p-4 border border-slate-200 dark:border-slate-800 md:col-span-2">
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex gap-2 text-sm">
+                <select id="deckSelect" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent"></select>
+                <select id="modeSelect" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent">
+                  <option value="flash">Flashcards</option>
+                  <option value="mc">Multiple Choice</option>
+                  <option value="write">Schreiben</option>
+                </select>
+                <button id="startSession" class="px-3 py-2 rounded-xl bg-indigo-600 text-white">Session starten</button>
+              </div>
+              <div class="text-xs text-slate-500" id="sessionInfo">keine aktive Session</div>
+            </div>
+            <div id="cardArea" class="min-h-[220px] flex flex-col items-center justify-center text-center rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 p-6">
+              <p class="text-slate-500">Wähle ein Deck und starte eine Session.</p>
+            </div>
+          </div>
+          <div class="card rounded-2xl p-4 border border-slate-200 dark:border-slate-800">
+            <h3 class="font-semibold mb-2">Statistik</h3>
+            <ul class="text-sm space-y-1" id="statsList"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-decks" class="hidden fade-in">
+        <div class="card rounded-2xl p-4 border border-slate-200 dark:border-slate-800 mb-3">
+          <h3 class="font-semibold mb-3">Neues Deck</h3>
+          <div class="grid sm:grid-cols-5 gap-2 text-sm">
+            <input id="newDeckName" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent sm:col-span-2" placeholder="Deckname" />
+            <input id="newDeckSrc" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent" placeholder="Quellsprache (z. B. DE)" />
+            <input id="newDeckTgt" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent" placeholder="Zielsprache (z. B. EN)" />
+            <button id="addDeck" class="px-3 py-2 rounded-xl bg-emerald-600 text-white">Deck anlegen</button>
+          </div>
+        </div>
+        <div id="deckList" class="grid gap-3"></div>
+      </section>
+
+      <section id="view-import" class="hidden fade-in">
+        <div class="grid md:grid-cols-2 gap-3">
+          <div class="card rounded-2xl p-4 border border-slate-200 dark:border-slate-800">
+            <h3 class="font-semibold mb-2">Export</h3>
+            <p class="text-sm text-slate-500 mb-3">Exportiert alle Decks und Lernstände als JSON.</p>
+            <button id="exportJson" class="px-3 py-2 rounded-xl bg-indigo-600 text-white">Export als JSON</button>
+          </div>
+          <div class="card rounded-2xl p-4 border border-slate-200 dark:border-slate-800">
+            <h3 class="font-semibold mb-2">Import</h3>
+            <p class="text-sm text-slate-500 mb-3">Importiert Decks aus JSON. Du kannst ergänzen (Merge) oder ersetzen.</p>
+            <div class="flex items-center gap-2 mb-2">
+              <input type="file" id="importFile" accept="application/json" class="text-sm" />
+              <select id="importMode" class="px-2 py-1 rounded-lg border border-slate-300 dark:border-slate-700 bg-transparent text-sm">
+                <option value="merge">Zusammenführen</option>
+                <option value="replace">Alles ersetzen</option>
+              </select>
+            </div>
+            <button id="importJson" class="px-3 py-2 rounded-xl bg-emerald-600 text-white">Import starten</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-settings" class="hidden fade-in">
+        <div class="grid md:grid-cols-2 gap-3">
+          <div class="card rounded-2xl p-4 border border-slate-200 dark:border-slate-800">
+            <h3 class="font-semibold mb-2">Lerneinstellungen</h3>
+            <label class="flex items-center justify-between text-sm mb-2">
+              <span>Neue Karten pro Tag</span>
+              <input id="newPerDay" type="number" min="0" max="200" class="w-24 text-right px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent" />
+            </label>
+            <label class="flex items-center justify-between text-sm mb-2">
+              <span>Akzent-Insensitive Prüfung</span>
+              <input id="accentToggle" type="checkbox" />
+            </label>
+            <label class="flex items-center justify-between text-sm mb-2">
+              <span>TTS (Vorlesen) benutzen</span>
+              <input id="ttsToggle" type="checkbox" />
+            </label>
+            <label class="flex items-center justify-between text-sm">
+              <span>Stimme (falls verfügbar)</span>
+              <select id="voiceSelect" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent w-48"></select>
+            </label>
+          </div>
+          <div class="card rounded-2xl p-4 border border-slate-200 dark:border-slate-800">
+            <h3 class="font-semibold mb-2">Info</h3>
+            <ul class="text-sm list-disc pl-5 space-y-1">
+              <li>Funktioniert komplett lokal (LocalStorage).</li>
+              <li>SM-2-ähnliches Spaced Repetition (vereinfachte EF/Intervalle).</li>
+              <li>Modi: Flashcards, Multiple Choice, Schreiben.</li>
+              <li>Import/Export als JSON; ideal für Backups und Gerätewechsel.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <template id="deckItemTpl">
+    <div class="card rounded-2xl p-4 border border-slate-200 dark:border-slate-800">
+      <div class="flex items-center justify-between mb-2">
+        <div class="font-semibold deck-title"></div>
+        <div class="text-xs text-slate-500 deck-meta"></div>
+      </div>
+      <div class="grid sm:grid-cols-5 gap-2 mb-3 text-sm">
+        <input class="card-front px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent" placeholder="Vorderseite (Quellsprache)" />
+        <input class="card-back px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent" placeholder="Rückseite (Zielsprache)" />
+        <input class="card-example px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent" placeholder="Beispiel (optional)" />
+        <input class="card-tags px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent" placeholder="Tags, komma-getrennt" />
+        <button class="add-card px-3 py-2 rounded-xl bg-emerald-600 text-white">Karte hinzufügen</button>
+      </div>
+      <div class="overflow-auto">
+        <table class="w-full text-sm">
+          <thead class="text-slate-500">
+            <tr><th class="text-left py-1">Vorne</th><th class="text-left">Hinten</th><th class="text-left">Beispiel</th><th class="text-left">Tags</th><th class="text-right">Aktion</th></tr>
+          </thead>
+          <tbody class="deck-cards divide-y divide-slate-200 dark:divide-slate-800"></tbody>
+        </table>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    const $ = (sel, root=document) => root.querySelector(sel);
+    const $$ = (sel, root=document) => Array.from(root.querySelectorAll(sel));
+    const todayKey = () => new Date().toISOString().slice(0,10);
+    const normalize = (s, accentInsensitive=true) => {
+      let r = (s||"").toLowerCase().trim();
+      if (accentInsensitive) r = r.normalize('NFD').replace(/\p{Diacritic}+/gu,'');
+      return r;
+    };
+    function lev(a,b){ a=a||""; b=b||""; const m=a.length,n=b.length; if(!m) return n; if(!n) return m; const dp=new Array(n+1); for(let j=0;j<=n;j++) dp[j]=j; for(let i=1;i<=m;i++){ let prev=dp[0]; dp[0]=i; for(let j=1;j<=n;j++){ const tmp=dp[j]; dp[j]=Math.min(dp[j]+1, dp[j-1]+1, prev+(a[i-1]===b[j-1]?0:1)); prev=tmp; } } return dp[n]; }
+    const shuffle = (arr)=>arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
+    function download(filename, dataStr){ const blob=new Blob([dataStr],{type:'application/json'}); const url=URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download=filename; a.click(); URL.revokeObjectURL(url); }
+
+    const STORAGE_KEY = 'lingualite_v1';
+    const defaultData = {
+      settings: { newPerDay: 20, accentInsensitive: true, tts: false, voiceURI: '' },
+      stats: { xp: 0, streak: 0, lastDay: todayKey(), learnedToday: 0 },
+      decks: [ { id: crypto.randomUUID(), name: 'DE → EN (Beispiel)', src: 'DE', tgt: 'EN', cards: [
+        term('Haus','house','Das Haus ist groß.','alltag'),
+        term('Baum','tree','Der Baum ist alt.','natur'),
+        term('lernen','to learn','Ich lerne Deutsch.','verb'),
+        term('sprechen','to speak','Sie spricht Englisch.','verb'),
+        term('Danke','thank you','Vielen Dank!','floskeln')
+      ] } ]
+    };
+    function term(front,back,example='',tags=''){ return { id: crypto.randomUUID(), front, back, example, tags, due: todayKey(), ease: 2.5, interval: 0, reps: 0, lapses: 0, lastGrade: null }; }
+    function load(){ try{ const raw=localStorage.getItem(STORAGE_KEY); if(!raw) return structuredClone(defaultData); const data=JSON.parse(raw); data.settings ||= defaultData.settings; data.stats ||= defaultData.stats; data.decks ||= []; return data; } catch(e){ return structuredClone(defaultData);} }
+    function save(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(DB)); renderTopBar(); }
+
+    let DB = load();
+    function updateDay(){ const today=todayKey(); const last=DB.stats.lastDay; if(last!==today){ const yesterday=new Date(last); const diff=Math.round((new Date(today)-yesterday)/86400000); if(diff===1 && DB.stats.learnedToday>0) DB.stats.streak+=1; else if(diff>1) DB.stats.streak=0; DB.stats.learnedToday=0; DB.stats.lastDay=today; save(); } }
+    updateDay();
+
+    function schedule(card, grade){
+      const q = [0,3,4,5][grade];
+      card.reps = (card.reps||0) + 1;
+      let ef = card.ease || 2.5;
+      ef = ef + (0.1 - (5 - q) * (0.08 + (5 - q) * 0.02));
+      if (ef < 1.3) ef = 1.3; if (ef > 3.0) ef = 3.0;
+      card.ease = ef;
+      if (q < 3){ card.interval = 0; card.lapses = (card.lapses||0)+1; }
+      else { if (card.interval === 0) card.interval = 1; else if (card.interval === 1) card.interval = 6; else card.interval = Math.round(card.interval * ef); }
+      const next = new Date(); next.setDate(next.getDate() + card.interval); card.due = next.toISOString().slice(0,10); card.lastGrade = grade;
+    }
+    const isDue = (card)=> card.due <= todayKey();
+
+    let SESSION = null;
+    function startSession(){
+      const deckId = $('#deckSelect').value;
+      const mode = $('#modeSelect').value;
+      const deck = DB.decks.find(d=>d.id===deckId);
+      if(!deck){ $('#cardArea').innerHTML = '<p class="text-slate-500">Bitte ein Deck wählen.</p>'; return; }
+      const due = deck.cards.filter(isDue);
+      const newCards = deck.cards.filter(c=>c.reps===0).slice(0, DB.settings.newPerDay);
+      const queue = shuffle([...due, ...newCards]).map(c=>c.id);
+      SESSION = { deckId: deck.id, mode, queue, current: null, correctFirstTry: true };
+      $('#sessionInfo').textContent = `${queue.length} Karten in Session · Modus: ${modeLabel(mode)}`;
+      nextCard();
+    }
+    const modeLabel = (m)=> m==='flash'?'Flashcards':(m==='mc'?'Multiple Choice':'Schreiben');
+
+    function nextCard(){
+      const area = $('#cardArea');
+      if(!SESSION || SESSION.queue.length===0){
+        area.innerHTML = '<p class="text-slate-500">Session beendet. Starte eine neue oder wechsle das Deck.</p>';
+        SESSION = null; renderTopBar(); return;
+      }
+      const deck = DB.decks.find(d=>d.id===SESSION.deckId);
+      const id = SESSION.queue.shift();
+      const card = deck.cards.find(c=>c.id===id);
+      SESSION.current = card; SESSION.correctFirstTry = true;
+      if(DB.settings.tts) speak(card.front);
+      if(SESSION.mode==='flash') renderFlash(card);
+      else if(SESSION.mode==='mc') renderMC(card, deck);
+      else renderWrite(card);
+    }
+
+    function awardXP(correct, firstTry){ if(correct){ DB.stats.xp += firstTry ? 10 : 5; DB.stats.learnedToday += 1; } }
+
+    function renderFlash(card){
+      const area = $('#cardArea');
+      area.innerHTML =
+      `<div class="w-full">
+        <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 mb-3">
+          <div class="text-xs text-slate-500 mb-1">Frage</div>
+          <div class="text-2xl font-semibold mb-4">${escapeHTML(card.front)}</div>
+          <button id="reveal" class="px-3 py-2 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900">Antwort zeigen</button>
+        </div>
+        <div id="answerBox" class="hidden rounded-2xl border border-slate-200 dark:border-slate-800 p-6 mb-3">
+          <div class="text-xs text-slate-500 mb-1">Antwort</div>
+          <div class="text-xl font-medium mb-1">${escapeHTML(card.back)}</div>
+          ${card.example?`<div class="text-sm text-slate-500">${escapeHTML(card.example)}</div>`:''}
+        </div>
+        <div class="grid grid-cols-4 gap-2">
+          <button class="grade px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700" data-grade="0">Wieder</button>
+          <button class="grade px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700" data-grade="1">Schwer</button>
+          <button class="grade px-3 py-2 rounded-xl bg-emerald-600 text-white" data-grade="2">Gut</button>
+          <button class="grade px-3 py-2 rounded-xl bg-indigo-600 text-white" data-grade="3">Leicht</button>
+        </div>
+      </div>`;
+      $('#reveal').onclick = ()=>{ $('#answerBox').classList.remove('hidden'); };
+      $$('.grade').forEach(b=>b.onclick = ()=>{ onGrade(parseInt(b.dataset.grade,10)); });
+    }
+
+    function renderMC(card, deck){
+      const area = $('#cardArea');
+      const others = shuffle(deck.cards.filter(c=>c.id!==card.id)).slice(0,3).map(c=>c.back);
+      const opts = shuffle([card.back, ...others]);
+      area.innerHTML =
+        `<div class="w-full">
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 mb-3">
+            <div class="text-xs text-slate-500 mb-1">Wähle die richtige Übersetzung</div>
+            <div class="text-2xl font-semibold mb-4">${escapeHTML(card.front)}</div>
+            <div class="grid sm:grid-cols-2 gap-2" id="mcOpts"></div>
+          </div>
+          <div id="feedback" class="text-sm"></div>
+        </div>`;
+      const box = $('#mcOpts');
+      opts.forEach(opt=>{
+        const btn = document.createElement('button');
+        btn.className = 'px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 text-left';
+        btn.textContent = opt;
+        btn.onclick = ()=>{
+          const correct = normalize(opt, DB.settings.accentInsensitive)===normalize(card.back, DB.settings.accentInsensitive);
+          if(correct){
+            $('#feedback').innerHTML = '<div class="text-emerald-600 mb-2">Richtig ✓</div>';
+            onGrade(2, true);
+          } else {
+            SESSION.correctFirstTry = false;
+            $('#feedback').innerHTML = `<div class="text-red-600 mb-2">Falsch ✗ – richtig: <span class="font-medium">${escapeHTML(card.back)}</span></div>`;
+            onGrade(0, false);
+          }
+        };
+        box.appendChild(btn);
+      });
+    }
+
+    function renderWrite(card){
+      const area = $('#cardArea');
+      area.innerHTML =
+        `<div class="w-full">
+          <div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-6 mb-3">
+            <div class="text-xs text-slate-500 mb-1">Schreibe die Übersetzung</div>
+            <div class="text-2xl font-semibold mb-4">${escapeHTML(card.front)}</div>
+            <input id="answerInput" class="w-full px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700 bg-transparent" placeholder="Antwort eingeben" />
+            <div class="flex gap-2 mt-3">
+              <button id="checkAnswer" class="px-3 py-2 rounded-xl bg-emerald-600 text-white">Prüfen</button>
+              <button id="showAnswer" class="px-3 py-2 rounded-xl border border-slate-300 dark:border-slate-700">Zeigen</button>
+            </div>
+          </div>
+          <div id="feedback" class="text-sm"></div>
+        </div>`;
+      $('#answerInput').focus();
+      $('#checkAnswer').onclick = ()=>{
+        const user = $('#answerInput').value;
+        const a = normalize(user, DB.settings.accentInsensitive);
+        const b = normalize(card.back, DB.settings.accentInsensitive);
+        const distance = lev(a,b);
+        const correct = (a===b) || (distance<=1 && b.length>4);
+        if(correct){
+          $('#feedback').innerHTML = '<div class="text-emerald-600 mb-2">Richtig ✓</div>';
+          onGrade(2, true);
+        } else {
+          SESSION.correctFirstTry = false;
+          $('#feedback').innerHTML = `<div class="text-red-600 mb-2">Falsch ✗ – richtig: <span class="font-medium">${escapeHTML(card.back)}</span></div>`;
+          onGrade(0, false);
+        }
+      };
+      $('#showAnswer').onclick = ()=>{
+        SESSION.correctFirstTry = false;
+        $('#feedback').innerHTML = `<div class="mb-2">Antwort: <span class="font-medium">${escapeHTML(card.back)}</span></div>`;
+      };
+    }
+
+    function onGrade(grade, wasCorrect){
+      const card = SESSION?.current; if(!card) return;
+      awardXP(wasCorrect??(grade>=2), SESSION.correctFirstTry);
+      schedule(card, grade);
+      save();
+      setTimeout(nextCard, 250);
+    }
+
+    function renderDecks(){
+      const list = $('#deckList');
+      list.innerHTML = '';
+      DB.decks.forEach(deck=>{
+        const tpl = $('#deckItemTpl');
+        const node = tpl.content.cloneNode(true);
+        $('.deck-title', node).textContent = `${deck.name} · ${deck.src} → ${deck.tgt}`;
+        $('.deck-meta', node).textContent = `${deck.cards.length} Karten`;
+        const tbody = $('.deck-cards', node);
+        deck.cards.forEach(c=>{
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td class="py-1 pr-2">${escapeHTML(c.front)}</td><td class="pr-2">${escapeHTML(c.back)}</td><td class="pr-2 text-slate-500">${escapeHTML(c.example||'')}</td><td class="pr-2 text-slate-500">${escapeHTML(c.tags||'')}</td><td class="text-right"><button class="text-red-600 hover:underline" data-id="${c.id}">Löschen</button></td>`;
+          $('button', tr).onclick = ()=>{ deck.cards = deck.cards.filter(x=>x.id!==c.id); save(); renderDecks(); populateDeckSelect(); };
+          tbody.appendChild(tr);
+        });
+        const front = $('.card-front', node);
+        const back = $('.card-back', node);
+        const example = $('.card-example', node);
+        const tags = $('.card-tags', node);
+        $('.add-card', node).onclick = ()=>{
+          if(!front.value.trim() || !back.value.trim()) return;
+          deck.cards.push(term(front.value.trim(), back.value.trim(), example.value.trim(), tags.value.trim()));
+          front.value = back.value = example.value = tags.value = '';
+          save(); renderDecks(); populateDeckSelect();
+        };
+        list.appendChild(node);
+      });
+    }
+
+    function populateDeckSelect(){
+      const sel = $('#deckSelect');
+      sel.innerHTML = DB.decks.map(d=>`<option value="${d.id}">${escapeHTML(d.name)}</option>`).join('');
+      renderTopBar();
+    }
+
+    function doExport(){ download(`lingualite_${todayKey()}.json`, JSON.stringify(DB, null, 2)); }
+    async function doImport(file, mode){
+      if(!file) return alert('Bitte eine JSON-Datei auswählen.');
+      const text = await file.text();
+      const data = JSON.parse(text);
+      if(mode==='replace'){ DB = data; }
+      else {
+        data.decks.forEach(inDeck=>{
+          const exist = DB.decks.find(d=>d.name===inDeck.name) || null;
+          if(!exist){ DB.decks.push(inDeck); return; }
+          inDeck.cards.forEach(c=>{
+            const dup = exist.cards.find(x=>normalize(x.front)===normalize(c.front) && normalize(x.back)===normalize(c.back));
+            if(!dup) exist.cards.push(c);
+          });
+        });
+        DB.settings = Object.assign({}, DB.settings, data.settings||{});
+      }
+      save(); populateDeckSelect(); renderDecks(); alert('Import abgeschlossen.');
+    }
+
+    function speak(text){
+      try{
+        const u = new SpeechSynthesisUtterance(text);
+        const voiceURI = DB.settings.voiceURI;
+        if(voiceURI){ const v = speechSynthesis.getVoices().find(v=>v.voiceURI===voiceURI); if(v) u.voice=v; }
+        speechSynthesis.speak(u);
+      } catch(e){}
+    }
+    function loadVoices(){
+      const sel = $('#voiceSelect');
+      const voices = speechSynthesis.getVoices();
+      sel.innerHTML = '<option value="">System</option>' + voices.map(v=>`<option value="${v.voiceURI}">${v.name} (${v.lang})</option>`).join('');
+      sel.value = DB.settings.voiceURI || '';
+    }
+
+    function renderTopBar(){
+      const deckId = $('#deckSelect')?.value;
+      const deck = DB.decks.find(d=>d.id===deckId) || DB.decks[0];
+      const dueCount = deck ? deck.cards.filter(isDue).length : 0;
+      $('#xp').textContent = DB.stats.xp;
+      $('#streak').textContent = `${DB.stats.streak} 🔥`;
+      $('#dueCount').textContent = dueCount;
+      $('#learnedToday').textContent = DB.stats.learnedToday;
+      const list = $('#statsList');
+      if(deck){
+        const newCards = deck.cards.filter(c=>c.reps===0).length;
+        const mature = deck.cards.filter(c=>c.interval>=21).length;
+        list.innerHTML = `
+          <li>Deck: <span class="font-medium">${escapeHTML(deck.name)}</span></li>
+          <li>Karten: ${deck.cards.length}</li>
+          <li>Fällig heute: ${dueCount}</li>
+          <li>Neu verfügbar: ${newCards}</li>
+          <li>Gefestigt (≥21 Tage): ${mature}</li>`;
+      } else { list.innerHTML = '<li>Kein Deck gefunden.</li>'; }
+      $('#newPerDay').value = DB.settings.newPerDay;
+      $('#accentToggle').checked = DB.settings.accentInsensitive;
+      $('#ttsToggle').checked = DB.settings.tts;
+    }
+
+    function toggleDark(){ const html=document.documentElement; const dark=html.classList.toggle('dark'); try{ localStorage.setItem('ll_dark', dark? '1':'0'); }catch(e){} }
+    function initDark(){ const pref=localStorage.getItem('ll_dark'); if(pref==='1') document.documentElement.classList.add('dark'); if(pref==='0') document.documentElement.classList.remove('dark'); }
+    function escapeHTML(str){ return (str||'').replace(/[&<>"']/g, s=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[s])); }
+
+    function init(){
+      initDark();
+      populateDeckSelect();
+      renderDecks();
+      renderTopBar();
+      $$('.tab-btn').forEach(btn=>btn.onclick = ()=>{
+        const tab = btn.dataset.tab;
+        $$('.tab-btn').forEach(b=>b.classList.remove('bg-indigo-600','text-white'));
+        btn.classList.add('bg-indigo-600','text-white');
+        ['learn','decks','import','settings'].forEach(id=>{
+          const v = $('#view-'+id);
+          v.classList.toggle('hidden', id!==tab);
+        });
+      });
+      $('#startSession').onclick = startSession;
+      $('#deckSelect').onchange = ()=>{ renderTopBar(); };
+      $('#modeSelect').onchange = ()=>{ if(SESSION){ SESSION.mode=$('#modeSelect').value; nextCard(); } };
+      $('#addDeck').onclick = ()=>{
+        const name = $('#newDeckName').value.trim();
+        const src = $('#newDeckSrc').value.trim()||'SRC';
+        const tgt = $('#newDeckTgt').value.trim()||'TGT';
+        if(!name) return;
+        DB.decks.push({ id: crypto.randomUUID(), name, src, tgt, cards: [] });
+        $('#newDeckName').value = $('#newDeckSrc').value = $('#newDeckTgt').value = '';
+        save(); renderDecks(); populateDeckSelect();
+      };
+      $('#exportJson').onclick = doExport;
+      $('#importJson').onclick = ()=>{ const file=$('#importFile').files[0]; const mode=$('#importMode').value; doImport(file, mode); };
+      $('#newPerDay').oninput = (e)=>{ DB.settings.newPerDay = Math.max(0, Math.min(200, parseInt(e.target.value||'0',10))); save(); };
+      $('#accentToggle').onchange = (e)=>{ DB.settings.accentInsensitive = !!e.target.checked; save(); };
+      $('#ttsToggle').onchange = (e)=>{ DB.settings.tts = !!e.target.checked; save(); };
+      $('#darkToggle').onclick = toggleDark;
+      $('#resetApp').onclick = ()=>{ if(confirm('Wirklich alle Daten löschen und zurücksetzen?')){ localStorage.removeItem(STORAGE_KEY); location.reload(); } };
+      if('speechSynthesis' in window){
+        loadVoices();
+        speechSynthesis.onvoiceschanged = loadVoices;
+        $('#voiceSelect').onchange = (e)=>{ DB.settings.voiceURI = e.target.value; save(); };
+      } else { $('#ttsToggle').disabled = true; $('#voiceSelect').disabled = true; }
+    }
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
