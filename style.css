@@ -7,14 +7,12 @@ body {
 }
 
 .app-container {
-  max-width: 900px;
+  max-width: 960px;
   margin: auto;
   padding: 1rem;
 }
 
-h1, h2 {
-  text-align: center;
-}
+h1, h2 { text-align: center; }
 
 nav {
   display: flex;
@@ -37,9 +35,7 @@ nav button:nth-child(1) { background-color: #90ee90; } /* Decks */
 nav button:nth-child(2) { background-color: #87cefa; } /* Lernen */
 nav button:nth-child(3) { background-color: #d3d3d3; } /* Import/Export */
 
-.section.hidden {
-  display: none;
-}
+.section.hidden { display: none; }
 
 .card {
   background: #fff;
@@ -48,9 +44,9 @@ nav button:nth-child(3) { background-color: #d3d3d3; } /* Import/Export */
   padding: 1.5rem;
   text-align: center;
   font-size: 1.4rem;
-  min-height: 200px;
+  min-height: 220px;
   margin: 1rem auto;
-  width: 90%;
+  width: 95%;
 }
 
 button {
@@ -63,36 +59,21 @@ button {
 }
 
 /* Spezielle Buttons */
-button.skip {
-  background-color: #add8e6;
-}
+button.skip { background-color: #add8e6; } /* hellblau */
+button.reveal { background-color: #444; color: #fff; } /* anthrazit */
 
-button.reveal {
-  background-color: #444;
-  color: #fff;
-}
+button:hover { opacity: 0.9; }
 
-button:hover {
-  opacity: 0.9;
-}
-
-#learningArea .feedback {
-  margin-top: 1rem;
-  font-weight: bold;
-}
+#learningArea .feedback { margin-top: 1rem; font-weight: bold; }
 
 #importText {
   width: 100%;
-  height: 100px; /* halbiert */
+  height: 100px;
   resize: vertical;
   margin-bottom: 1rem;
 }
 
 @media (min-width: 768px) {
-  .card {
-    width: 60%;
-  }
-  button {
-    font-size: 1.1rem;
-  }
+  .card { width: 60%; }
+  button { font-size: 1.1rem; }
 }

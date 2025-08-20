@@ -14,11 +14,13 @@
       <button onclick="showSection('learn')">Lernen</button>
       <button onclick="showSection('import')">Import/Export</button>
     </nav>
+
     <section id="decks" class="section">
       <h2>Decks</h2>
       <div id="deckList"></div>
       <button onclick="createDeck()">Neues Deck</button>
     </section>
+
     <section id="learn" class="section hidden">
       <h2>Lernen</h2>
       <label for="modeSelect">Modus wählen:</label>
@@ -30,6 +32,7 @@
       <button onclick="startLearning()">Session starten</button>
       <div id="learningArea"></div>
     </section>
+
     <section id="import" class="section hidden">
       <h2>Import/Export</h2>
       <input type="file" id="importFile" onchange="handleFileImport(event)">
