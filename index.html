@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lingualite DA-DE</title>
-  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <div class="app-container">
@@ -36,7 +39,7 @@
     </section>
 
     <section id="import" class="section hidden">
-      <h2>Import/Export</h2>
+      <h2>Import/Export & Zurücksetzen</h2>
       <input type="file" id="importFile" onchange="handleFileImport(event)">
       <textarea id="importText" placeholder="front;back;example"></textarea>
       <div class="row">
@@ -46,8 +49,9 @@
       <hr>
       <button type="button" id="resetApp" class="danger">🔁 Zurücksetzen (alles löschen)</button>
       <p class="muted">Setzt Lernfortschritt & Decks auf Werkseinstellungen zurück (LocalStorage wird geleert).</p>
+      <div id="errorBox" class="errorBox" style="display:none"></div>
     </section>
   </div>
-  <script src="app.js"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>
