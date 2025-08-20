@@ -1,7 +1,7 @@
 {
   "decks": [
     {
-      "name": "DE-DA Starter (Sample)",
+      "name": "DE-DA Starter (30+)",
       "cards": [
         {
           "front": "Hallo",
@@ -9,9 +9,49 @@
           "example": "Hej! Hvordan går det?"
         },
         {
+          "front": "Guten Morgen",
+          "back": "Godmorgen",
+          "example": "Godmorgen, Peter!"
+        },
+        {
+          "front": "Guten Abend",
+          "back": "Godaften",
+          "example": "Godaften alle sammen."
+        },
+        {
+          "front": "Gute Nacht",
+          "back": "Godnat",
+          "example": "Godnat og sov godt."
+        },
+        {
           "front": "Danke",
           "back": "Tak",
           "example": "Mange tak!"
+        },
+        {
+          "front": "Bitte (hier)",
+          "back": "Værsågod",
+          "example": "Værsågod, her er din kaffe."
+        },
+        {
+          "front": "Entschuldigung",
+          "back": "Undskyld",
+          "example": "Undskyld, jeg er forsinket."
+        },
+        {
+          "front": "Ja",
+          "back": "Ja",
+          "example": "Ja, det er rigtigt."
+        },
+        {
+          "front": "Nein",
+          "back": "Nej",
+          "example": "Nej, jeg kan ikke."
+        },
+        {
+          "front": "Vielleicht",
+          "back": "Måske",
+          "example": "Måske kommer han senere."
         },
         {
           "front": "Wie geht es dir?",
@@ -19,9 +59,124 @@
           "example": "Hvordan går det med dig?"
         },
         {
-          "front": "Wo ist der Bahnhof?",
-          "back": "Hvor er banegården?",
-          "example": "Undskyld, hvor er banegården?"
+          "front": "Ich heiße …",
+          "back": "Jeg hedder …",
+          "example": "Jeg hedder Anna."
+        },
+        {
+          "front": "Ich komme aus Deutschland",
+          "back": "Jeg kommer fra Tyskland",
+          "example": "Jeg kommer fra Berlin, Tyskland."
+        },
+        {
+          "front": "Wo ist die Toilette?",
+          "back": "Hvor er toilettet?",
+          "example": "Undskyld, hvor er toilettet?"
+        },
+        {
+          "front": "Ich spreche ein bisschen Dänisch",
+          "back": "Jeg taler lidt dansk",
+          "example": "Jeg taler engelsk og lidt dansk."
+        },
+        {
+          "front": "Können Sie mir helfen?",
+          "back": "Kan du hjælpe mig?",
+          "example": "Kan du hjælpe mig med denne opgave?"
+        },
+        {
+          "front": "Ich verstehe nicht",
+          "back": "Jeg forstår ikke",
+          "example": "Undskyld, jeg forstår ikke dansk."
+        },
+        {
+          "front": "Was kostet das?",
+          "back": "Hvad koster det?",
+          "example": "Hvad koster det her brød?"
+        },
+        {
+          "front": "Guten Appetit",
+          "back": "Velbekomme",
+          "example": "Velbekomme, håber du kan lide maden."
+        },
+        {
+          "front": "Prost!",
+          "back": "Skål!",
+          "example": "Skål og tillykke med fødselsdagen!"
+        },
+        {
+          "front": "Haus",
+          "back": "Hus",
+          "example": "Mit hus er stort."
+        },
+        {
+          "front": "Auto",
+          "back": "Bil",
+          "example": "Jeg har en bil."
+        },
+        {
+          "front": "Buch",
+          "back": "Bog",
+          "example": "Jeg læser en bog."
+        },
+        {
+          "front": "Schule",
+          "back": "Skole",
+          "example": "Børnene går i skole."
+        },
+        {
+          "front": "Arbeit",
+          "back": "Arbejde",
+          "example": "Jeg er på arbejde."
+        },
+        {
+          "front": "Freund",
+          "back": "Ven",
+          "example": "Han er min ven."
+        },
+        {
+          "front": "Familie",
+          "back": "Familie",
+          "example": "Min familie er her."
+        },
+        {
+          "front": "Hund",
+          "back": "Hund",
+          "example": "Hunden er sød."
+        },
+        {
+          "front": "Katze",
+          "back": "Kat",
+          "example": "Katten sover."
+        },
+        {
+          "front": "Essen",
+          "back": "Mad",
+          "example": "Jeg laver mad."
+        },
+        {
+          "front": "Bahnhof",
+          "back": "Banegård",
+          "example": "Banegården er derovre."
+        },
+        {
+          "front": "Flughafen",
+          "back": "Lufthavn",
+          "example": "Lufthavnen ligger uden for byen."
+        },
+        {
+          "front": "Hotel",
+          "back": "Hotel",
+          "example": "Jeg har et hotelværelse."
+        },
+        {
+          "front": "Restaurant",
+          "back": "Restaurant",
+          "example": "Restauranten er åben."
+        },
+        {
+          "front": "Rechnung",
+          "back": "Regning",
+          "example": "Kan jeg få regningen, tak?"
         }
       ]
     }

@@ -1,10 +1,7 @@
 
 const STORAGE_KEY = 'lingualite_state_v2';
 
-// Falls decks.json fehlt: leeres Set + Hinweis
-const FALLBACK_DECKS = [];
-
-// Kleiner dänischer Distraktor-Pool (für Satzpuzzle), falls Decks noch klein sind
+const FALLBACK_DECKS = []; // wenn decks.json fehlt
 const DISTRACTOR_POOL = [
   'og','ikke','lidt','meget','hvad','hvem','hvordan','hvor','her','der','i dag','i morgen',
   'ven','bil','hus','bog','kaffe','brød','skole','arbejde','byen','taler','forstår','kommer','fra',
@@ -14,14 +11,14 @@ const DISTRACTOR_POOL = [
 function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { decks: null }; // null => zuerst extern laden
+    if (!raw) return { decks: null }; // zuerst extern laden
     return JSON.parse(raw);
   } catch(e) { return { decks: null }; }
 }
 function saveState() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE)); } catch(e){} }
 
 let STATE = loadState();
-let decks = STATE.decks;         // kann null sein
+let decks = STATE.decks; // kann null sein
 let currentDeck = null;
 let currentMode = "flashcards";
 let sessionQueue = [];
@@ -32,8 +29,8 @@ async function loadExternalDecks() {
     const res = await fetch('decks.json?ts=' + Date.now());
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
-    if (Array.isArray(data)) return data;              // reine Array-Form
-    if (data.decks && Array.isArray(data.decks)) return data.decks; // {decks:[...]}
+    if (Array.isArray(data)) return data;
+    if (data.decks && Array.isArray(data.decks)) return data.decks;
     throw new Error('Unbekanntes Format');
   } catch (e) {
     console.warn('Externe Decks konnten nicht geladen werden:', e);
@@ -51,7 +48,6 @@ async function bootstrap() {
 }
 
 function showSection(id){ document.querySelectorAll('.section').forEach(s=>s.classList.add('hidden')); document.getElementById(id).classList.remove('hidden'); }
-
 function createDeck(){ const name = prompt('Name des neuen Decks:'); if(name){ decks.push({name, cards:[]}); saveState(); renderDecks(); } }
 
 function renderDecks(){
@@ -130,7 +126,6 @@ function showMultipleChoice(){
     const cand=currentDeck.cards[Math.floor(Math.random()*currentDeck.cards.length)].back;
     if(!opts.includes(cand)) opts.push(cand);
   }
-  // falls Deck sehr klein ist -> fülle mit Distraktoren nach
   while (opts.length < 4) {
     const cand = DISTRACTOR_POOL[Math.floor(Math.random()*DISTRACTOR_POOL.length)];
     if (!opts.includes(cand)) opts.push(cand);
@@ -153,14 +148,13 @@ function showMultipleChoice(){
   area.appendChild(mkBtn('Skip','skip',()=>{ sessionQueue.push(currentCard); nextCard(); }));
 }
 
-/* ---------- Satzpuzzle (mit Distraktoren & strikter Übersetzung) ---------- */
+/* ---------- Satzpuzzle (Distraktoren 40%) ---------- */
 function normalizeSentence(s){
   return s.toLowerCase()
     .replace(/[.,!?;:()\\[\\]"“”„'«»]/g,'')
     .replace(/\\s+/g,' ')
     .trim();
 }
-
 function collectDeckWords(deck){
   const bag = new Set();
   deck.cards.forEach(c => {
@@ -169,15 +163,14 @@ function collectDeckWords(deck){
   });
   return Array.from(bag);
 }
-
 function showSentencePuzzle(){
   const target = (currentCard.example && currentCard.example.split(/\\s+/).length>=2) ? currentCard.example : currentCard.back;
   const words = target.split(/\\s+/);
 
-  // Distraktoren: aus Deck-Wortschatz + globalem Pool wählen, mind. 30% zusätzliche Wörter (abgerundet, min 2, max +6)
+  // 40% zusätzliche Wörter (min 2, max +8)
   const deckBag = currentDeck ? collectDeckWords(currentDeck) : [];
   const distractors = new Set();
-  const needed = Math.min(6, Math.max(2, Math.floor(words.length * 0.3)));
+  const needed = Math.min(8, Math.max(2, Math.ceil(words.length * 0.4)));
   while (distractors.size < needed) {
     const useDeck = Math.random() < 0.6 && deckBag.length > 0;
     const pool = useDeck ? deckBag : DISTRACTOR_POOL;
@@ -185,15 +178,14 @@ function showSentencePuzzle(){
     if (!words.map(s=>s.toLowerCase()).includes(w.toLowerCase())) distractors.add(w);
   }
 
-  const bankWords = [...words, ...Array.from(distractors)];
-  const shuffled = bankWords.sort(()=>Math.random()-0.5);
+  const bankWords = [...words, ...Array.from(distractors)].sort(()=>Math.random()-0.5);
 
   const area=document.getElementById('learningArea');
-  area.innerHTML = `<div class="card"><div><b>Deutsch:</b> ${currentCard.front}</div></div>`; /* Hinweistext entfernt */
+  area.innerHTML = `<div class="card"><div><b>Deutsch:</b> ${currentCard.front}</div></div>`; /* Kein Hinweistext */
 
   const wordBank=document.createElement('div'); wordBank.className='wordbank';
   const answerBox=document.createElement('div'); answerBox.className='answerbox';
-  shuffled.forEach(w=>{
+  bankWords.forEach(w=>{
     const b=mkBtn(w,'',()=>{ answerBox.textContent += (answerBox.textContent?' ':'')+w; b.disabled=true; });
     wordBank.appendChild(b);
   });
@@ -230,7 +222,6 @@ function handleFileImport(e){
   };
   reader.readAsText(file);
 }
-
 function importFromText(){
   const text=document.getElementById('importText').value.trim();
   if(!currentDeck){ alert('Kein Deck ausgewählt.'); return; }
@@ -242,18 +233,15 @@ function importFromText(){
   });
   saveState(); renderDecks(); alert(added+' Karten importiert.');
 }
-
 function exportDecks(){
   const blob=new Blob([JSON.stringify(STATE.decks || [],null,2)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='decks.json'; a.click(); URL.revokeObjectURL(a.href);
 }
-
 function resetAll(){
   if(!confirm('Wirklich alles zurücksetzen? Lokale Daten werden gelöscht.')) return;
   localStorage.removeItem(STORAGE_KEY);
   location.reload();
 }
-
 async function reloadExternalDecks(){
   if(!confirm('Externe decks.json neu laden und lokale Änderungen überschreiben?')) return;
   const newDecks = await loadExternalDecks();
