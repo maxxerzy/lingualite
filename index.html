@@ -1,176 +1,43 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LinguaLite – Sprachtrainer</title>
-  <meta name="color-scheme" content="light" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lingualite DA-DE</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="wrap">
-    <header class="topbar">
-      <div class="brand">
-        <div class="logo">L</div>
-        <div class="titling">
-          <h1>LinguaLite</h1>
-          <p>Vokabel- &amp; Satztrainer – lokal, offline</p>
-        </div>
-      </div>
-      <div class="top-actions">
-        <button id="resetApp" class="btn danger">Zurücksetzen</button>
-      </div>
-    </header>
-
-    <nav class="tabs">
-      <button class="tab active" data-tab="learn">Lernen</button>
-      <button class="tab" data-tab="decks">Decks</button>
-      <button class="tab" data-tab="import">Import/Export</button>
-      <button class="tab" data-tab="settings">Einstellungen</button>
+  <div class="app-container">
+    <h1>Lingualite – Dänisch lernen</h1>
+    <nav>
+      <button onclick="showSection('decks')">Decks</button>
+      <button onclick="showSection('learn')">Lernen</button>
+      <button onclick="showSection('import')">Import/Export</button>
     </nav>
-
-    <section class="stats">
-      <div class="stat"><div>XP</div><div id="xp">0</div></div>
-      <div class="stat"><div>Streak</div><div id="streak">0 🔥</div></div>
-      <div class="stat"><div>Fällig</div><div id="dueCount">0</div></div>
-      <div class="stat"><div>Heute</div><div id="learnedToday">0</div></div>
+    <section id="decks" class="section">
+      <h2>Decks</h2>
+      <div id="deckList"></div>
+      <button onclick="createDeck()">Neues Deck</button>
     </section>
-
-    <main>
-      <!-- LEARN -->
-      <section id="view-learn" class="view">
-        <div class="learn-grid">
-          <div class="panel main">
-            <div class="bar">
-              <div class="left">
-                <select id="deckSelect" class="input"></select>
-                <select id="modeSelect" class="input">
-                  <option value="flash">Flashcards</option>
-                  <option value="mc">Multiple Choice</option>
-                  <option value="write">Schreiben</option>
-                  <option value="puzzle">Satzpuzzle</option>
-                </select>
-                <button id="startSession" class="btn primary">Session starten</button>
-              </div>
-              <div class="right" id="sessionInfo">keine aktive Session</div>
-            </div>
-            <div id="cardArea" class="card large dashed center">
-              <p class="muted">Wähle ein Deck und starte eine Session.</p>
-            </div>
-          </div>
-          <div class="panel side">
-            <h3>Statistik</h3>
-            <ul id="statsList" class="list"></ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- DECKS -->
-      <section id="view-decks" class="view hidden">
-        <div class="panel">
-          <h3>Neues Deck</h3>
-          <div class="row">
-            <input id="newDeckName" class="input" placeholder="Deckname" />
-            <input id="newDeckSrc" class="input small" placeholder="Quelle (z. B. DE)" />
-            <input id="newDeckTgt" class="input small" placeholder="Ziel (z. B. DA)" />
-            <button id="addDeck" class="btn success">Anlegen</button>
-          </div>
-        </div>
-        <div id="deckList" class="decklist"></div>
-      </section>
-
-      <!-- IMPORT -->
-      <section id="view-import" class="view hidden">
-        <div class="grid2">
-          <div class="panel">
-            <h3>Export</h3>
-            <p class="muted">Exportiert alle Decks inkl. Lernstände.</p>
-            <button id="exportJson" class="btn primary">Export als JSON</button>
-          </div>
-          <div class="panel">
-            <h3>Import</h3>
-            <p class="muted">1) Dateiimport (JSON) – oder – 2) Textimport (eine Karte je Zeile).</p>
-            <div class="row">
-              <input type="file" id="importFile" accept="application/json" />
-              <select id="importMode" class="input small">
-                <option value="merge">Zusammenführen</option>
-                <option value="replace">Ersetzen</option>
-              </select>
-            </div>
-            <button id="importJson" class="btn success">Datei importieren</button>
-            <hr />
-            <h4>Textimport</h4>
-            <p class="muted">Format: <code>front;back;example(optional);tags(optional)</code></p>
-            <div class="row">
-              <select id="importTextDeck" class="input"></select>
-              <button id="importTextBtn" class="btn primary">Text importieren</button>
-            </div>
-            <textarea id="importTextArea" class="input" rows="8" placeholder="Haus;hus;Huset er stort.;alltag"></textarea>
-          </div>
-        </div>
-      </section>
-
-      <!-- SETTINGS -->
-      <section id="view-settings" class="view hidden">
-        <div class="grid2">
-          <div class="panel">
-            <h3>Lerneinstellungen</h3>
-            <label class="row between">
-              <span>Neue Karten pro Tag</span>
-              <input id="newPerDay" type="number" min="0" max="200" class="input small w80" />
-            </label>
-            <label class="row between">
-              <span>Akzent-Insensitive Prüfung</span>
-              <input id="accentToggle" type="checkbox" />
-            </label>
-            <label class="row between">
-              <span>TTS (Vorlesen) benutzen</span>
-              <input id="ttsToggle" type="checkbox" />
-            </label>
-            <label class="row between">
-              <span>Stimme</span>
-              <select id="voiceSelect" class="input w180"></select>
-            </label>
-          </div>
-          <div class="panel">
-            <h3>Info</h3>
-            <ul class="list">
-              <li>Lokal (LocalStorage), offline.</li>
-              <li>SM‑2‑ähnliches Spaced Repetition.</li>
-              <li>Modi: Flashcards, Multiple Choice, Schreiben, Satzpuzzle.</li>
-              <li>Skip-Button: neutral (kein XP), Karte bleibt bis korrekte Lösung.</li>
-              <li>Import/Export: JSON + Textimport.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </main>
+    <section id="learn" class="section hidden">
+      <h2>Lernen</h2>
+      <label for="modeSelect">Modus wählen:</label>
+      <select id="modeSelect">
+        <option value="flashcards">Flashcards</option>
+        <option value="multiple">Multiple Choice</option>
+        <option value="sentence">Satzpuzzle</option>
+      </select>
+      <button onclick="startLearning()">Session starten</button>
+      <div id="learningArea"></div>
+    </section>
+    <section id="import" class="section hidden">
+      <h2>Import/Export</h2>
+      <input type="file" id="importFile" onchange="handleFileImport(event)">
+      <textarea id="importText" placeholder="front;back;example"></textarea>
+      <button onclick="importFromText()">Text importieren</button>
+      <button onclick="exportDecks()">Decks exportieren</button>
+    </section>
   </div>
-
-  <template id="deckItemTpl">
-    <div class="panel">
-      <div class="row between">
-        <div class="deck-title bold"></div>
-        <div class="muted deck-meta"></div>
-      </div>
-      <div class="row wrap">
-        <input class="card-front input" placeholder="Vorderseite (Quellsprache)" />
-        <input class="card-back input" placeholder="Rückseite (Zielsprache)" />
-        <input class="card-example input" placeholder="Beispiel (optional)" />
-        <input class="card-tags input" placeholder="Tags (kommasepariert)" />
-        <button class="add-card btn success">Karte hinzufügen</button>
-      </div>
-      <div class="tablewrap">
-        <table class="table">
-          <thead>
-            <tr><th>Vorne</th><th>Hinten</th><th>Beispiel</th><th>Tags</th><th class="right">Aktion</th></tr>
-          </thead>
-          <tbody class="deck-cards"></tbody>
-        </table>
-      </div>
-    </div>
-  </template>
-
   <script src="app.js"></script>
 </body>
 </html>
