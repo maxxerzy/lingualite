@@ -7,7 +7,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=8">
 </head>
 <body>
   <div class="app-container">
@@ -23,7 +23,7 @@
 
     <section id="decks" class="section">
       <h2>Decks</h2>
-      <div id="deckList"></div>
+      <div id="deckList" class="deckList"></div>
       <button type="button" onclick="createDeck()">Neues Deck</button>
     </section>
 
@@ -41,6 +41,9 @@
 
     <section id="import" class="section hidden">
       <h2>Import/Export & Zurücksetzen</h2>
+      <div class="row">
+        <button type="button" onclick="reloadExternalDecks()">Decks aus Datei neu laden</button>
+      </div>
       <input type="file" id="importFile" onchange="handleFileImport(event)">
       <textarea id="importText" placeholder="front;back;example"></textarea>
       <div class="row">
@@ -49,10 +52,10 @@
       </div>
       <hr>
       <button type="button" id="resetApp" class="danger">🔁 Alles zurücksetzen</button>
-      <p class="muted">Leert LocalStorage und lädt die App neu (Werkseinstellungen).</p>
+      <p class="muted">Leert LocalStorage und lädt die App neu (Werkseinstellungen). Externe <code>decks.json</code> bleibt unverändert.</p>
       <div id="errorBox" class="errorBox" style="display:none"></div>
     </section>
   </div>
-  <script src="app.js?v=7"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

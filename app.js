@@ -1,50 +1,76 @@
 
-const STORAGE_KEY = 'lingualite_state_v1';
+const STORAGE_KEY = 'lingualite_state_v2';
 
-/* Starterdeck kompakt – kann per Import erweitert werden */
-const DEFAULT_DECKS = [{
-  name: 'DE-DA Starter',
-  cards: [
-    {front:'Hallo', back:'Hej', example:'Hej! Hvordan går det?'},
-    {front:'Guten Morgen', back:'Godmorgen', example:'Godmorgen, Peter!'},
-    {front:'Danke', back:'Tak', example:'Mange tak!'},
-    {front:'Ja', back:'Ja', example:'Ja, det er rigtigt.'},
-    {front:'Nein', back:'Nej', example:'Nej, jeg kan ikke.'},
-    {front:'Ich heiße Max', back:'Jeg hedder Max', example:'Hej, jeg hedder Max.'}
-  ]
-}];
+// Falls decks.json fehlt: leeres Set + Hinweis
+const FALLBACK_DECKS = [];
+
+// Kleiner dänischer Distraktor-Pool (für Satzpuzzle), falls Decks noch klein sind
+const DISTRACTOR_POOL = [
+  'og','ikke','lidt','meget','hvad','hvem','hvordan','hvor','her','der','i dag','i morgen',
+  'ven','bil','hus','bog','kaffe','brød','skole','arbejde','byen','taler','forstår','kommer','fra',
+  'jeg','du','han','hun','vi','de','er','har','kan','vil'
+];
 
 function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return { decks: structuredClone(DEFAULT_DECKS) };
-    const data = JSON.parse(raw);
-    if (!data.decks) data.decks = structuredClone(DEFAULT_DECKS);
-    return data;
-  } catch(e) { return { decks: structuredClone(DEFAULT_DECKS) }; }
+    if (!raw) return { decks: null }; // null => zuerst extern laden
+    return JSON.parse(raw);
+  } catch(e) { return { decks: null }; }
 }
 function saveState() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE)); } catch(e){} }
 
 let STATE = loadState();
-let decks = STATE.decks;
-let currentDeck = decks[0] || null;
+let decks = STATE.decks;         // kann null sein
+let currentDeck = null;
 let currentMode = "flashcards";
 let sessionQueue = [];
 let currentCard = null;
 
+async function loadExternalDecks() {
+  try {
+    const res = await fetch('decks.json?ts=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    if (Array.isArray(data)) return data;              // reine Array-Form
+    if (data.decks && Array.isArray(data.decks)) return data.decks; // {decks:[...]}
+    throw new Error('Unbekanntes Format');
+  } catch (e) {
+    console.warn('Externe Decks konnten nicht geladen werden:', e);
+    return FALLBACK_DECKS;
+  }
+}
+
+async function bootstrap() {
+  if (!decks) {
+    decks = await loadExternalDecks();
+    STATE.decks = decks;
+    saveState();
+  }
+  renderDecks();
+}
+
 function showSection(id){ document.querySelectorAll('.section').forEach(s=>s.classList.add('hidden')); document.getElementById(id).classList.remove('hidden'); }
+
 function createDeck(){ const name = prompt('Name des neuen Decks:'); if(name){ decks.push({name, cards:[]}); saveState(); renderDecks(); } }
 
 function renderDecks(){
   const container = document.getElementById('deckList');
   container.innerHTML = '';
-  decks.forEach(deck => {
-    const wrap = document.createElement('div');
-    wrap.className = 'card'; wrap.style.minHeight='auto';
-    wrap.innerHTML = `<b>${deck.name}</b> (${deck.cards.length} Karten)`;
-    wrap.addEventListener('click', () => { currentDeck = deck; alert(deck.name + ' ausgewählt'); });
-    container.appendChild(wrap);
-  });
+  if (!decks || decks.length === 0) {
+    const info = document.createElement('div');
+    info.className = 'card';
+    info.innerHTML = 'Keine Decks gefunden. Lege ein Deck an, importiere Dateien oder lege eine <code>decks.json</code> im gleichen Ordner ab.';
+    container.appendChild(info);
+  } else {
+    decks.forEach(deck => {
+      const wrap = document.createElement('div');
+      wrap.className = 'card'; wrap.style.minHeight='auto';
+      wrap.innerHTML = `<b>${deck.name}</b> (${deck.cards.length} Karten)`;
+      wrap.addEventListener('click', () => { currentDeck = deck; alert(deck.name + ' ausgewählt'); });
+      container.appendChild(wrap);
+    });
+  }
 }
 
 function startLearning(){
@@ -70,7 +96,7 @@ function mkBtn(label, className, onclick){
   return b;
 }
 
-/* Flashcards */
+/* ---------- Flashcards ---------- */
 function showFlashcard(){
   const area=document.getElementById('learningArea');
   area.innerHTML = `<div class="card">${currentCard.front}</div>`;
@@ -97,12 +123,17 @@ function markWrong(){
   area.appendChild(d); area.appendChild(mkBtn('Weiter','',nextCard));
 }
 
-/* Multiple Choice */
+/* ---------- Multiple Choice ---------- */
 function showMultipleChoice(){
   const opts=[currentCard.back];
   while(opts.length<4 && currentDeck.cards.length>opts.length){
     const cand=currentDeck.cards[Math.floor(Math.random()*currentDeck.cards.length)].back;
     if(!opts.includes(cand)) opts.push(cand);
+  }
+  // falls Deck sehr klein ist -> fülle mit Distraktoren nach
+  while (opts.length < 4) {
+    const cand = DISTRACTOR_POOL[Math.floor(Math.random()*DISTRACTOR_POOL.length)];
+    if (!opts.includes(cand)) opts.push(cand);
   }
   opts.sort(()=>Math.random()-0.5);
   const area=document.getElementById('learningArea');
@@ -122,30 +153,70 @@ function showMultipleChoice(){
   area.appendChild(mkBtn('Skip','skip',()=>{ sessionQueue.push(currentCard); nextCard(); }));
 }
 
-/* Satzpuzzle – strikte Übersetzung (normalisiert) */
+/* ---------- Satzpuzzle (mit Distraktoren & strikter Übersetzung) ---------- */
 function normalizeSentence(s){
-  return s.toLowerCase().replace(/[.,!?;:()\\[\\]"“”„'«»]/g,'').replace(/\\s+/g,' ').trim();
+  return s.toLowerCase()
+    .replace(/[.,!?;:()\\[\\]"“”„'«»]/g,'')
+    .replace(/\\s+/g,' ')
+    .trim();
 }
+
+function collectDeckWords(deck){
+  const bag = new Set();
+  deck.cards.forEach(c => {
+    if (c.back) c.back.split(/\\s+/).forEach(w => bag.add(w.toLowerCase()));
+    if (c.example) c.example.split(/\\s+/).forEach(w => bag.add(w.toLowerCase()));
+  });
+  return Array.from(bag);
+}
+
 function showSentencePuzzle(){
   const target = (currentCard.example && currentCard.example.split(/\\s+/).length>=2) ? currentCard.example : currentCard.back;
   const words = target.split(/\\s+/);
-  const shuffled = [...words].sort(()=>Math.random()-0.5);
+
+  // Distraktoren: aus Deck-Wortschatz + globalem Pool wählen, mind. 30% zusätzliche Wörter (abgerundet, min 2, max +6)
+  const deckBag = currentDeck ? collectDeckWords(currentDeck) : [];
+  const distractors = new Set();
+  const needed = Math.min(6, Math.max(2, Math.floor(words.length * 0.3)));
+  while (distractors.size < needed) {
+    const useDeck = Math.random() < 0.6 && deckBag.length > 0;
+    const pool = useDeck ? deckBag : DISTRACTOR_POOL;
+    const w = pool[Math.floor(Math.random()*pool.length)];
+    if (!words.map(s=>s.toLowerCase()).includes(w.toLowerCase())) distractors.add(w);
+  }
+
+  const bankWords = [...words, ...Array.from(distractors)];
+  const shuffled = bankWords.sort(()=>Math.random()-0.5);
+
   const area=document.getElementById('learningArea');
-  area.innerHTML = `<div class="card"><div><b>Deutsch:</b> ${currentCard.front}</div><div style="margin-top:.5rem; font-size:.95rem;"><i>Ziel auf Dänisch bauen</i></div></div>`;
-  const wordBank=document.createElement('div'); const answerBox=document.createElement('div');
-  shuffled.forEach(w=>{ const b=mkBtn(w,'',()=>{ answerBox.textContent += (answerBox.textContent?' ':'')+w; b.disabled=true; }); wordBank.appendChild(b); });
+  area.innerHTML = `<div class="card"><div><b>Deutsch:</b> ${currentCard.front}</div></div>`; /* Hinweistext entfernt */
+
+  const wordBank=document.createElement('div'); wordBank.className='wordbank';
+  const answerBox=document.createElement('div'); answerBox.className='answerbox';
+  shuffled.forEach(w=>{
+    const b=mkBtn(w,'',()=>{ answerBox.textContent += (answerBox.textContent?' ':'')+w; b.disabled=true; });
+    wordBank.appendChild(b);
+  });
   area.appendChild(wordBank); area.appendChild(answerBox);
+
   area.appendChild(mkBtn('Prüfen','',()=>{
     const given = answerBox.textContent.trim();
     const ok = normalizeSentence(given) === normalizeSentence(target);
-    if(ok){ area.appendChild(Object.assign(document.createElement('div'),{className:'feedback',textContent:'✅ Richtig!'})); }
-    else { sessionQueue.splice(1,0,currentCard); const d=document.createElement('div'); d.className='feedback'; d.innerHTML='❌ Falsch! Ziel war: <b>'+target+'</b>'; area.appendChild(d); }
+    if(ok){
+      area.appendChild(Object.assign(document.createElement('div'),{className:'feedback',textContent:'✅ Richtig!'}));
+    }else{
+      sessionQueue.splice(1,0,currentCard);
+      const d=document.createElement('div'); d.className='feedback';
+      d.innerHTML='❌ Falsch! Ziel war: <b>'+target+'</b>';
+      area.appendChild(d);
+    }
     area.appendChild(mkBtn('Weiter','',nextCard));
   }));
+
   area.appendChild(mkBtn('Skip','skip',()=>{ sessionQueue.push(currentCard); nextCard(); }));
 }
 
-/* Import/Export/Reset */
+/* ---------- Import/Export/Reset ---------- */
 function handleFileImport(e){
   const file=e.target.files[0]; if(!file) return;
   const reader=new FileReader();
@@ -153,34 +224,47 @@ function handleFileImport(e){
     try{
       const imported=JSON.parse(evt.target.result);
       const newDecks = Array.isArray(imported) ? imported : (imported.decks || []);
-      STATE.decks = STATE.decks.concat(newDecks);
+      STATE.decks = (STATE.decks||[]).concat(newDecks);
       decks = STATE.decks; saveState(); renderDecks(); alert('Import erfolgreich!');
     }catch(err){ alert('Fehler beim Import: '+err.message); }
   };
   reader.readAsText(file);
 }
+
 function importFromText(){
   const text=document.getElementById('importText').value.trim();
   if(!currentDeck){ alert('Kein Deck ausgewählt.'); return; }
   const lines=text.split(/\\n/).map(l=>l.trim()).filter(Boolean);
   let added=0;
-  lines.forEach(line=>{ const p=line.split(';'); if(p.length>=2){ currentDeck.cards.push({front:p[0], back:p[1], example:p[2]||''}); added++; } });
+  lines.forEach(line=>{
+    const p=line.split(';');
+    if(p.length>=2){ currentDeck.cards.push({front:p[0], back:p[1], example:p[2]||''}); added++; }
+  });
   saveState(); renderDecks(); alert(added+' Karten importiert.');
 }
+
 function exportDecks(){
-  const blob=new Blob([JSON.stringify(STATE.decks,null,2)],{type:'application/json'});
+  const blob=new Blob([JSON.stringify(STATE.decks || [],null,2)],{type:'application/json'});
   const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='decks.json'; a.click(); URL.revokeObjectURL(a.href);
 }
+
 function resetAll(){
   if(!confirm('Wirklich alles zurücksetzen? Lokale Daten werden gelöscht.')) return;
   localStorage.removeItem(STORAGE_KEY);
   location.reload();
 }
 
-window.addEventListener('DOMContentLoaded',()=>{
+async function reloadExternalDecks(){
+  if(!confirm('Externe decks.json neu laden und lokale Änderungen überschreiben?')) return;
+  const newDecks = await loadExternalDecks();
+  STATE.decks = newDecks;
+  decks = STATE.decks;
+  saveState();
   renderDecks();
-  const rb=document.getElementById('resetApp'); if(rb) rb.addEventListener('click', resetAll);
-});
+  alert('Externe Decks neu geladen.');
+}
+
+window.addEventListener('DOMContentLoaded', bootstrap);
 window.addEventListener('error',(e)=>{
   const box=document.getElementById('errorBox'); if(!box) return;
   box.style.display='block'; box.textContent='Fehler: '+(e.message||e.toString());

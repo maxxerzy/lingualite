@@ -1,0 +1,29 @@
+{
+  "decks": [
+    {
+      "name": "DE-DA Starter (Sample)",
+      "cards": [
+        {
+          "front": "Hallo",
+          "back": "Hej",
+          "example": "Hej! Hvordan går det?"
+        },
+        {
+          "front": "Danke",
+          "back": "Tak",
+          "example": "Mange tak!"
+        },
+        {
+          "front": "Wie geht es dir?",
+          "back": "Hvordan går det?",
+          "example": "Hvordan går det med dig?"
+        },
+        {
+          "front": "Wo ist der Bahnhof?",
+          "back": "Hvor er banegården?",
+          "example": "Undskyld, hvor er banegården?"
+        }
+      ]
+    }
+  ]
+}
