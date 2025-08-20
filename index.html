@@ -7,7 +7,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
-  <link rel="stylesheet" href="style.css?v=4">
+  <link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
   <div class="app-container">
@@ -18,6 +18,7 @@
       <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export" aria-label="Import/Export">
         <img src="settings.png" alt="Einstellungen">
       </button>
+      <button type="button" class="danger outline" onclick="resetAll()">🔁 Reset</button>
     </nav>
 
     <section id="decks" class="section">
@@ -47,11 +48,11 @@
         <button type="button" onclick="exportDecks()">Decks exportieren</button>
       </div>
       <hr>
-      <button type="button" id="resetApp" class="danger">🔁 Zurücksetzen (alles löschen)</button>
-      <p class="muted">Setzt Lernfortschritt & Decks auf Werkseinstellungen zurück (LocalStorage wird geleert).</p>
+      <button type="button" id="resetApp" class="danger">🔁 Alles zurücksetzen</button>
+      <p class="muted">Leert LocalStorage und lädt die App neu (Werkseinstellungen).</p>
       <div id="errorBox" class="errorBox" style="display:none"></div>
     </section>
   </div>
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>
