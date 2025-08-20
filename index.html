@@ -10,9 +10,9 @@
   <div class="app-container">
     <h1>Lingualite – Dänisch lernen</h1>
     <nav>
-      <button onclick="showSection('decks')">Decks</button>
-      <button onclick="showSection('learn')">Lernen</button>
-      <button class="icon-btn" onclick="showSection('import')" title="Import/Export" aria-label="Import/Export">
+      <button type="button" onclick="showSection('decks')">Decks</button>
+      <button type="button" onclick="showSection('learn')">Lernen</button>
+      <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export" aria-label="Import/Export">
         <img src="settings.png" alt="Einstellungen">
       </button>
     </nav>
@@ -20,7 +20,7 @@
     <section id="decks" class="section">
       <h2>Decks</h2>
       <div id="deckList"></div>
-      <button onclick="createDeck()">Neues Deck</button>
+      <button type="button" onclick="createDeck()">Neues Deck</button>
     </section>
 
     <section id="learn" class="section hidden">
@@ -31,7 +31,7 @@
         <option value="multiple">Multiple Choice</option>
         <option value="sentence">Satzpuzzle</option>
       </select>
-      <button onclick="startLearning()">Session starten</button>
+      <button type="button" onclick="startLearning()">Session starten</button>
       <div id="learningArea"></div>
     </section>
 
@@ -39,8 +39,13 @@
       <h2>Import/Export</h2>
       <input type="file" id="importFile" onchange="handleFileImport(event)">
       <textarea id="importText" placeholder="front;back;example"></textarea>
-      <button onclick="importFromText()">Text importieren</button>
-      <button onclick="exportDecks()">Decks exportieren</button>
+      <div class="row">
+        <button type="button" onclick="importFromText()">Text importieren</button>
+        <button type="button" onclick="exportDecks()">Decks exportieren</button>
+      </div>
+      <hr>
+      <button type="button" id="resetApp" class="danger">🔁 Zurücksetzen (alles löschen)</button>
+      <p class="muted">Setzt Lernfortschritt & Decks auf Werkseinstellungen zurück (LocalStorage wird geleert).</p>
     </section>
   </div>
   <script src="app.js"></script>
