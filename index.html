@@ -7,22 +7,22 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
-  <link rel="stylesheet" href="style.css?v=9">
+  <link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
   <div class="app-container">
     <h1>Lingualite</h1>
     <nav>
-      <button type="button" onclick="showSection('decks')">Decks</button>
+      <button type="button" onclick="showSection('decks')"><i>Decks</i></button>
       <button type="button" onclick="showSection('learn')">Lernen</button>
-      <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export" aria-label="Import/Export">
-        <img src="settings.png" alt="Einstellungen">
+      <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export">
+        <img src="settings.svg" alt="Einstellungen">
       </button>
       <button type="button" class="danger outline" onclick="resetAll()">🔁 Reset</button>
     </nav>
 
-    <section id="decks" class="section">
-      <h2>Decks</h2>
+    <section id="decks" class="section hidden">
+      <h2><i>Decks</i></h2>
       <div id="deckList" class="deckList"></div>
       <button type="button" onclick="createDeck()">Neues Deck</button>
     </section>
@@ -52,10 +52,9 @@
       </div>
       <hr>
       <button type="button" id="resetApp" class="danger">🔁 Alles zurücksetzen</button>
-      <p class="muted">Leert LocalStorage und lädt die App neu (Werkseinstellungen). Externe <code>decks.json</code> bleibt unverändert.</p>
       <div id="errorBox" class="errorBox" style="display:none"></div>
     </section>
   </div>
-  <script src="app.js?v=9"></script>
+  <script src="app.js?v=10"></script>
 </body>
 </html>

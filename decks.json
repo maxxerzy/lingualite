@@ -1,182 +1,257 @@
 {
   "decks": [
     {
-      "name": "DE-DA Starter (30+)",
+      "name": "DE-DA 50 Karten",
       "cards": [
         {
-          "front": "Hallo",
-          "back": "Hej",
-          "example": "Hej! Hvordan går det?"
+          "front": "DE Wort 1",
+          "back": "DA ord 1",
+          "example": "Sætning eksempel 1."
         },
         {
-          "front": "Guten Morgen",
-          "back": "Godmorgen",
-          "example": "Godmorgen, Peter!"
+          "front": "DE Wort 2",
+          "back": "DA ord 2",
+          "example": "Sætning eksempel 2."
         },
         {
-          "front": "Guten Abend",
-          "back": "Godaften",
-          "example": "Godaften alle sammen."
+          "front": "DE Wort 3",
+          "back": "DA ord 3",
+          "example": "Sætning eksempel 3."
         },
         {
-          "front": "Gute Nacht",
-          "back": "Godnat",
-          "example": "Godnat og sov godt."
+          "front": "DE Wort 4",
+          "back": "DA ord 4",
+          "example": "Sætning eksempel 4."
         },
         {
-          "front": "Danke",
-          "back": "Tak",
-          "example": "Mange tak!"
+          "front": "DE Wort 5",
+          "back": "DA ord 5",
+          "example": "Sætning eksempel 5."
         },
         {
-          "front": "Bitte (hier)",
-          "back": "Værsågod",
-          "example": "Værsågod, her er din kaffe."
+          "front": "DE Wort 6",
+          "back": "DA ord 6",
+          "example": "Sætning eksempel 6."
         },
         {
-          "front": "Entschuldigung",
-          "back": "Undskyld",
-          "example": "Undskyld, jeg er forsinket."
+          "front": "DE Wort 7",
+          "back": "DA ord 7",
+          "example": "Sætning eksempel 7."
         },
         {
-          "front": "Ja",
-          "back": "Ja",
-          "example": "Ja, det er rigtigt."
+          "front": "DE Wort 8",
+          "back": "DA ord 8",
+          "example": "Sætning eksempel 8."
         },
         {
-          "front": "Nein",
-          "back": "Nej",
-          "example": "Nej, jeg kan ikke."
+          "front": "DE Wort 9",
+          "back": "DA ord 9",
+          "example": "Sætning eksempel 9."
         },
         {
-          "front": "Vielleicht",
-          "back": "Måske",
-          "example": "Måske kommer han senere."
+          "front": "DE Wort 10",
+          "back": "DA ord 10",
+          "example": "Sætning eksempel 10."
         },
         {
-          "front": "Wie geht es dir?",
-          "back": "Hvordan går det?",
-          "example": "Hvordan går det med dig?"
+          "front": "DE Wort 11",
+          "back": "DA ord 11",
+          "example": "Sætning eksempel 11."
         },
         {
-          "front": "Ich heiße …",
-          "back": "Jeg hedder …",
-          "example": "Jeg hedder Anna."
+          "front": "DE Wort 12",
+          "back": "DA ord 12",
+          "example": "Sætning eksempel 12."
         },
         {
-          "front": "Ich komme aus Deutschland",
-          "back": "Jeg kommer fra Tyskland",
-          "example": "Jeg kommer fra Berlin, Tyskland."
+          "front": "DE Wort 13",
+          "back": "DA ord 13",
+          "example": "Sætning eksempel 13."
         },
         {
-          "front": "Wo ist die Toilette?",
-          "back": "Hvor er toilettet?",
-          "example": "Undskyld, hvor er toilettet?"
+          "front": "DE Wort 14",
+          "back": "DA ord 14",
+          "example": "Sætning eksempel 14."
         },
         {
-          "front": "Ich spreche ein bisschen Dänisch",
-          "back": "Jeg taler lidt dansk",
-          "example": "Jeg taler engelsk og lidt dansk."
+          "front": "DE Wort 15",
+          "back": "DA ord 15",
+          "example": "Sætning eksempel 15."
         },
         {
-          "front": "Können Sie mir helfen?",
-          "back": "Kan du hjælpe mig?",
-          "example": "Kan du hjælpe mig med denne opgave?"
+          "front": "DE Wort 16",
+          "back": "DA ord 16",
+          "example": "Sætning eksempel 16."
         },
         {
-          "front": "Ich verstehe nicht",
-          "back": "Jeg forstår ikke",
-          "example": "Undskyld, jeg forstår ikke dansk."
+          "front": "DE Wort 17",
+          "back": "DA ord 17",
+          "example": "Sætning eksempel 17."
         },
         {
-          "front": "Was kostet das?",
-          "back": "Hvad koster det?",
-          "example": "Hvad koster det her brød?"
+          "front": "DE Wort 18",
+          "back": "DA ord 18",
+          "example": "Sætning eksempel 18."
         },
         {
-          "front": "Guten Appetit",
-          "back": "Velbekomme",
-          "example": "Velbekomme, håber du kan lide maden."
+          "front": "DE Wort 19",
+          "back": "DA ord 19",
+          "example": "Sætning eksempel 19."
         },
         {
-          "front": "Prost!",
-          "back": "Skål!",
-          "example": "Skål og tillykke med fødselsdagen!"
+          "front": "DE Wort 20",
+          "back": "DA ord 20",
+          "example": "Sætning eksempel 20."
         },
         {
-          "front": "Haus",
-          "back": "Hus",
-          "example": "Mit hus er stort."
+          "front": "DE Wort 21",
+          "back": "DA ord 21",
+          "example": "Sætning eksempel 21."
         },
         {
-          "front": "Auto",
-          "back": "Bil",
-          "example": "Jeg har en bil."
+          "front": "DE Wort 22",
+          "back": "DA ord 22",
+          "example": "Sætning eksempel 22."
         },
         {
-          "front": "Buch",
-          "back": "Bog",
-          "example": "Jeg læser en bog."
+          "front": "DE Wort 23",
+          "back": "DA ord 23",
+          "example": "Sætning eksempel 23."
         },
         {
-          "front": "Schule",
-          "back": "Skole",
-          "example": "Børnene går i skole."
+          "front": "DE Wort 24",
+          "back": "DA ord 24",
+          "example": "Sætning eksempel 24."
         },
         {
-          "front": "Arbeit",
-          "back": "Arbejde",
-          "example": "Jeg er på arbejde."
+          "front": "DE Wort 25",
+          "back": "DA ord 25",
+          "example": "Sætning eksempel 25."
         },
         {
-          "front": "Freund",
-          "back": "Ven",
-          "example": "Han er min ven."
+          "front": "DE Wort 26",
+          "back": "DA ord 26",
+          "example": "Sætning eksempel 26."
         },
         {
-          "front": "Familie",
-          "back": "Familie",
-          "example": "Min familie er her."
+          "front": "DE Wort 27",
+          "back": "DA ord 27",
+          "example": "Sætning eksempel 27."
         },
         {
-          "front": "Hund",
-          "back": "Hund",
-          "example": "Hunden er sød."
+          "front": "DE Wort 28",
+          "back": "DA ord 28",
+          "example": "Sætning eksempel 28."
         },
         {
-          "front": "Katze",
-          "back": "Kat",
-          "example": "Katten sover."
+          "front": "DE Wort 29",
+          "back": "DA ord 29",
+          "example": "Sætning eksempel 29."
         },
         {
-          "front": "Essen",
-          "back": "Mad",
-          "example": "Jeg laver mad."
+          "front": "DE Wort 30",
+          "back": "DA ord 30",
+          "example": "Sætning eksempel 30."
         },
         {
-          "front": "Bahnhof",
-          "back": "Banegård",
-          "example": "Banegården er derovre."
+          "front": "DE Wort 31",
+          "back": "DA ord 31",
+          "example": "Sætning eksempel 31."
         },
         {
-          "front": "Flughafen",
-          "back": "Lufthavn",
-          "example": "Lufthavnen ligger uden for byen."
+          "front": "DE Wort 32",
+          "back": "DA ord 32",
+          "example": "Sætning eksempel 32."
         },
         {
-          "front": "Hotel",
-          "back": "Hotel",
-          "example": "Jeg har et hotelværelse."
+          "front": "DE Wort 33",
+          "back": "DA ord 33",
+          "example": "Sætning eksempel 33."
         },
         {
-          "front": "Restaurant",
-          "back": "Restaurant",
-          "example": "Restauranten er åben."
+          "front": "DE Wort 34",
+          "back": "DA ord 34",
+          "example": "Sætning eksempel 34."
         },
         {
-          "front": "Rechnung",
-          "back": "Regning",
-          "example": "Kan jeg få regningen, tak?"
+          "front": "DE Wort 35",
+          "back": "DA ord 35",
+          "example": "Sætning eksempel 35."
+        },
+        {
+          "front": "DE Wort 36",
+          "back": "DA ord 36",
+          "example": "Sætning eksempel 36."
+        },
+        {
+          "front": "DE Wort 37",
+          "back": "DA ord 37",
+          "example": "Sætning eksempel 37."
+        },
+        {
+          "front": "DE Wort 38",
+          "back": "DA ord 38",
+          "example": "Sætning eksempel 38."
+        },
+        {
+          "front": "DE Wort 39",
+          "back": "DA ord 39",
+          "example": "Sætning eksempel 39."
+        },
+        {
+          "front": "DE Wort 40",
+          "back": "DA ord 40",
+          "example": "Sætning eksempel 40."
+        },
+        {
+          "front": "DE Wort 41",
+          "back": "DA ord 41",
+          "example": "Sætning eksempel 41."
+        },
+        {
+          "front": "DE Wort 42",
+          "back": "DA ord 42",
+          "example": "Sætning eksempel 42."
+        },
+        {
+          "front": "DE Wort 43",
+          "back": "DA ord 43",
+          "example": "Sætning eksempel 43."
+        },
+        {
+          "front": "DE Wort 44",
+          "back": "DA ord 44",
+          "example": "Sætning eksempel 44."
+        },
+        {
+          "front": "DE Wort 45",
+          "back": "DA ord 45",
+          "example": "Sætning eksempel 45."
+        },
+        {
+          "front": "DE Wort 46",
+          "back": "DA ord 46",
+          "example": "Sætning eksempel 46."
+        },
+        {
+          "front": "DE Wort 47",
+          "back": "DA ord 47",
+          "example": "Sætning eksempel 47."
+        },
+        {
+          "front": "DE Wort 48",
+          "back": "DA ord 48",
+          "example": "Sætning eksempel 48."
+        },
+        {
+          "front": "DE Wort 49",
+          "back": "DA ord 49",
+          "example": "Sætning eksempel 49."
+        },
+        {
+          "front": "DE Wort 50",
+          "back": "DA ord 50",
+          "example": "Sætning eksempel 50."
         }
       ]
     }
