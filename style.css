@@ -26,9 +26,7 @@ button.skip{background:#add8e6;}
 button.reveal{background:#444;color:#fff;}
 button.danger{background:#ffe5e5;border-color:#8b0000;}
 button.outline{border-style:dashed;}
-
-/* Primary action buttons under input area */
 .action-bar{ display:flex; justify-content:center; gap:.75rem; margin-top:.75rem; }
 button.primary{ font-size:1.2rem; padding:.7rem 1.2rem; border-width:3px; }
-button.primary.go{ background:#87cefa; }    /* Prüfen */
-button.primary.next{ background:#90ee90; }  /* Weiter */
+button.primary.go{ background:#87cefa; }
+button.primary.next{ background:#90ee90; }

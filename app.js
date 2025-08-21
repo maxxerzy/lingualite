@@ -1,5 +1,5 @@
 
-const STORAGE_KEY = 'lingualite_state_v12';
+const STORAGE_KEY = 'lingualite_state_v13';
 const DISTRACTOR_POOL = ['og','ikke','lidt','meget','hvad','hvem','hvordan','hvor','her','der','i dag','i morgen','ven','bil','hus','bog','kaffe','brød','skole','arbejde','byen','taler','forstår','kommer','fra','jeg','du','han','hun','vi','de','er','har','kan','vil'];
 
 let STATE = loadState();
@@ -26,29 +26,22 @@ function pushResultAndAwaitNext(ok, msgOk='✅ Richtig!', msgFail='❌ Falsch!')
   const area=document.getElementById('learningArea');
   const fb=document.createElement('div'); fb.className='feedback'; fb.innerHTML = ok ? msgOk : msgFail + (currentMode!=='sentence' ? ' Richtige Lösung: <b>'+currentCard.back+'</b>' : '');
   area.appendChild(fb);
-
   const bar=document.createElement('div'); bar.className='action-bar';
   bar.appendChild(mkBtn('Weiter','primary next',()=>{
-    // spacing after confirmation
-    if(ok){
-      const offset = Math.min(7, Math.max(6, Math.floor(6 + Math.random()*2)));
-      sessionQueue.splice(Math.min(offset,sessionQueue.length),0,currentCard);
-    }else{
-      sessionQueue.splice(1,0,currentCard);
-    }
+    if(ok){ const offset = Math.min(7, Math.max(6, Math.floor(6 + Math.random()*2))); sessionQueue.splice(Math.min(offset,sessionQueue.length),0,currentCard); }
+    else { sessionQueue.splice(1,0,currentCard); }
     nextCard();
   }));
   area.appendChild(bar);
 }
 
-/* -------- Flashcards -------- */
+/* Flashcards */
 function showFlashcard(){ 
   const area=document.getElementById('learningArea'); 
   area.innerHTML='<div class=card>'+currentCard.front+'</div>'; 
   const bar=document.createElement('div'); bar.className='action-bar';
   bar.appendChild(mkBtn('Antwort zeigen','primary go reveal',()=>{ 
-    const fb=document.createElement('div'); fb.className='feedback'; fb.innerHTML='Richtig: <b>'+currentCard.back+'</b>';
-    area.appendChild(fb);
+    const fb=document.createElement('div'); fb.className='feedback'; fb.innerHTML='Richtig: <b>'+currentCard.back+'</b>'; area.appendChild(fb);
     const inner=document.createElement('div'); inner.className='action-bar';
     inner.appendChild(mkBtn('Richtig','primary go',()=>pushResultAndAwaitNext(true)));
     inner.appendChild(mkBtn('Falsch','primary go',()=>pushResultAndAwaitNext(false)));
@@ -58,12 +51,12 @@ function showFlashcard(){
   area.appendChild(bar);
 }
 
-/* -------- Multiple Choice -------- */
+/* Multiple Choice: ensure >= 4 options total */
 function showMultiple(){ 
   const pool = currentDeck.cards;
   const opts=[currentCard.back];
   while(opts.length<4 && pool.length>opts.length){ const c=pool[Math.floor(Math.random()*pool.length)].back; if(!opts.includes(c)) opts.push(c); }
-  while(opts.length<4){ const c=DISTRACTOR_POOL[Math.floor(Math.random()*DISTRACTOR_POOL.length)]; if(!opts.includes(c)) opts.push(c); }
+  while(opts.length<4){ const c=DISTRACTOR_POOL[Math.floor(Math.random()*DISTRACTOR_POOL.LENGTH)]; if(!opts.includes(c)) opts.push(c); } // fallback to ensure at least 4
   opts.sort(()=>Math.random()-.5);
   const area=document.getElementById('learningArea'); area.innerHTML='<div class=card>'+currentCard.front+'</div>';
   const grid=document.createElement('div'); grid.className='action-bar';
@@ -74,12 +67,12 @@ function showMultiple(){
   area.appendChild(bar);
 }
 
-/* -------- Satzpuzzle (immer Wörter aus korrekter Übersetzung) -------- */
+/* Satzpuzzle – immer Wort-für-Wort, mind. 4 Distraktoren */
 function normalize(s){ return s.toLowerCase().replace(/[.,!?;:()\\[\\]\\\"“”„'«»]/g,'').replace(/\\s+/g,' ').trim(); }
 function showSentence(){ 
   const target = String(currentCard.back||'').trim();
   const words = target.split(/\\s+/);
-  const needed = Math.min(10, Math.max(3, Math.ceil(words.length*0.6))); // 60% Distraktoren wie v11
+  const needed = Math.min(10, Math.max(4, Math.ceil(words.length*0.6))); // ≥4 Distraktoren
   const distractors = new Set();
   while(distractors.size<needed){
     const w = DISTRACTOR_POOL[Math.floor(Math.random()*DISTRACTOR_POOL.length)];
@@ -92,23 +85,16 @@ function showSentence(){
   const ab=document.createElement('div'); ab.className='answerbox';
   bank.forEach(w=>{ const b=mkBtn(w,'',()=>{ ab.textContent += (ab.textContent?' ':'')+w; b.disabled=true; }); wb.appendChild(b); });
   area.appendChild(wb); area.appendChild(ab);
-
   const bar=document.createElement('div'); bar.className='action-bar';
   bar.appendChild(mkBtn('Prüfen','primary go',()=>{
     const ok=normalize(ab.textContent)===normalize(target);
-    // Bei Satzpuzzle sollen wir dem Nutzer die Korrektheit zeigen; bei falsch zusätzlich die Ziel-Lösung angeben
     const fb=document.createElement('div'); fb.className='feedback'; 
     fb.innerHTML = ok ? '✅ Richtig!' : '❌ Falsch! Richtige Lösung: <b>'+target+'</b>';
     area.appendChild(fb);
-
     const nextBar=document.createElement('div'); nextBar.className='action-bar';
     nextBar.appendChild(mkBtn('Weiter','primary next',()=>{
-      if(ok){
-        const offset = Math.min(7, Math.max(6, Math.floor(6 + Math.random()*2)));
-        sessionQueue.splice(Math.min(offset,sessionQueue.length),0,currentCard);
-      }else{
-        sessionQueue.splice(1,0,currentCard);
-      }
+      if(ok){ const offset = Math.min(7, Math.max(6, Math.floor(6 + Math.random()*2))); sessionQueue.splice(Math.min(offset,sessionQueue.length),0,currentCard); }
+      else { sessionQueue.splice(1,0,currentCard); }
       nextCard();
     }));
     area.appendChild(nextBar);
@@ -117,7 +103,7 @@ function showSentence(){
   area.appendChild(bar);
 }
 
-/* -------- Import/Export/Reset -------- */
+/* Import/Export/Reset */
 function handleFileImport(e){
   const file=e.target.files[0]; if(!file) return;
   const reader=new FileReader();
