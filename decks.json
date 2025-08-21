@@ -1,1 +1,769 @@
-{"decks": [{"name": "Alltag & H\u00f6flichkeit (50)", "cards": [{"front": "Hallo 1", "back": "Hej 1"}, {"front": "Hallo 2", "back": "Hej 2"}, {"front": "Hallo 3", "back": "Hej 3"}, {"front": "Hallo 4", "back": "Hej 4"}, {"front": "Hallo 5", "back": "Hej 5"}, {"front": "Hallo 6", "back": "Hej 6"}, {"front": "Hallo 7", "back": "Hej 7"}, {"front": "Hallo 8", "back": "Hej 8"}, {"front": "Hallo 9", "back": "Hej 9"}, {"front": "Hallo 10", "back": "Hej 10"}, {"front": "Hallo 11", "back": "Hej 11"}, {"front": "Hallo 12", "back": "Hej 12"}, {"front": "Hallo 13", "back": "Hej 13"}, {"front": "Hallo 14", "back": "Hej 14"}, {"front": "Hallo 15", "back": "Hej 15"}, {"front": "Hallo 16", "back": "Hej 16"}, {"front": "Hallo 17", "back": "Hej 17"}, {"front": "Hallo 18", "back": "Hej 18"}, {"front": "Hallo 19", "back": "Hej 19"}, {"front": "Hallo 20", "back": "Hej 20"}, {"front": "Hallo 21", "back": "Hej 21"}, {"front": "Hallo 22", "back": "Hej 22"}, {"front": "Hallo 23", "back": "Hej 23"}, {"front": "Hallo 24", "back": "Hej 24"}, {"front": "Hallo 25", "back": "Hej 25"}, {"front": "Hallo 26", "back": "Hej 26"}, {"front": "Hallo 27", "back": "Hej 27"}, {"front": "Hallo 28", "back": "Hej 28"}, {"front": "Hallo 29", "back": "Hej 29"}, {"front": "Hallo 30", "back": "Hej 30"}, {"front": "Hallo 31", "back": "Hej 31"}, {"front": "Hallo 32", "back": "Hej 32"}, {"front": "Hallo 33", "back": "Hej 33"}, {"front": "Hallo 34", "back": "Hej 34"}, {"front": "Hallo 35", "back": "Hej 35"}, {"front": "Hallo 36", "back": "Hej 36"}, {"front": "Hallo 37", "back": "Hej 37"}, {"front": "Hallo 38", "back": "Hej 38"}, {"front": "Hallo 39", "back": "Hej 39"}, {"front": "Hallo 40", "back": "Hej 40"}, {"front": "Hallo 41", "back": "Hej 41"}, {"front": "Hallo 42", "back": "Hej 42"}, {"front": "Hallo 43", "back": "Hej 43"}, {"front": "Hallo 44", "back": "Hej 44"}, {"front": "Hallo 45", "back": "Hej 45"}, {"front": "Hallo 46", "back": "Hej 46"}, {"front": "Hallo 47", "back": "Hej 47"}, {"front": "Hallo 48", "back": "Hej 48"}, {"front": "Hallo 49", "back": "Hej 49"}, {"front": "Hallo 50", "back": "Hej 50"}]}, {"name": "Reise & Verkehr (50)", "cards": [{"front": "Reise 1", "back": "Rejse 1"}, {"front": "Reise 2", "back": "Rejse 2"}, {"front": "Reise 3", "back": "Rejse 3"}, {"front": "Reise 4", "back": "Rejse 4"}, {"front": "Reise 5", "back": "Rejse 5"}, {"front": "Reise 6", "back": "Rejse 6"}, {"front": "Reise 7", "back": "Rejse 7"}, {"front": "Reise 8", "back": "Rejse 8"}, {"front": "Reise 9", "back": "Rejse 9"}, {"front": "Reise 10", "back": "Rejse 10"}, {"front": "Reise 11", "back": "Rejse 11"}, {"front": "Reise 12", "back": "Rejse 12"}, {"front": "Reise 13", "back": "Rejse 13"}, {"front": "Reise 14", "back": "Rejse 14"}, {"front": "Reise 15", "back": "Rejse 15"}, {"front": "Reise 16", "back": "Rejse 16"}, {"front": "Reise 17", "back": "Rejse 17"}, {"front": "Reise 18", "back": "Rejse 18"}, {"front": "Reise 19", "back": "Rejse 19"}, {"front": "Reise 20", "back": "Rejse 20"}, {"front": "Reise 21", "back": "Rejse 21"}, {"front": "Reise 22", "back": "Rejse 22"}, {"front": "Reise 23", "back": "Rejse 23"}, {"front": "Reise 24", "back": "Rejse 24"}, {"front": "Reise 25", "back": "Rejse 25"}, {"front": "Reise 26", "back": "Rejse 26"}, {"front": "Reise 27", "back": "Rejse 27"}, {"front": "Reise 28", "back": "Rejse 28"}, {"front": "Reise 29", "back": "Rejse 29"}, {"front": "Reise 30", "back": "Rejse 30"}, {"front": "Reise 31", "back": "Rejse 31"}, {"front": "Reise 32", "back": "Rejse 32"}, {"front": "Reise 33", "back": "Rejse 33"}, {"front": "Reise 34", "back": "Rejse 34"}, {"front": "Reise 35", "back": "Rejse 35"}, {"front": "Reise 36", "back": "Rejse 36"}, {"front": "Reise 37", "back": "Rejse 37"}, {"front": "Reise 38", "back": "Rejse 38"}, {"front": "Reise 39", "back": "Rejse 39"}, {"front": "Reise 40", "back": "Rejse 40"}, {"front": "Reise 41", "back": "Rejse 41"}, {"front": "Reise 42", "back": "Rejse 42"}, {"front": "Reise 43", "back": "Rejse 43"}, {"front": "Reise 44", "back": "Rejse 44"}, {"front": "Reise 45", "back": "Rejse 45"}, {"front": "Reise 46", "back": "Rejse 46"}, {"front": "Reise 47", "back": "Rejse 47"}, {"front": "Reise 48", "back": "Rejse 48"}, {"front": "Reise 49", "back": "Rejse 49"}, {"front": "Reise 50", "back": "Rejse 50"}]}, {"name": "Essen & Restaurant (50)", "cards": [{"front": "Essen 1", "back": "Mad 1"}, {"front": "Essen 2", "back": "Mad 2"}, {"front": "Essen 3", "back": "Mad 3"}, {"front": "Essen 4", "back": "Mad 4"}, {"front": "Essen 5", "back": "Mad 5"}, {"front": "Essen 6", "back": "Mad 6"}, {"front": "Essen 7", "back": "Mad 7"}, {"front": "Essen 8", "back": "Mad 8"}, {"front": "Essen 9", "back": "Mad 9"}, {"front": "Essen 10", "back": "Mad 10"}, {"front": "Essen 11", "back": "Mad 11"}, {"front": "Essen 12", "back": "Mad 12"}, {"front": "Essen 13", "back": "Mad 13"}, {"front": "Essen 14", "back": "Mad 14"}, {"front": "Essen 15", "back": "Mad 15"}, {"front": "Essen 16", "back": "Mad 16"}, {"front": "Essen 17", "back": "Mad 17"}, {"front": "Essen 18", "back": "Mad 18"}, {"front": "Essen 19", "back": "Mad 19"}, {"front": "Essen 20", "back": "Mad 20"}, {"front": "Essen 21", "back": "Mad 21"}, {"front": "Essen 22", "back": "Mad 22"}, {"front": "Essen 23", "back": "Mad 23"}, {"front": "Essen 24", "back": "Mad 24"}, {"front": "Essen 25", "back": "Mad 25"}, {"front": "Essen 26", "back": "Mad 26"}, {"front": "Essen 27", "back": "Mad 27"}, {"front": "Essen 28", "back": "Mad 28"}, {"front": "Essen 29", "back": "Mad 29"}, {"front": "Essen 30", "back": "Mad 30"}, {"front": "Essen 31", "back": "Mad 31"}, {"front": "Essen 32", "back": "Mad 32"}, {"front": "Essen 33", "back": "Mad 33"}, {"front": "Essen 34", "back": "Mad 34"}, {"front": "Essen 35", "back": "Mad 35"}, {"front": "Essen 36", "back": "Mad 36"}, {"front": "Essen 37", "back": "Mad 37"}, {"front": "Essen 38", "back": "Mad 38"}, {"front": "Essen 39", "back": "Mad 39"}, {"front": "Essen 40", "back": "Mad 40"}, {"front": "Essen 41", "back": "Mad 41"}, {"front": "Essen 42", "back": "Mad 42"}, {"front": "Essen 43", "back": "Mad 43"}, {"front": "Essen 44", "back": "Mad 44"}, {"front": "Essen 45", "back": "Mad 45"}, {"front": "Essen 46", "back": "Mad 46"}, {"front": "Essen 47", "back": "Mad 47"}, {"front": "Essen 48", "back": "Mad 48"}, {"front": "Essen 49", "back": "Mad 49"}, {"front": "Essen 50", "back": "Mad 50"}]}]}
+{
+  "decks": [
+    {
+      "name": "Alltag & Höflichkeit (50)",
+      "cards": [
+        {
+          "front": "Hallo!",
+          "back": "Hej!",
+          "example": ""
+        },
+        {
+          "front": "Guten Morgen",
+          "back": "Godmorgen",
+          "example": ""
+        },
+        {
+          "front": "Guten Abend",
+          "back": "Godaften",
+          "example": ""
+        },
+        {
+          "front": "Gute Nacht",
+          "back": "Godnat",
+          "example": ""
+        },
+        {
+          "front": "Wie geht es dir?",
+          "back": "Hvordan har du det?",
+          "example": ""
+        },
+        {
+          "front": "Mir geht es gut.",
+          "back": "Jeg har det godt.",
+          "example": ""
+        },
+        {
+          "front": "Danke",
+          "back": "Tak",
+          "example": ""
+        },
+        {
+          "front": "Vielen Dank",
+          "back": "Mange tak",
+          "example": ""
+        },
+        {
+          "front": "Bitte (hier, nimm)",
+          "back": "Vær så god",
+          "example": ""
+        },
+        {
+          "front": "Entschuldigung",
+          "back": "Undskyld",
+          "example": ""
+        },
+        {
+          "front": "Ja",
+          "back": "Ja",
+          "example": ""
+        },
+        {
+          "front": "Nein",
+          "back": "Nej",
+          "example": ""
+        },
+        {
+          "front": "Vielleicht",
+          "back": "Måske",
+          "example": ""
+        },
+        {
+          "front": "Ich verstehe nicht.",
+          "back": "Jeg forstår ikke.",
+          "example": ""
+        },
+        {
+          "front": "Sprechen Sie Englisch?",
+          "back": "Taler du engelsk?",
+          "example": ""
+        },
+        {
+          "front": "Ich spreche ein bisschen Dänisch.",
+          "back": "Jeg taler lidt dansk.",
+          "example": ""
+        },
+        {
+          "front": "Wie heißt du?",
+          "back": "Hvad hedder du?",
+          "example": ""
+        },
+        {
+          "front": "Ich heiße Max.",
+          "back": "Jeg hedder Max.",
+          "example": ""
+        },
+        {
+          "front": "Woher kommst du?",
+          "back": "Hvor kommer du fra?",
+          "example": ""
+        },
+        {
+          "front": "Ich komme aus Deutschland.",
+          "back": "Jeg kommer fra Tyskland.",
+          "example": ""
+        },
+        {
+          "front": "Ich wohne in Aarhus.",
+          "back": "Jeg bor i Aarhus.",
+          "example": ""
+        },
+        {
+          "front": "Bis später!",
+          "back": "Vi ses senere!",
+          "example": ""
+        },
+        {
+          "front": "Gute Besserung!",
+          "back": "God bedring!",
+          "example": ""
+        },
+        {
+          "front": "Viel Spaß!",
+          "back": "God fornøjelse!",
+          "example": ""
+        },
+        {
+          "front": "Willkommen!",
+          "back": "Velkommen!",
+          "example": ""
+        },
+        {
+          "front": "Herzlichen Glückwunsch!",
+          "back": "Tillykke!",
+          "example": ""
+        },
+        {
+          "front": "Kein Problem.",
+          "back": "Intet problem.",
+          "example": ""
+        },
+        {
+          "front": "Natürlich.",
+          "back": "Selvfølgelig.",
+          "example": ""
+        },
+        {
+          "front": "Ich weiß nicht.",
+          "back": "Jeg ved det ikke.",
+          "example": ""
+        },
+        {
+          "front": "Ich bin müde.",
+          "back": "Jeg er træt.",
+          "example": ""
+        },
+        {
+          "front": "Ich bin krank.",
+          "back": "Jeg er syg.",
+          "example": ""
+        },
+        {
+          "front": "Ich bin hungrig.",
+          "back": "Jeg er sulten.",
+          "example": ""
+        },
+        {
+          "front": "Ich bin durstig.",
+          "back": "Jeg er tørstig.",
+          "example": ""
+        },
+        {
+          "front": "Ich habe Hunger.",
+          "back": "Jeg har sult.",
+          "example": ""
+        },
+        {
+          "front": "Ich habe Durst.",
+          "back": "Jeg har tørst.",
+          "example": ""
+        },
+        {
+          "front": "Ich arbeite hier.",
+          "back": "Jeg arbejder her.",
+          "example": ""
+        },
+        {
+          "front": "Ich studiere Medizin.",
+          "back": "Jeg studerer medicin.",
+          "example": ""
+        },
+        {
+          "front": "Das ist teuer.",
+          "back": "Det er dyrt.",
+          "example": ""
+        },
+        {
+          "front": "Das ist günstig.",
+          "back": "Det er billigt.",
+          "example": ""
+        },
+        {
+          "front": "Das ist lecker.",
+          "back": "Det smager godt.",
+          "example": ""
+        },
+        {
+          "front": "Das ist schön.",
+          "back": "Det er flot.",
+          "example": ""
+        },
+        {
+          "front": "Das ist schwierig.",
+          "back": "Det er svært.",
+          "example": ""
+        },
+        {
+          "front": "Das ist einfach.",
+          "back": "Det er nemt.",
+          "example": ""
+        },
+        {
+          "front": "Ich mag das.",
+          "back": "Det kan jeg godt lide.",
+          "example": ""
+        },
+        {
+          "front": "Ich mag das nicht.",
+          "back": "Det kan jeg ikke lide.",
+          "example": ""
+        },
+        {
+          "front": "Ich brauche Hilfe.",
+          "back": "Jeg har brug for hjælp.",
+          "example": ""
+        },
+        {
+          "front": "Warte mal.",
+          "back": "Vent lige.",
+          "example": ""
+        },
+        {
+          "front": "Klar!",
+          "back": "Klart!",
+          "example": ""
+        },
+        {
+          "front": "Kein Zutritt.",
+          "back": "Ingen adgang.",
+          "example": ""
+        },
+        {
+          "front": "Vorsicht!",
+          "back": "Pas på!",
+          "example": ""
+        }
+      ]
+    },
+    {
+      "name": "Reise & Verkehr (50)",
+      "cards": [
+        {
+          "front": "Wo ist die Toilette?",
+          "back": "Hvor er toilettet?",
+          "example": ""
+        },
+        {
+          "front": "Wo ist der Bahnhof?",
+          "back": "Hvor er banegården?",
+          "example": ""
+        },
+        {
+          "front": "Wo ist die Bushaltestelle?",
+          "back": "Hvor er busstoppestedet?",
+          "example": ""
+        },
+        {
+          "front": "Der Bus kommt bald.",
+          "back": "Bussen kommer snart.",
+          "example": ""
+        },
+        {
+          "front": "Eine Fahrkarte nach Kopenhagen, bitte.",
+          "back": "En billet til København, tak.",
+          "example": ""
+        },
+        {
+          "front": "Wie viel kostet das?",
+          "back": "Hvad koster det?",
+          "example": ""
+        },
+        {
+          "front": "Ich habe eine Reservierung.",
+          "back": "Jeg har en reservation.",
+          "example": ""
+        },
+        {
+          "front": "Ich suche dieses Hotel.",
+          "back": "Jeg leder efter dette hotel.",
+          "example": ""
+        },
+        {
+          "front": "Links",
+          "back": "Venstre",
+          "example": ""
+        },
+        {
+          "front": "Rechts",
+          "back": "Højre",
+          "example": ""
+        },
+        {
+          "front": "Geradeaus",
+          "back": "Lige ud",
+          "example": ""
+        },
+        {
+          "front": "Langsam, bitte.",
+          "back": "Langsom, tak.",
+          "example": ""
+        },
+        {
+          "front": "Schneller, bitte.",
+          "back": "Hurtigere, tak.",
+          "example": ""
+        },
+        {
+          "front": "Können Sie mir helfen?",
+          "back": "Kan du hjælpe mig?",
+          "example": ""
+        },
+        {
+          "front": "Ich habe mich verirrt.",
+          "back": "Jeg er faret vild.",
+          "example": ""
+        },
+        {
+          "front": "Die Rechnung, bitte.",
+          "back": "Må jeg bede om regningen?",
+          "example": ""
+        },
+        {
+          "front": "Karte, bitte.",
+          "back": "Kan jeg få et kort, tak?",
+          "example": ""
+        },
+        {
+          "front": "Taxi",
+          "back": "Taxa",
+          "example": ""
+        },
+        {
+          "front": "Flughafen",
+          "back": "Lufthavn",
+          "example": ""
+        },
+        {
+          "front": "Bahnhof",
+          "back": "Banegård",
+          "example": ""
+        },
+        {
+          "front": "U-Bahn",
+          "back": "Metro",
+          "example": ""
+        },
+        {
+          "front": "Fahrradverleih",
+          "back": "Cykeludlejning",
+          "example": ""
+        },
+        {
+          "front": "Autovermietung",
+          "back": "Biludlejning",
+          "example": ""
+        },
+        {
+          "front": "Ich möchte ein Ticket kaufen.",
+          "back": "Jeg vil gerne købe en billet.",
+          "example": ""
+        },
+        {
+          "front": "Gibt es WLAN?",
+          "back": "Er der wifi?",
+          "example": ""
+        },
+        {
+          "front": "Passkontrolle",
+          "back": "Pas kontrol",
+          "example": ""
+        },
+        {
+          "front": "Gepäck",
+          "back": "Bagage",
+          "example": ""
+        },
+        {
+          "front": "Notausgang",
+          "back": "Nødudgang",
+          "example": ""
+        },
+        {
+          "front": "Feuerwehr rufen!",
+          "back": "Ring til brandvæsenet!",
+          "example": ""
+        },
+        {
+          "front": "Polizei rufen!",
+          "back": "Ring til politiet!",
+          "example": ""
+        },
+        {
+          "front": "Krankenwagen rufen!",
+          "back": "Ring til ambulancen!",
+          "example": ""
+        },
+        {
+          "front": "Ist es weit?",
+          "back": "Er det langt?",
+          "example": ""
+        },
+        {
+          "front": "In der Nähe",
+          "back": "I nærheden",
+          "example": ""
+        },
+        {
+          "front": "Öffnungszeiten",
+          "back": "Åbningstider",
+          "example": ""
+        },
+        {
+          "front": "Ist das frei?",
+          "back": "Er det ledigt?",
+          "example": ""
+        },
+        {
+          "front": "Reservierung",
+          "back": "Reservation",
+          "example": ""
+        },
+        {
+          "front": "Einzelzimmer",
+          "back": "Enkeltværelse",
+          "example": ""
+        },
+        {
+          "front": "Doppelzimmer",
+          "back": "Dobbeltværelse",
+          "example": ""
+        },
+        {
+          "front": "Bahngleis",
+          "back": "Spor",
+          "example": ""
+        },
+        {
+          "front": "Ankunft",
+          "back": "Ankomst",
+          "example": ""
+        },
+        {
+          "front": "Abfahrt",
+          "back": "Afgang",
+          "example": ""
+        },
+        {
+          "front": "Verspätung",
+          "back": "Forsinkelse",
+          "example": ""
+        },
+        {
+          "front": "Fahrplan",
+          "back": "Køreplan",
+          "example": ""
+        },
+        {
+          "front": "Ich reise morgen ab.",
+          "back": "Jeg rejser i morgen.",
+          "example": ""
+        },
+        {
+          "front": "Ich bleibe zwei Nächte.",
+          "back": "Jeg bliver to nætter.",
+          "example": ""
+        },
+        {
+          "front": "Können Sie das bitte wiederholen?",
+          "back": "Kan du gentage det, tak?",
+          "example": ""
+        },
+        {
+          "front": "Sprechen Sie langsamer, bitte.",
+          "back": "Tal venligst langsommere.",
+          "example": ""
+        },
+        {
+          "front": "Ich verstehe.",
+          "back": "Jeg forstår.",
+          "example": ""
+        },
+        {
+          "front": "Ich verstehe nicht.",
+          "back": "Jeg forstår ikke.",
+          "example": ""
+        },
+        {
+          "front": "Wo ist der Eingang?",
+          "back": "Hvor er indgangen?",
+          "example": ""
+        }
+      ]
+    },
+    {
+      "name": "Essen & Restaurant (50)",
+      "cards": [
+        {
+          "front": "Ich hätte gern einen Kaffee.",
+          "back": "Jeg vil gerne have en kaffe.",
+          "example": ""
+        },
+        {
+          "front": "Ein Wasser, bitte.",
+          "back": "Et vand, tak.",
+          "example": ""
+        },
+        {
+          "front": "Bier",
+          "back": "Øl",
+          "example": ""
+        },
+        {
+          "front": "Wein",
+          "back": "Vin",
+          "example": ""
+        },
+        {
+          "front": "Saft",
+          "back": "Juice",
+          "example": ""
+        },
+        {
+          "front": "Milch",
+          "back": "Mælk",
+          "example": ""
+        },
+        {
+          "front": "Tee",
+          "back": "Te",
+          "example": ""
+        },
+        {
+          "front": "Frühstück",
+          "back": "Morgenmad",
+          "example": ""
+        },
+        {
+          "front": "Mittagessen",
+          "back": "Frokost",
+          "example": ""
+        },
+        {
+          "front": "Abendessen",
+          "back": "Aftensmad",
+          "example": ""
+        },
+        {
+          "front": "Speisekarte",
+          "back": "Menu",
+          "example": ""
+        },
+        {
+          "front": "Tisch für zwei, bitte.",
+          "back": "Bord til to, tak.",
+          "example": ""
+        },
+        {
+          "front": "Guten Appetit!",
+          "back": "Velbekomme!",
+          "example": ""
+        },
+        {
+          "front": "Das schmeckt gut.",
+          "back": "Det smager godt.",
+          "example": ""
+        },
+        {
+          "front": "Noch ein Glas, bitte.",
+          "back": "Et glas mere, tak.",
+          "example": ""
+        },
+        {
+          "front": "Rechnung, bitte.",
+          "back": "Regning, tak.",
+          "example": ""
+        },
+        {
+          "front": "Ich bin Vegetarier.",
+          "back": "Jeg er vegetar.",
+          "example": ""
+        },
+        {
+          "front": "Ohne Fleisch, bitte.",
+          "back": "Uden kød, tak.",
+          "example": ""
+        },
+        {
+          "front": "Ohne Milchprodukte, bitte.",
+          "back": "Uden mejeriprodukter, tak.",
+          "example": ""
+        },
+        {
+          "front": "Ohne Gluten, bitte.",
+          "back": "Uden gluten, tak.",
+          "example": ""
+        },
+        {
+          "front": "Ist das scharf?",
+          "back": "Er det stærkt?",
+          "example": ""
+        },
+        {
+          "front": "Salz",
+          "back": "Salt",
+          "example": ""
+        },
+        {
+          "front": "Pfeffer",
+          "back": "Peber",
+          "example": ""
+        },
+        {
+          "front": "Brot",
+          "back": "Brød",
+          "example": ""
+        },
+        {
+          "front": "Butter",
+          "back": "Smør",
+          "example": ""
+        },
+        {
+          "front": "Käse",
+          "back": "Ost",
+          "example": ""
+        },
+        {
+          "front": "Ei",
+          "back": "Æg",
+          "example": ""
+        },
+        {
+          "front": "Fisch",
+          "back": "Fisk",
+          "example": ""
+        },
+        {
+          "front": "Fleisch",
+          "back": "Kød",
+          "example": ""
+        },
+        {
+          "front": "Huhn",
+          "back": "Kylling",
+          "example": ""
+        },
+        {
+          "front": "Gemüse",
+          "back": "Grøntsager",
+          "example": ""
+        },
+        {
+          "front": "Obst",
+          "back": "Frugt",
+          "example": ""
+        },
+        {
+          "front": "Kartoffel",
+          "back": "Kartoffel",
+          "example": ""
+        },
+        {
+          "front": "Reis",
+          "back": "Ris",
+          "example": ""
+        },
+        {
+          "front": "Nudeln",
+          "back": "Pasta",
+          "example": ""
+        },
+        {
+          "front": "Suppe",
+          "back": "Suppe",
+          "example": ""
+        },
+        {
+          "front": "Salat",
+          "back": "Salat",
+          "example": ""
+        },
+        {
+          "front": "Kuchen",
+          "back": "Kage",
+          "example": ""
+        },
+        {
+          "front": "Eis",
+          "back": "Is",
+          "example": ""
+        },
+        {
+          "front": "Zucker",
+          "back": "Sukker",
+          "example": ""
+        },
+        {
+          "front": "Rechnung zusammen",
+          "back": "Sammen regning",
+          "example": ""
+        },
+        {
+          "front": "Getrennte Rechnung",
+          "back": "Delt regning",
+          "example": ""
+        },
+        {
+          "front": "Kann ich mit Karte zahlen?",
+          "back": "Kan jeg betale med kort?",
+          "example": ""
+        },
+        {
+          "front": "Nur bar.",
+          "back": "Kun kontant.",
+          "example": ""
+        },
+        {
+          "front": "Das ist zu salzig.",
+          "back": "Det er for salt.",
+          "example": ""
+        },
+        {
+          "front": "Ein bisschen mehr, bitte.",
+          "back": "Lidt mere, tak.",
+          "example": ""
+        },
+        {
+          "front": "Kein Zucker, bitte.",
+          "back": "Ingen sukker, tak.",
+          "example": ""
+        },
+        {
+          "front": "Schmeckt es?",
+          "back": "Smager det?",
+          "example": ""
+        },
+        {
+          "front": "Ja, sehr!",
+          "back": "Ja, meget!",
+          "example": ""
+        },
+        {
+          "front": "Ich hätte gern einen Kaffee.",
+          "back": "Jeg vil gerne have en kaffe.",
+          "example": ""
+        }
+      ]
+    }
+  ]
+}

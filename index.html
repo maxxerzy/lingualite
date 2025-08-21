@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lingualite</title>
-<link rel="stylesheet" href="style.css?v=16">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lingualite</title>
+  <link rel="stylesheet" href="style.css?v=17">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
 </head>
 <body>
-<div class="app-container">
-  <h1>Lingualite</h1>
-  <nav>
-    <button type="button" onclick="showSection('decks')"><i>Decks</i></button>
-    <button type="button" id="learnBtn" class="hidden" onclick="showSection('learn')">Lernen</button>
-    <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export">
-      <img src="settings.svg" alt="Einstellungen">
-    </button>
-    <button type="button" class="danger outline" onclick="resetAll()">🔁 Reset</button>
-  </nav>
-  <section id="decks" class="section hidden"><h2><i>Decks</i></h2><div id="deckList"></div></section>
-  <section id="learn" class="section hidden"><h2>Lernen</h2><div id="learningArea"></div></section>
-  <section id="import" class="section hidden"><h2>Import/Export</h2></section>
-</div>
-<script src="app.js?v=16"></script>
+  <div class="app-container">
+    <h1>Lingualite</h1>
+    <nav>
+      <button type="button" onclick="showSection('decks')"><i>Decks</i></button>
+      <button type="button" id="learnBtn" class="hidden" onclick="showSection('learn')">Lernen</button>
+      <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export">
+        <img src="settings.svg" alt="Einstellungen">
+      </button>
+      <button type="button" class="danger outline" onclick="resetAll()">🔁 Reset</button>
+    </nav>
+
+    <section id="decks" class="section hidden">
+      <h2><i>Decks</i></h2>
+      <div id="deckList" class="deckList"></div>
+      <button type="button" onclick="createDeck()">Neues Deck</button>
+    </section>
+
+    <section id="learn" class="section hidden">
+      <h2>Lernen</h2>
+      <label for="modeSelect">Modus wählen:</label>
+      <select id="modeSelect">
+        <option value="flashcards">Flashcards</option>
+        <option value="multiple">Multiple Choice</option>
+        <option value="sentence">Satzpuzzle</option>
+      </select>
+      <button type="button" onclick="startLearning()">Session starten</button>
+      <div id="learningArea"></div>
+    </section>
+
+    <section id="import" class="section hidden">
+      <h2>Import/Export & Zurücksetzen</h2>
+      <div class="row">
+        <button type="button" onclick="reloadExternalDecks()">Decks aus Datei neu laden</button>
+      </div>
+      <input type="file" id="importFile" onchange="handleFileImport(event)">
+      <textarea id="importText" placeholder="front;back;example"></textarea>
+      <div class="row">
+        <button type="button" onclick="importFromText()">Text importieren</button>
+        <button type="button" onclick="exportDecks()">Decks exportieren</button>
+      </div>
+      <hr>
+      <button type="button" id="resetApp" class="danger" onclick="resetAll()">🔁 Alles zurücksetzen</button>
+      <div id="errorBox" class="errorBox" style="display:none"></div>
+    </section>
+  </div>
+  <script src="app.js?v=17"></script>
 </body>
 </html>
