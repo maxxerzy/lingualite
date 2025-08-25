@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lingualite</title>
-  <link rel="stylesheet" href="style.css?v=20">
+  <link rel="stylesheet" href="style.css?v=22">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
   <meta http-equiv="Pragma" content="no-cache"/>
   <meta http-equiv="Expires" content="0"/>
@@ -32,32 +32,36 @@
       <h2>Lernen</h2>
       <div class="learn-controls">
         <label for="modeSelect">Modus wählen:</label>
-        <select id="modeSelect">
-          <option value="flashcards">Flashcards</option>
-          <option value="multiple">Multiple Choice</option>
-          <option value="sentence">Satzpuzzle</option>
-        </select>
-        <button type="button" class="primary go" onclick="startLearning()">Session starten</button>
+        <div class="select-wrap">
+          <select id="modeSelect" class="pretty-select" aria-label="Modus wählen">
+            <option value="flashcards">Flashcards</option>
+            <option value="multiple">Multiple Choice</option>
+            <option value="sentence">Satzpuzzle</option>
+          </select>
+          <svg class="select-caret" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+            <path d="M6 9l6 6 6-6" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <button type="button" class="primary go" id="startBtn">Session starten</button>
       </div>
-      <div id="learningArea"></div>
+      <div id="learningArea" aria-live="polite"></div>
     </section>
 
     <section id="import" class="section hidden">
       <h2>Import/Export & Zurücksetzen</h2>
       <div class="row">
-        <button type="button" onclick="reloadExternalDecks()">Decks aus Datei neu laden</button>
+        <button type="button" id="reloadBtn">Decks aus Datei neu laden</button>
       </div>
-      <input type="file" id="importFile" onchange="handleFileImport(event)">
+      <input type="file" id="importFile">
       <textarea id="importText" placeholder="front;back;example"></textarea>
       <div class="row">
-        <button type="button" onclick="importFromText()">Text importieren</button>
-        <button type="button" onclick="exportDecks()">Decks exportieren</button>
+        <button type="button" id="importTextBtn">Text importieren</button>
+        <button type="button" id="exportBtn">Decks exportieren</button>
       </div>
       <hr>
-      <button type="button" id="resetApp" class="danger" onclick="resetAll()">🔁 Alles zurücksetzen</button>
-      <div id="errorBox" class="errorBox" style="display:none"></div>
+      <button type="button" id="resetApp" class="danger">🔁 Alles zurücksetzen</button>
     </section>
   </div>
-  <script src="app.js?v=20"></script>
+  <script src="app.js?v=22"></script>
 </body>
 </html>
