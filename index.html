@@ -4,26 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lingualite</title>
-  <link rel="stylesheet" href="style.css?v=25">
+  <link rel="stylesheet" href="style.css?v=27">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
   <meta http-equiv="Pragma" content="no-cache"/>
   <meta http-equiv="Expires" content="0"/>
 </head>
 <body>
   <div class="app-container">
-    <h1>Lingualite</h1>
+    <header class="topbar">
+      <h1>Lingualite</h1>
+      <div class="meters">
+        <div id="scoreBox">Punkte: 0</div>
+        <div id="deckElo">Deck‑Elo: —</div>
+      </div>
+    </header>
+
     <nav>
-      <div class="left">
-        <button type="button" onclick="showSection('decks')"><i>Decks</i></button>
-        <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export">
-          <img src="settings.svg" alt="Einstellungen">
-        </button>
-        <button type="button" class="danger outline" onclick="resetAll()">🔁 Reset</button>
-      </div>
-      <div class="right">
-        <span id="scoreBox">Punkte: 0</span>
-        <span id="deckEloBox" title="Deck‑Elo (persistiert)">Deck‑Elo: 1200</span>
-      </div>
+      <button type="button" onclick="showSection('decks')"><i>Decks</i></button>
+      <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export">
+        <img src="settings.svg" alt="Einstellungen">
+      </button>
+      <button type="button" class="danger outline" onclick="resetAll()">🔁 Reset</button>
     </nav>
 
     <section id="decks" class="section">
@@ -32,6 +33,7 @@
       <div class="decks-footer">
         <button type="button" id="learnBtn" class="primary go hidden" onclick="showSection('learn')">Lernen</button>
       </div>
+      <div id="deckError" class="errorBox" style="display:none"></div>
     </section>
 
     <section id="learn" class="section hidden">
@@ -68,6 +70,6 @@
       <button type="button" id="resetApp" class="danger">🔁 Alles zurücksetzen</button>
     </section>
   </div>
-  <script src="app.js?v=25"></script>
+  <script src="app.js?v=27"></script>
 </body>
 </html>
