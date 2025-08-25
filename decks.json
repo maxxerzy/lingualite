@@ -1,7 +1,7 @@
 {
   "decks": [
     {
-      "name": "Alltag & Höflichkeit (50)",
+      "name": "Alltag & Höflichkeit",
       "cards": [
         {
           "front": "Hallo!",
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "name": "Reise & Verkehr (50)",
+      "name": "Reise & Verkehr",
       "cards": [
         {
           "front": "Wo ist die Toilette?",
@@ -511,7 +511,7 @@
       ]
     },
     {
-      "name": "Essen & Restaurant (50)",
+      "name": "Essen & Restaurant",
       "cards": [
         {
           "front": "Ich hätte gern einen Kaffee.",
