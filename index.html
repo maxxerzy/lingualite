@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lingualite – Modular 2000</title>
+  <title>Lingualite – Sprachwahl</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,9 +13,7 @@
       <nav class="nav">
         <button type="button" data-view="learn">Lernen</button>
         <button type="button" data-view="decks">Decks</button>
-        <button type="button" data-view="settings" class="icon-btn" title="Einstellungen">
-          <img src="settings.png" alt="Einstellungen">
-        </button>
+        <button type="button" data-view="settings" class="icon-btn" title="Einstellungen">⚙️</button>
       </nav>
     </header>
 
@@ -23,6 +21,8 @@
       <section id="view-learn" class="view">
         <div class="panel">
           <div class="row">
+            <label>Sprache</label>
+            <select id="langFilter" class="input"></select>
             <label>Deck</label>
             <select id="deckSelect" class="input"></select>
             <label>Modus</label>
@@ -45,41 +45,22 @@
       </section>
 
       <section id="view-settings" class="view hidden">
-        <div class="grid2">
-          <div class="panel">
-            <h2>Import/Export</h2>
-            <div class="row">
-              <input type="file" id="importFile" accept="application/json">
-              <button type="button" id="importBtn" class="btn">Importieren</button>
-              <button type="button" id="exportBtn" class="btn">Exportieren</button>
-            </div>
-            <details>
-              <summary>Deck-Schema</summary>
-              <pre class="code" id="schemaBox"></pre>
-            </details>
+        <div class="panel">
+          <h2>Import/Export</h2>
+          <div class="row">
+            <input type="file" id="importFile" accept="application/json">
+            <button type="button" id="importBtn" class="btn">Importieren</button>
+            <button type="button" id="exportBtn" class="btn">Exportieren</button>
           </div>
-          <div class="panel">
-            <h2>Planung & Zurücksetzen</h2>
-            <div class="row">
-              <label for="maxNew">Neue Karten/Session</label>
-              <input id="maxNew" class="input" type="number" min="0" max="200" step="5">
-              <label><input id="onlyDue" type="checkbox"> Nur fällige Karten zeigen</label>
-            </div>
-            <div class="row">
-              <button type="button" id="saveSettings" class="btn primary">Einstellungen speichern</button>
-            </div>
-            <hr>
-            <div class="row">
-              <button type="button" id="resetProgress" class="btn">Nur Fortschritt löschen</button>
-              <button type="button" id="resetAll" class="btn danger">⚠️ Alles löschen</button>
-            </div>
-          </div>
+          <details>
+            <summary>Deck-Schema</summary>
+            <pre class="code" id="schemaBox"></pre>
+          </details>
         </div>
       </section>
     </main>
   </div>
 
-  <script src="core/store.js"></script>
   <script src="core/loader.js"></script>
   <script src="ui/components.js"></script>
   <script src="app.js"></script>
