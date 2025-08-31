@@ -1,0 +1,808 @@
+{
+  "id": "la-de-pack-07",
+  "name": "Latein → Deutsch – Pack 07",
+  "src": "LA",
+  "tgt": "DE",
+  "cards": [
+    {
+      "front": "edere mensa.",
+      "back": "essen Tisch."
+    },
+    {
+      "front": "mensa calidus.",
+      "back": "Tisch ist warm."
+    },
+    {
+      "front": "vehi fenestra.",
+      "back": "fahren Fenster."
+    },
+    {
+      "front": "fenestra tardus.",
+      "back": "Fenster ist langsam."
+    },
+    {
+      "front": "legere museum.",
+      "back": "lesen Museum."
+    },
+    {
+      "front": "museum malus.",
+      "back": "Museum ist schlecht."
+    },
+    {
+      "front": "intellegere statio ferriviaria.",
+      "back": "verstehen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria clausus.",
+      "back": "Bahnhof ist geschlossen."
+    },
+    {
+      "front": "bibere via.",
+      "back": "trinken Straße."
+    },
+    {
+      "front": "via pulcher.",
+      "back": "Straße ist schön."
+    },
+    {
+      "front": "quaerere sella.",
+      "back": "suchen Stuhl."
+    },
+    {
+      "front": "sella magnus.",
+      "back": "Stuhl ist groß."
+    },
+    {
+      "front": "ludere deversorium.",
+      "back": "spielen Hotel."
+    },
+    {
+      "front": "deversorium iucundus.",
+      "back": "Hotel ist angenehm."
+    },
+    {
+      "front": "legere officium.",
+      "back": "lesen Büro."
+    },
+    {
+      "front": "officium magnus.",
+      "back": "Büro ist groß."
+    },
+    {
+      "front": "quaerere museum.",
+      "back": "suchen Museum."
+    },
+    {
+      "front": "museum pulcher.",
+      "back": "Museum ist schön."
+    },
+    {
+      "front": "bibere hortus.",
+      "back": "trinken Garten."
+    },
+    {
+      "front": "hortus malus.",
+      "back": "Garten ist schlecht."
+    },
+    {
+      "front": "vehi domus.",
+      "back": "fahren Haus."
+    },
+    {
+      "front": "domus malus.",
+      "back": "Haus ist schlecht."
+    },
+    {
+      "front": "videre statio ferriviaria.",
+      "back": "sehen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria sordidus.",
+      "back": "Bahnhof ist schmutzig."
+    },
+    {
+      "front": "emere nosocomium.",
+      "back": "kaufen Krankenhaus."
+    },
+    {
+      "front": "nosocomium sordidus.",
+      "back": "Krankenhaus ist schmutzig."
+    },
+    {
+      "front": "quaerere deversorium.",
+      "back": "suchen Hotel."
+    },
+    {
+      "front": "deversorium iucundus.",
+      "back": "Hotel ist angenehm."
+    },
+    {
+      "front": "intellegere nosocomium.",
+      "back": "verstehen Krankenhaus."
+    },
+    {
+      "front": "nosocomium pulcher.",
+      "back": "Krankenhaus ist schön."
+    },
+    {
+      "front": "edere sella.",
+      "back": "essen Stuhl."
+    },
+    {
+      "front": "sella pulcher.",
+      "back": "Stuhl ist schön."
+    },
+    {
+      "front": "edere domus.",
+      "back": "essen Haus."
+    },
+    {
+      "front": "domus sordidus.",
+      "back": "Haus ist schmutzig."
+    },
+    {
+      "front": "vehi nosocomium.",
+      "back": "fahren Krankenhaus."
+    },
+    {
+      "front": "nosocomium vilis.",
+      "back": "Krankenhaus ist billig."
+    },
+    {
+      "front": "laborare statio ferriviaria.",
+      "back": "arbeiten Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria pretiosus.",
+      "back": "Bahnhof ist teuer."
+    },
+    {
+      "front": "legere porta.",
+      "back": "lesen Tür."
+    },
+    {
+      "front": "porta malus.",
+      "back": "Tür ist schlecht."
+    },
+    {
+      "front": "scribere pistrina.",
+      "back": "schreiben Bäckerei."
+    },
+    {
+      "front": "pistrina pretiosus.",
+      "back": "Bäckerei ist teuer."
+    },
+    {
+      "front": "discere schola.",
+      "back": "lernen Schule."
+    },
+    {
+      "front": "schola bonus.",
+      "back": "Schule ist gut."
+    },
+    {
+      "front": "dormire museum.",
+      "back": "schlafen Museum."
+    },
+    {
+      "front": "museum parvus.",
+      "back": "Museum ist klein."
+    },
+    {
+      "front": "intellegere platea.",
+      "back": "verstehen Platz."
+    },
+    {
+      "front": "platea parvus.",
+      "back": "Platz ist klein."
+    },
+    {
+      "front": "edere mensa.",
+      "back": "essen Tisch."
+    },
+    {
+      "front": "mensa pretiosus.",
+      "back": "Tisch ist teuer."
+    },
+    {
+      "front": "bibere statio.",
+      "back": "trinken Haltestelle."
+    },
+    {
+      "front": "statio tardus.",
+      "back": "Haltestelle ist langsam."
+    },
+    {
+      "front": "intellegere nosocomium.",
+      "back": "verstehen Krankenhaus."
+    },
+    {
+      "front": "nosocomium pulcher.",
+      "back": "Krankenhaus ist schön."
+    },
+    {
+      "front": "quaerere domus.",
+      "back": "suchen Haus."
+    },
+    {
+      "front": "domus vilis.",
+      "back": "Haus ist billig."
+    },
+    {
+      "front": "legere via.",
+      "back": "lesen Straße."
+    },
+    {
+      "front": "via malus.",
+      "back": "Straße ist schlecht."
+    },
+    {
+      "front": "vehi platea.",
+      "back": "fahren Platz."
+    },
+    {
+      "front": "platea pretiosus.",
+      "back": "Platz ist teuer."
+    },
+    {
+      "front": "legere cubiculum.",
+      "back": "lesen Zimmer."
+    },
+    {
+      "front": "cubiculum parvus.",
+      "back": "Zimmer ist klein."
+    },
+    {
+      "front": "emere universitas.",
+      "back": "kaufen Universität."
+    },
+    {
+      "front": "universitas sordidus.",
+      "back": "Universität ist schmutzig."
+    },
+    {
+      "front": "legere nosocomium.",
+      "back": "lesen Krankenhaus."
+    },
+    {
+      "front": "nosocomium celer.",
+      "back": "Krankenhaus ist schnell."
+    },
+    {
+      "front": "loqui pistrina.",
+      "back": "sprechen Bäckerei."
+    },
+    {
+      "front": "pistrina bonus.",
+      "back": "Bäckerei ist gut."
+    },
+    {
+      "front": "emere popina.",
+      "back": "kaufen Restaurant."
+    },
+    {
+      "front": "popina sordidus.",
+      "back": "Restaurant ist schmutzig."
+    },
+    {
+      "front": "adiuvare via.",
+      "back": "helfen Straße."
+    },
+    {
+      "front": "via calidus.",
+      "back": "Straße ist warm."
+    },
+    {
+      "front": "loqui universitas.",
+      "back": "sprechen Universität."
+    },
+    {
+      "front": "universitas pretiosus.",
+      "back": "Universität ist teuer."
+    },
+    {
+      "front": "bibere hortus.",
+      "back": "trinken Garten."
+    },
+    {
+      "front": "hortus malus.",
+      "back": "Garten ist schlecht."
+    },
+    {
+      "front": "edere taberna.",
+      "back": "essen Laden."
+    },
+    {
+      "front": "taberna mundus.",
+      "back": "Laden ist sauber."
+    },
+    {
+      "front": "loqui schola.",
+      "back": "sprechen Schule."
+    },
+    {
+      "front": "schola tardus.",
+      "back": "Schule ist langsam."
+    },
+    {
+      "front": "edere taberna.",
+      "back": "essen Laden."
+    },
+    {
+      "front": "taberna frigidus.",
+      "back": "Laden ist kalt."
+    },
+    {
+      "front": "edere universitas.",
+      "back": "essen Universität."
+    },
+    {
+      "front": "universitas magnus.",
+      "back": "Universität ist groß."
+    },
+    {
+      "front": "dormire statio ferriviaria.",
+      "back": "schlafen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria frigidus.",
+      "back": "Bahnhof ist kalt."
+    },
+    {
+      "front": "ludere taberna.",
+      "back": "spielen Laden."
+    },
+    {
+      "front": "taberna bonus.",
+      "back": "Laden ist gut."
+    },
+    {
+      "front": "scribere sella.",
+      "back": "schreiben Stuhl."
+    },
+    {
+      "front": "sella vilis.",
+      "back": "Stuhl ist billig."
+    },
+    {
+      "front": "intellegere via.",
+      "back": "verstehen Straße."
+    },
+    {
+      "front": "via pretiosus.",
+      "back": "Straße ist teuer."
+    },
+    {
+      "front": "ire aeroplanum portus.",
+      "back": "gehen Flughafen."
+    },
+    {
+      "front": "aeroplanum portus pretiosus.",
+      "back": "Flughafen ist teuer."
+    },
+    {
+      "front": "vehi statio.",
+      "back": "fahren Haltestelle."
+    },
+    {
+      "front": "statio magnus.",
+      "back": "Haltestelle ist groß."
+    },
+    {
+      "front": "vehi schola.",
+      "back": "fahren Schule."
+    },
+    {
+      "front": "schola bonus.",
+      "back": "Schule ist gut."
+    },
+    {
+      "front": "vehi officium.",
+      "back": "fahren Büro."
+    },
+    {
+      "front": "officium magnus.",
+      "back": "Büro ist groß."
+    },
+    {
+      "front": "legere cafea.",
+      "back": "lesen Café."
+    },
+    {
+      "front": "cafea mundus.",
+      "back": "Café ist sauber."
+    },
+    {
+      "front": "emere domus.",
+      "back": "kaufen Haus."
+    },
+    {
+      "front": "domus parvus.",
+      "back": "Haus ist klein."
+    },
+    {
+      "front": "loqui labor.",
+      "back": "sprechen Arbeit."
+    },
+    {
+      "front": "labor parvus.",
+      "back": "Arbeit ist klein."
+    },
+    {
+      "front": "edere sella.",
+      "back": "essen Stuhl."
+    },
+    {
+      "front": "sella sordidus.",
+      "back": "Stuhl ist schmutzig."
+    },
+    {
+      "front": "quaerere museum.",
+      "back": "suchen Museum."
+    },
+    {
+      "front": "museum parvus.",
+      "back": "Museum ist klein."
+    },
+    {
+      "front": "edere labor.",
+      "back": "essen Arbeit."
+    },
+    {
+      "front": "labor malus.",
+      "back": "Arbeit ist schlecht."
+    },
+    {
+      "front": "ludere statio.",
+      "back": "spielen Haltestelle."
+    },
+    {
+      "front": "statio apertus.",
+      "back": "Haltestelle ist offen."
+    },
+    {
+      "front": "scribere sella.",
+      "back": "schreiben Stuhl."
+    },
+    {
+      "front": "sella magnus.",
+      "back": "Stuhl ist groß."
+    },
+    {
+      "front": "edere statio ferriviaria.",
+      "back": "essen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria mundus.",
+      "back": "Bahnhof ist sauber."
+    },
+    {
+      "front": "videre statio ferriviaria.",
+      "back": "sehen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria clausus.",
+      "back": "Bahnhof ist geschlossen."
+    },
+    {
+      "front": "vehi porta.",
+      "back": "fahren Tür."
+    },
+    {
+      "front": "porta calidus.",
+      "back": "Tür ist warm."
+    },
+    {
+      "front": "discere pistrina.",
+      "back": "lernen Bäckerei."
+    },
+    {
+      "front": "pistrina bonus.",
+      "back": "Bäckerei ist gut."
+    },
+    {
+      "front": "intellegere statio ferriviaria.",
+      "back": "verstehen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria parvus.",
+      "back": "Bahnhof ist klein."
+    },
+    {
+      "front": "discere taberna.",
+      "back": "lernen Laden."
+    },
+    {
+      "front": "taberna malus.",
+      "back": "Laden ist schlecht."
+    },
+    {
+      "front": "ire cafea.",
+      "back": "gehen Café."
+    },
+    {
+      "front": "cafea sordidus.",
+      "back": "Café ist schmutzig."
+    },
+    {
+      "front": "ludere amicus.",
+      "back": "spielen Freund."
+    },
+    {
+      "front": "amicus parvus.",
+      "back": "Freund ist klein."
+    },
+    {
+      "front": "dormire porta.",
+      "back": "schlafen Tür."
+    },
+    {
+      "front": "porta celer.",
+      "back": "Tür ist schnell."
+    },
+    {
+      "front": "edere officium.",
+      "back": "essen Büro."
+    },
+    {
+      "front": "officium pretiosus.",
+      "back": "Büro ist teuer."
+    },
+    {
+      "front": "laborare cafea.",
+      "back": "arbeiten Café."
+    },
+    {
+      "front": "cafea iucundus.",
+      "back": "Café ist angenehm."
+    },
+    {
+      "front": "ire platea.",
+      "back": "gehen Platz."
+    },
+    {
+      "front": "platea tardus.",
+      "back": "Platz ist langsam."
+    },
+    {
+      "front": "vehi schola.",
+      "back": "fahren Schule."
+    },
+    {
+      "front": "schola pulcher.",
+      "back": "Schule ist schön."
+    },
+    {
+      "front": "adiuvare cubiculum.",
+      "back": "helfen Zimmer."
+    },
+    {
+      "front": "cubiculum magnus.",
+      "back": "Zimmer ist groß."
+    },
+    {
+      "front": "videre hortus.",
+      "back": "sehen Garten."
+    },
+    {
+      "front": "hortus pretiosus.",
+      "back": "Garten ist teuer."
+    },
+    {
+      "front": "videre deversorium.",
+      "back": "sehen Hotel."
+    },
+    {
+      "front": "deversorium apertus.",
+      "back": "Hotel ist offen."
+    },
+    {
+      "front": "ludere aeroplanum portus.",
+      "back": "spielen Flughafen."
+    },
+    {
+      "front": "aeroplanum portus parvus.",
+      "back": "Flughafen ist klein."
+    },
+    {
+      "front": "intellegere hortus.",
+      "back": "verstehen Garten."
+    },
+    {
+      "front": "hortus frigidus.",
+      "back": "Garten ist kalt."
+    },
+    {
+      "front": "edere museum.",
+      "back": "essen Museum."
+    },
+    {
+      "front": "museum clausus.",
+      "back": "Museum ist geschlossen."
+    },
+    {
+      "front": "legere forum.",
+      "back": "lesen Markt."
+    },
+    {
+      "front": "forum vilis.",
+      "back": "Markt ist billig."
+    },
+    {
+      "front": "scribere sella.",
+      "back": "schreiben Stuhl."
+    },
+    {
+      "front": "sella apertus.",
+      "back": "Stuhl ist offen."
+    },
+    {
+      "front": "laborare fenestra.",
+      "back": "arbeiten Fenster."
+    },
+    {
+      "front": "fenestra sordidus.",
+      "back": "Fenster ist schmutzig."
+    },
+    {
+      "front": "dormire statio.",
+      "back": "schlafen Haltestelle."
+    },
+    {
+      "front": "statio calidus.",
+      "back": "Haltestelle ist warm."
+    },
+    {
+      "front": "quaerere porta.",
+      "back": "suchen Tür."
+    },
+    {
+      "front": "porta pretiosus.",
+      "back": "Tür ist teuer."
+    },
+    {
+      "front": "adiuvare statio ferriviaria.",
+      "back": "helfen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria malus.",
+      "back": "Bahnhof ist schlecht."
+    },
+    {
+      "front": "ludere cafea.",
+      "back": "spielen Café."
+    },
+    {
+      "front": "cafea bonus.",
+      "back": "Café ist gut."
+    },
+    {
+      "front": "discere domus.",
+      "back": "lernen Haus."
+    },
+    {
+      "front": "domus tardus.",
+      "back": "Haus ist langsam."
+    },
+    {
+      "front": "scribere pistrina.",
+      "back": "schreiben Bäckerei."
+    },
+    {
+      "front": "pistrina sordidus.",
+      "back": "Bäckerei ist schmutzig."
+    },
+    {
+      "front": "scribere aeroplanum portus.",
+      "back": "schreiben Flughafen."
+    },
+    {
+      "front": "aeroplanum portus calidus.",
+      "back": "Flughafen ist warm."
+    },
+    {
+      "front": "ludere hortus.",
+      "back": "spielen Garten."
+    },
+    {
+      "front": "hortus frigidus.",
+      "back": "Garten ist kalt."
+    },
+    {
+      "front": "adiuvare fenestra.",
+      "back": "helfen Fenster."
+    },
+    {
+      "front": "fenestra magnus.",
+      "back": "Fenster ist groß."
+    },
+    {
+      "front": "edere aeroplanum portus.",
+      "back": "essen Flughafen."
+    },
+    {
+      "front": "aeroplanum portus iucundus.",
+      "back": "Flughafen ist angenehm."
+    },
+    {
+      "front": "dormire statio ferriviaria.",
+      "back": "schlafen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria parvus.",
+      "back": "Bahnhof ist klein."
+    },
+    {
+      "front": "emere sella.",
+      "back": "kaufen Stuhl."
+    },
+    {
+      "front": "sella vilis.",
+      "back": "Stuhl ist billig."
+    },
+    {
+      "front": "legere sella.",
+      "back": "lesen Stuhl."
+    },
+    {
+      "front": "sella calidus.",
+      "back": "Stuhl ist warm."
+    },
+    {
+      "front": "quaerere statio ferriviaria.",
+      "back": "suchen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria sordidus.",
+      "back": "Bahnhof ist schmutzig."
+    },
+    {
+      "front": "laborare apotheca.",
+      "back": "arbeiten Apotheke."
+    },
+    {
+      "front": "apotheca celer.",
+      "back": "Apotheke ist schnell."
+    },
+    {
+      "front": "laborare nosocomium.",
+      "back": "arbeiten Krankenhaus."
+    },
+    {
+      "front": "nosocomium apertus.",
+      "back": "Krankenhaus ist offen."
+    },
+    {
+      "front": "ludere hortus.",
+      "back": "spielen Garten."
+    },
+    {
+      "front": "hortus celer.",
+      "back": "Garten ist schnell."
+    },
+    {
+      "front": "intellegere taberna.",
+      "back": "verstehen Laden."
+    },
+    {
+      "front": "taberna clausus.",
+      "back": "Laden ist geschlossen."
+    },
+    {
+      "front": "loqui porta.",
+      "back": "sprechen Tür."
+    },
+    {
+      "front": "porta apertus.",
+      "back": "Tür ist offen."
+    },
+    {
+      "front": "vehi apotheca.",
+      "back": "fahren Apotheke."
+    },
+    {
+      "front": "apotheca sordidus.",
+      "back": "Apotheke ist schmutzig."
+    }
+  ]
+}

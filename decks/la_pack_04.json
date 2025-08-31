@@ -1,0 +1,808 @@
+{
+  "id": "la-de-pack-04",
+  "name": "Latein → Deutsch – Pack 04",
+  "src": "LA",
+  "tgt": "DE",
+  "cards": [
+    {
+      "front": "dormire nosocomium.",
+      "back": "schlafen Krankenhaus."
+    },
+    {
+      "front": "nosocomium iucundus.",
+      "back": "Krankenhaus ist angenehm."
+    },
+    {
+      "front": "adiuvare statio.",
+      "back": "helfen Haltestelle."
+    },
+    {
+      "front": "statio calidus.",
+      "back": "Haltestelle ist warm."
+    },
+    {
+      "front": "loqui popina.",
+      "back": "sprechen Restaurant."
+    },
+    {
+      "front": "popina malus.",
+      "back": "Restaurant ist schlecht."
+    },
+    {
+      "front": "emere pistrina.",
+      "back": "kaufen Bäckerei."
+    },
+    {
+      "front": "pistrina celer.",
+      "back": "Bäckerei ist schnell."
+    },
+    {
+      "front": "loqui platea.",
+      "back": "sprechen Platz."
+    },
+    {
+      "front": "platea clausus.",
+      "back": "Platz ist geschlossen."
+    },
+    {
+      "front": "vehi labor.",
+      "back": "fahren Arbeit."
+    },
+    {
+      "front": "labor frigidus.",
+      "back": "Arbeit ist kalt."
+    },
+    {
+      "front": "ire mensa.",
+      "back": "gehen Tisch."
+    },
+    {
+      "front": "mensa tardus.",
+      "back": "Tisch ist langsam."
+    },
+    {
+      "front": "quaerere taberna.",
+      "back": "suchen Laden."
+    },
+    {
+      "front": "taberna calidus.",
+      "back": "Laden ist warm."
+    },
+    {
+      "front": "edere fenestra.",
+      "back": "essen Fenster."
+    },
+    {
+      "front": "fenestra pretiosus.",
+      "back": "Fenster ist teuer."
+    },
+    {
+      "front": "loqui cubiculum.",
+      "back": "sprechen Zimmer."
+    },
+    {
+      "front": "cubiculum mundus.",
+      "back": "Zimmer ist sauber."
+    },
+    {
+      "front": "ludere amicus.",
+      "back": "spielen Freund."
+    },
+    {
+      "front": "amicus magnus.",
+      "back": "Freund ist groß."
+    },
+    {
+      "front": "bibere nosocomium.",
+      "back": "trinken Krankenhaus."
+    },
+    {
+      "front": "nosocomium apertus.",
+      "back": "Krankenhaus ist offen."
+    },
+    {
+      "front": "ire forum.",
+      "back": "gehen Markt."
+    },
+    {
+      "front": "forum celer.",
+      "back": "Markt ist schnell."
+    },
+    {
+      "front": "laborare domus.",
+      "back": "arbeiten Haus."
+    },
+    {
+      "front": "domus calidus.",
+      "back": "Haus ist warm."
+    },
+    {
+      "front": "vehi mensa.",
+      "back": "fahren Tisch."
+    },
+    {
+      "front": "mensa tardus.",
+      "back": "Tisch ist langsam."
+    },
+    {
+      "front": "legere cafea.",
+      "back": "lesen Café."
+    },
+    {
+      "front": "cafea frigidus.",
+      "back": "Café ist kalt."
+    },
+    {
+      "front": "laborare sella.",
+      "back": "arbeiten Stuhl."
+    },
+    {
+      "front": "sella sordidus.",
+      "back": "Stuhl ist schmutzig."
+    },
+    {
+      "front": "bibere museum.",
+      "back": "trinken Museum."
+    },
+    {
+      "front": "museum celer.",
+      "back": "Museum ist schnell."
+    },
+    {
+      "front": "laborare labor.",
+      "back": "arbeiten Arbeit."
+    },
+    {
+      "front": "labor malus.",
+      "back": "Arbeit ist schlecht."
+    },
+    {
+      "front": "scribere mensa.",
+      "back": "schreiben Tisch."
+    },
+    {
+      "front": "mensa frigidus.",
+      "back": "Tisch ist kalt."
+    },
+    {
+      "front": "legere popina.",
+      "back": "lesen Restaurant."
+    },
+    {
+      "front": "popina vilis.",
+      "back": "Restaurant ist billig."
+    },
+    {
+      "front": "quaerere via.",
+      "back": "suchen Straße."
+    },
+    {
+      "front": "via clausus.",
+      "back": "Straße ist geschlossen."
+    },
+    {
+      "front": "laborare officium.",
+      "back": "arbeiten Büro."
+    },
+    {
+      "front": "officium celer.",
+      "back": "Büro ist schnell."
+    },
+    {
+      "front": "laborare aeroplanum portus.",
+      "back": "arbeiten Flughafen."
+    },
+    {
+      "front": "aeroplanum portus parvus.",
+      "back": "Flughafen ist klein."
+    },
+    {
+      "front": "ludere forum.",
+      "back": "spielen Markt."
+    },
+    {
+      "front": "forum magnus.",
+      "back": "Markt ist groß."
+    },
+    {
+      "front": "quaerere mensa.",
+      "back": "suchen Tisch."
+    },
+    {
+      "front": "mensa pretiosus.",
+      "back": "Tisch ist teuer."
+    },
+    {
+      "front": "bibere museum.",
+      "back": "trinken Museum."
+    },
+    {
+      "front": "museum mundus.",
+      "back": "Museum ist sauber."
+    },
+    {
+      "front": "ludere forum.",
+      "back": "spielen Markt."
+    },
+    {
+      "front": "forum apertus.",
+      "back": "Markt ist offen."
+    },
+    {
+      "front": "videre cubiculum.",
+      "back": "sehen Zimmer."
+    },
+    {
+      "front": "cubiculum apertus.",
+      "back": "Zimmer ist offen."
+    },
+    {
+      "front": "loqui popina.",
+      "back": "sprechen Restaurant."
+    },
+    {
+      "front": "popina sordidus.",
+      "back": "Restaurant ist schmutzig."
+    },
+    {
+      "front": "edere domus.",
+      "back": "essen Haus."
+    },
+    {
+      "front": "domus parvus.",
+      "back": "Haus ist klein."
+    },
+    {
+      "front": "ludere labor.",
+      "back": "spielen Arbeit."
+    },
+    {
+      "front": "labor apertus.",
+      "back": "Arbeit ist offen."
+    },
+    {
+      "front": "videre hortus.",
+      "back": "sehen Garten."
+    },
+    {
+      "front": "hortus vilis.",
+      "back": "Garten ist billig."
+    },
+    {
+      "front": "bibere labor.",
+      "back": "trinken Arbeit."
+    },
+    {
+      "front": "labor sordidus.",
+      "back": "Arbeit ist schmutzig."
+    },
+    {
+      "front": "scribere porta.",
+      "back": "schreiben Tür."
+    },
+    {
+      "front": "porta clausus.",
+      "back": "Tür ist geschlossen."
+    },
+    {
+      "front": "videre nosocomium.",
+      "back": "sehen Krankenhaus."
+    },
+    {
+      "front": "nosocomium frigidus.",
+      "back": "Krankenhaus ist kalt."
+    },
+    {
+      "front": "vehi statio ferriviaria.",
+      "back": "fahren Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria malus.",
+      "back": "Bahnhof ist schlecht."
+    },
+    {
+      "front": "loqui apotheca.",
+      "back": "sprechen Apotheke."
+    },
+    {
+      "front": "apotheca frigidus.",
+      "back": "Apotheke ist kalt."
+    },
+    {
+      "front": "edere officium.",
+      "back": "essen Büro."
+    },
+    {
+      "front": "officium magnus.",
+      "back": "Büro ist groß."
+    },
+    {
+      "front": "adiuvare statio ferriviaria.",
+      "back": "helfen Bahnhof."
+    },
+    {
+      "front": "statio ferriviaria sordidus.",
+      "back": "Bahnhof ist schmutzig."
+    },
+    {
+      "front": "videre officium.",
+      "back": "sehen Büro."
+    },
+    {
+      "front": "officium pretiosus.",
+      "back": "Büro ist teuer."
+    },
+    {
+      "front": "vehi cubiculum.",
+      "back": "fahren Zimmer."
+    },
+    {
+      "front": "cubiculum sordidus.",
+      "back": "Zimmer ist schmutzig."
+    },
+    {
+      "front": "bibere mensa.",
+      "back": "trinken Tisch."
+    },
+    {
+      "front": "mensa pulcher.",
+      "back": "Tisch ist schön."
+    },
+    {
+      "front": "edere forum.",
+      "back": "essen Markt."
+    },
+    {
+      "front": "forum malus.",
+      "back": "Markt ist schlecht."
+    },
+    {
+      "front": "quaerere cafea.",
+      "back": "suchen Café."
+    },
+    {
+      "front": "cafea vilis.",
+      "back": "Café ist billig."
+    },
+    {
+      "front": "laborare cubiculum.",
+      "back": "arbeiten Zimmer."
+    },
+    {
+      "front": "cubiculum malus.",
+      "back": "Zimmer ist schlecht."
+    },
+    {
+      "front": "videre fenestra.",
+      "back": "sehen Fenster."
+    },
+    {
+      "front": "fenestra vilis.",
+      "back": "Fenster ist billig."
+    },
+    {
+      "front": "discere fenestra.",
+      "back": "lernen Fenster."
+    },
+    {
+      "front": "fenestra magnus.",
+      "back": "Fenster ist groß."
+    },
+    {
+      "front": "bibere taberna.",
+      "back": "trinken Laden."
+    },
+    {
+      "front": "taberna vilis.",
+      "back": "Laden ist billig."
+    },
+    {
+      "front": "loqui cafea.",
+      "back": "sprechen Café."
+    },
+    {
+      "front": "cafea iucundus.",
+      "back": "Café ist angenehm."
+    },
+    {
+      "front": "videre pistrina.",
+      "back": "sehen Bäckerei."
+    },
+    {
+      "front": "pistrina pulcher.",
+      "back": "Bäckerei ist schön."
+    },
+    {
+      "front": "ludere amicus.",
+      "back": "spielen Freund."
+    },
+    {
+      "front": "amicus magnus.",
+      "back": "Freund ist groß."
+    },
+    {
+      "front": "bibere domus.",
+      "back": "trinken Haus."
+    },
+    {
+      "front": "domus frigidus.",
+      "back": "Haus ist kalt."
+    },
+    {
+      "front": "scribere hortus.",
+      "back": "schreiben Garten."
+    },
+    {
+      "front": "hortus magnus.",
+      "back": "Garten ist groß."
+    },
+    {
+      "front": "quaerere fenestra.",
+      "back": "suchen Fenster."
+    },
+    {
+      "front": "fenestra malus.",
+      "back": "Fenster ist schlecht."
+    },
+    {
+      "front": "ire statio.",
+      "back": "gehen Haltestelle."
+    },
+    {
+      "front": "statio tardus.",
+      "back": "Haltestelle ist langsam."
+    },
+    {
+      "front": "edere via.",
+      "back": "essen Straße."
+    },
+    {
+      "front": "via apertus.",
+      "back": "Straße ist offen."
+    },
+    {
+      "front": "adiuvare fenestra.",
+      "back": "helfen Fenster."
+    },
+    {
+      "front": "fenestra clausus.",
+      "back": "Fenster ist geschlossen."
+    },
+    {
+      "front": "ire sella.",
+      "back": "gehen Stuhl."
+    },
+    {
+      "front": "sella magnus.",
+      "back": "Stuhl ist groß."
+    },
+    {
+      "front": "edere officium.",
+      "back": "essen Büro."
+    },
+    {
+      "front": "officium frigidus.",
+      "back": "Büro ist kalt."
+    },
+    {
+      "front": "scribere apotheca.",
+      "back": "schreiben Apotheke."
+    },
+    {
+      "front": "apotheca clausus.",
+      "back": "Apotheke ist geschlossen."
+    },
+    {
+      "front": "loqui statio.",
+      "back": "sprechen Haltestelle."
+    },
+    {
+      "front": "statio parvus.",
+      "back": "Haltestelle ist klein."
+    },
+    {
+      "front": "discere forum.",
+      "back": "lernen Markt."
+    },
+    {
+      "front": "forum bonus.",
+      "back": "Markt ist gut."
+    },
+    {
+      "front": "dormire sella.",
+      "back": "schlafen Stuhl."
+    },
+    {
+      "front": "sella frigidus.",
+      "back": "Stuhl ist kalt."
+    },
+    {
+      "front": "legere mensa.",
+      "back": "lesen Tisch."
+    },
+    {
+      "front": "mensa mundus.",
+      "back": "Tisch ist sauber."
+    },
+    {
+      "front": "adiuvare cafea.",
+      "back": "helfen Café."
+    },
+    {
+      "front": "cafea celer.",
+      "back": "Café ist schnell."
+    },
+    {
+      "front": "quaerere officium.",
+      "back": "suchen Büro."
+    },
+    {
+      "front": "officium frigidus.",
+      "back": "Büro ist kalt."
+    },
+    {
+      "front": "videre officium.",
+      "back": "sehen Büro."
+    },
+    {
+      "front": "officium magnus.",
+      "back": "Büro ist groß."
+    },
+    {
+      "front": "emere pistrina.",
+      "back": "kaufen Bäckerei."
+    },
+    {
+      "front": "pistrina celer.",
+      "back": "Bäckerei ist schnell."
+    },
+    {
+      "front": "ludere hortus.",
+      "back": "spielen Garten."
+    },
+    {
+      "front": "hortus pretiosus.",
+      "back": "Garten ist teuer."
+    },
+    {
+      "front": "vehi cubiculum.",
+      "back": "fahren Zimmer."
+    },
+    {
+      "front": "cubiculum iucundus.",
+      "back": "Zimmer ist angenehm."
+    },
+    {
+      "front": "dormire fenestra.",
+      "back": "schlafen Fenster."
+    },
+    {
+      "front": "fenestra magnus.",
+      "back": "Fenster ist groß."
+    },
+    {
+      "front": "bibere labor.",
+      "back": "trinken Arbeit."
+    },
+    {
+      "front": "labor mundus.",
+      "back": "Arbeit ist sauber."
+    },
+    {
+      "front": "emere universitas.",
+      "back": "kaufen Universität."
+    },
+    {
+      "front": "universitas bonus.",
+      "back": "Universität ist gut."
+    },
+    {
+      "front": "adiuvare forum.",
+      "back": "helfen Markt."
+    },
+    {
+      "front": "forum clausus.",
+      "back": "Markt ist geschlossen."
+    },
+    {
+      "front": "loqui aeroplanum portus.",
+      "back": "sprechen Flughafen."
+    },
+    {
+      "front": "aeroplanum portus malus.",
+      "back": "Flughafen ist schlecht."
+    },
+    {
+      "front": "videre cubiculum.",
+      "back": "sehen Zimmer."
+    },
+    {
+      "front": "cubiculum apertus.",
+      "back": "Zimmer ist offen."
+    },
+    {
+      "front": "quaerere universitas.",
+      "back": "suchen Universität."
+    },
+    {
+      "front": "universitas calidus.",
+      "back": "Universität ist warm."
+    },
+    {
+      "front": "laborare apotheca.",
+      "back": "arbeiten Apotheke."
+    },
+    {
+      "front": "apotheca pretiosus.",
+      "back": "Apotheke ist teuer."
+    },
+    {
+      "front": "edere deversorium.",
+      "back": "essen Hotel."
+    },
+    {
+      "front": "deversorium frigidus.",
+      "back": "Hotel ist kalt."
+    },
+    {
+      "front": "intellegere taberna.",
+      "back": "verstehen Laden."
+    },
+    {
+      "front": "taberna tardus.",
+      "back": "Laden ist langsam."
+    },
+    {
+      "front": "edere domus.",
+      "back": "essen Haus."
+    },
+    {
+      "front": "domus frigidus.",
+      "back": "Haus ist kalt."
+    },
+    {
+      "front": "laborare apotheca.",
+      "back": "arbeiten Apotheke."
+    },
+    {
+      "front": "apotheca malus.",
+      "back": "Apotheke ist schlecht."
+    },
+    {
+      "front": "emere pistrina.",
+      "back": "kaufen Bäckerei."
+    },
+    {
+      "front": "pistrina tardus.",
+      "back": "Bäckerei ist langsam."
+    },
+    {
+      "front": "loqui pistrina.",
+      "back": "sprechen Bäckerei."
+    },
+    {
+      "front": "pistrina iucundus.",
+      "back": "Bäckerei ist angenehm."
+    },
+    {
+      "front": "vehi aeroplanum portus.",
+      "back": "fahren Flughafen."
+    },
+    {
+      "front": "aeroplanum portus pretiosus.",
+      "back": "Flughafen ist teuer."
+    },
+    {
+      "front": "legere porta.",
+      "back": "lesen Tür."
+    },
+    {
+      "front": "porta tardus.",
+      "back": "Tür ist langsam."
+    },
+    {
+      "front": "adiuvare cubiculum.",
+      "back": "helfen Zimmer."
+    },
+    {
+      "front": "cubiculum mundus.",
+      "back": "Zimmer ist sauber."
+    },
+    {
+      "front": "emere universitas.",
+      "back": "kaufen Universität."
+    },
+    {
+      "front": "universitas tardus.",
+      "back": "Universität ist langsam."
+    },
+    {
+      "front": "bibere cubiculum.",
+      "back": "trinken Zimmer."
+    },
+    {
+      "front": "cubiculum apertus.",
+      "back": "Zimmer ist offen."
+    },
+    {
+      "front": "quaerere labor.",
+      "back": "suchen Arbeit."
+    },
+    {
+      "front": "labor clausus.",
+      "back": "Arbeit ist geschlossen."
+    },
+    {
+      "front": "discere sella.",
+      "back": "lernen Stuhl."
+    },
+    {
+      "front": "sella frigidus.",
+      "back": "Stuhl ist kalt."
+    },
+    {
+      "front": "dormire domus.",
+      "back": "schlafen Haus."
+    },
+    {
+      "front": "domus magnus.",
+      "back": "Haus ist groß."
+    },
+    {
+      "front": "scribere fenestra.",
+      "back": "schreiben Fenster."
+    },
+    {
+      "front": "fenestra magnus.",
+      "back": "Fenster ist groß."
+    },
+    {
+      "front": "loqui mensa.",
+      "back": "sprechen Tisch."
+    },
+    {
+      "front": "mensa celer.",
+      "back": "Tisch ist schnell."
+    },
+    {
+      "front": "edere deversorium.",
+      "back": "essen Hotel."
+    },
+    {
+      "front": "deversorium frigidus.",
+      "back": "Hotel ist kalt."
+    },
+    {
+      "front": "edere popina.",
+      "back": "essen Restaurant."
+    },
+    {
+      "front": "popina calidus.",
+      "back": "Restaurant ist warm."
+    },
+    {
+      "front": "legere porta.",
+      "back": "lesen Tür."
+    },
+    {
+      "front": "porta magnus.",
+      "back": "Tür ist groß."
+    },
+    {
+      "front": "quaerere forum.",
+      "back": "suchen Markt."
+    },
+    {
+      "front": "forum mundus.",
+      "back": "Markt ist sauber."
+    },
+    {
+      "front": "ire taberna.",
+      "back": "gehen Laden."
+    },
+    {
+      "front": "taberna pretiosus.",
+      "back": "Laden ist teuer."
+    }
+  ]
+}

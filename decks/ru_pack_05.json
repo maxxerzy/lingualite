@@ -1,0 +1,808 @@
+{
+  "id": "ru-de-pack-05",
+  "name": "Russisch → Deutsch – Pack 05",
+  "src": "RU",
+  "tgt": "DE",
+  "cards": [
+    {
+      "front": "дверь дорогой.",
+      "back": "Tür ist teuer."
+    },
+    {
+      "front": "помогать друг.",
+      "back": "helfen Freund."
+    },
+    {
+      "front": "друг грязный.",
+      "back": "Freund ist schmutzig."
+    },
+    {
+      "front": "спать больница.",
+      "back": "schlafen Krankenhaus."
+    },
+    {
+      "front": "больница дешёвый.",
+      "back": "Krankenhaus ist billig."
+    },
+    {
+      "front": "ехать университет.",
+      "back": "fahren Universität."
+    },
+    {
+      "front": "университет чистый.",
+      "back": "Universität ist sauber."
+    },
+    {
+      "front": "читать аэропорт.",
+      "back": "lesen Flughafen."
+    },
+    {
+      "front": "аэропорт хороший.",
+      "back": "Flughafen ist gut."
+    },
+    {
+      "front": "помогать музей.",
+      "back": "helfen Museum."
+    },
+    {
+      "front": "музей закрытый.",
+      "back": "Museum ist geschlossen."
+    },
+    {
+      "front": "помогать школа.",
+      "back": "helfen Schule."
+    },
+    {
+      "front": "школа дорогой.",
+      "back": "Schule ist teuer."
+    },
+    {
+      "front": "ехать улица.",
+      "back": "fahren Straße."
+    },
+    {
+      "front": "улица открытый.",
+      "back": "Straße ist offen."
+    },
+    {
+      "front": "идти кафе.",
+      "back": "gehen Café."
+    },
+    {
+      "front": "кафе хороший.",
+      "back": "Café ist gut."
+    },
+    {
+      "front": "писать площадь.",
+      "back": "schreiben Platz."
+    },
+    {
+      "front": "площадь холодный.",
+      "back": "Platz ist kalt."
+    },
+    {
+      "front": "пить супермаркет.",
+      "back": "trinken Supermarkt."
+    },
+    {
+      "front": "супермаркет вкусный.",
+      "back": "Supermarkt ist lecker."
+    },
+    {
+      "front": "играть дом.",
+      "back": "spielen Haus."
+    },
+    {
+      "front": "дом дорогой.",
+      "back": "Haus ist teuer."
+    },
+    {
+      "front": "играть кафе.",
+      "back": "spielen Café."
+    },
+    {
+      "front": "кафе дешёвый.",
+      "back": "Café ist billig."
+    },
+    {
+      "front": "говорить пекарня.",
+      "back": "sprechen Bäckerei."
+    },
+    {
+      "front": "пекарня дешёвый.",
+      "back": "Bäckerei ist billig."
+    },
+    {
+      "front": "работать школа.",
+      "back": "arbeiten Schule."
+    },
+    {
+      "front": "школа дешёвый.",
+      "back": "Schule ist billig."
+    },
+    {
+      "front": "играть площадь.",
+      "back": "spielen Platz."
+    },
+    {
+      "front": "площадь чистый.",
+      "back": "Platz ist sauber."
+    },
+    {
+      "front": "искать аэропорт.",
+      "back": "suchen Flughafen."
+    },
+    {
+      "front": "аэропорт плохой.",
+      "back": "Flughafen ist schlecht."
+    },
+    {
+      "front": "читать аптека.",
+      "back": "lesen Apotheke."
+    },
+    {
+      "front": "аптека быстрый.",
+      "back": "Apotheke ist schnell."
+    },
+    {
+      "front": "идти кафе.",
+      "back": "gehen Café."
+    },
+    {
+      "front": "кафе дорогой.",
+      "back": "Café ist teuer."
+    },
+    {
+      "front": "помогать комната.",
+      "back": "helfen Zimmer."
+    },
+    {
+      "front": "комната открытый.",
+      "back": "Zimmer ist offen."
+    },
+    {
+      "front": "видеть площадь.",
+      "back": "sehen Platz."
+    },
+    {
+      "front": "площадь большой.",
+      "back": "Platz ist groß."
+    },
+    {
+      "front": "говорить больница.",
+      "back": "sprechen Krankenhaus."
+    },
+    {
+      "front": "больница грязный.",
+      "back": "Krankenhaus ist schmutzig."
+    },
+    {
+      "front": "писать университет.",
+      "back": "schreiben Universität."
+    },
+    {
+      "front": "университет тихий.",
+      "back": "Universität ist leise."
+    },
+    {
+      "front": "искать отель.",
+      "back": "suchen Hotel."
+    },
+    {
+      "front": "отель плохой.",
+      "back": "Hotel ist schlecht."
+    },
+    {
+      "front": "помогать квартира.",
+      "back": "helfen Wohnung."
+    },
+    {
+      "front": "квартира дорогой.",
+      "back": "Wohnung ist teuer."
+    },
+    {
+      "front": "читать супермаркет.",
+      "back": "lesen Supermarkt."
+    },
+    {
+      "front": "супермаркет вкусный.",
+      "back": "Supermarkt ist lecker."
+    },
+    {
+      "front": "искать стол.",
+      "back": "suchen Tisch."
+    },
+    {
+      "front": "стол плохой.",
+      "back": "Tisch ist schlecht."
+    },
+    {
+      "front": "ехать улица.",
+      "back": "fahren Straße."
+    },
+    {
+      "front": "улица дорогой.",
+      "back": "Straße ist teuer."
+    },
+    {
+      "front": "помогать дверь.",
+      "back": "helfen Tür."
+    },
+    {
+      "front": "дверь хороший.",
+      "back": "Tür ist gut."
+    },
+    {
+      "front": "покупать музей.",
+      "back": "kaufen Museum."
+    },
+    {
+      "front": "музей большой.",
+      "back": "Museum ist groß."
+    },
+    {
+      "front": "искать вокзал.",
+      "back": "suchen Bahnhof."
+    },
+    {
+      "front": "вокзал тихий.",
+      "back": "Bahnhof ist leise."
+    },
+    {
+      "front": "искать площадь.",
+      "back": "suchen Platz."
+    },
+    {
+      "front": "площадь медленный.",
+      "back": "Platz ist langsam."
+    },
+    {
+      "front": "понимать площадь.",
+      "back": "verstehen Platz."
+    },
+    {
+      "front": "площадь холодный.",
+      "back": "Platz ist kalt."
+    },
+    {
+      "front": "спать кафе.",
+      "back": "schlafen Café."
+    },
+    {
+      "front": "кафе красивый.",
+      "back": "Café ist schön."
+    },
+    {
+      "front": "понимать вокзал.",
+      "back": "verstehen Bahnhof."
+    },
+    {
+      "front": "вокзал красивый.",
+      "back": "Bahnhof ist schön."
+    },
+    {
+      "front": "понимать квартира.",
+      "back": "verstehen Wohnung."
+    },
+    {
+      "front": "квартира медленный.",
+      "back": "Wohnung ist langsam."
+    },
+    {
+      "front": "искать университет.",
+      "back": "suchen Universität."
+    },
+    {
+      "front": "университет медленный.",
+      "back": "Universität ist langsam."
+    },
+    {
+      "front": "спать стул.",
+      "back": "schlafen Stuhl."
+    },
+    {
+      "front": "стул холодный.",
+      "back": "Stuhl ist kalt."
+    },
+    {
+      "front": "помогать стул.",
+      "back": "helfen Stuhl."
+    },
+    {
+      "front": "стул дорогой.",
+      "back": "Stuhl ist teuer."
+    },
+    {
+      "front": "ехать комната.",
+      "back": "fahren Zimmer."
+    },
+    {
+      "front": "комната вкусный.",
+      "back": "Zimmer ist lecker."
+    },
+    {
+      "front": "учить больница.",
+      "back": "lernen Krankenhaus."
+    },
+    {
+      "front": "больница открытый.",
+      "back": "Krankenhaus ist offen."
+    },
+    {
+      "front": "есть квартира.",
+      "back": "essen Wohnung."
+    },
+    {
+      "front": "квартира тёплый.",
+      "back": "Wohnung ist warm."
+    },
+    {
+      "front": "пить улица.",
+      "back": "trinken Straße."
+    },
+    {
+      "front": "улица чистый.",
+      "back": "Straße ist sauber."
+    },
+    {
+      "front": "идти отель.",
+      "back": "gehen Hotel."
+    },
+    {
+      "front": "отель маленький.",
+      "back": "Hotel ist klein."
+    },
+    {
+      "front": "понимать окно.",
+      "back": "verstehen Fenster."
+    },
+    {
+      "front": "окно медленный.",
+      "back": "Fenster ist langsam."
+    },
+    {
+      "front": "читать площадь.",
+      "back": "lesen Platz."
+    },
+    {
+      "front": "площадь вкусный.",
+      "back": "Platz ist lecker."
+    },
+    {
+      "front": "видеть супермаркет.",
+      "back": "sehen Supermarkt."
+    },
+    {
+      "front": "супермаркет красивый.",
+      "back": "Supermarkt ist schön."
+    },
+    {
+      "front": "идти остановка.",
+      "back": "gehen Haltestelle."
+    },
+    {
+      "front": "остановка медленный.",
+      "back": "Haltestelle ist langsam."
+    },
+    {
+      "front": "играть пекарня.",
+      "back": "spielen Bäckerei."
+    },
+    {
+      "front": "пекарня закрытый.",
+      "back": "Bäckerei ist geschlossen."
+    },
+    {
+      "front": "ехать больница.",
+      "back": "fahren Krankenhaus."
+    },
+    {
+      "front": "больница дешёвый.",
+      "back": "Krankenhaus ist billig."
+    },
+    {
+      "front": "искать супермаркет.",
+      "back": "suchen Supermarkt."
+    },
+    {
+      "front": "супермаркет громкий.",
+      "back": "Supermarkt ist laut."
+    },
+    {
+      "front": "работать комната.",
+      "back": "arbeiten Zimmer."
+    },
+    {
+      "front": "комната дорогой.",
+      "back": "Zimmer ist teuer."
+    },
+    {
+      "front": "читать площадь.",
+      "back": "lesen Platz."
+    },
+    {
+      "front": "площадь плохой.",
+      "back": "Platz ist schlecht."
+    },
+    {
+      "front": "ехать парк.",
+      "back": "fahren Park."
+    },
+    {
+      "front": "парк чистый.",
+      "back": "Park ist sauber."
+    },
+    {
+      "front": "искать парк.",
+      "back": "suchen Park."
+    },
+    {
+      "front": "парк красивый.",
+      "back": "Park ist schön."
+    },
+    {
+      "front": "идти дверь.",
+      "back": "gehen Tür."
+    },
+    {
+      "front": "дверь хороший.",
+      "back": "Tür ist gut."
+    },
+    {
+      "front": "помогать дверь.",
+      "back": "helfen Tür."
+    },
+    {
+      "front": "дверь дешёвый.",
+      "back": "Tür ist billig."
+    },
+    {
+      "front": "работать улица.",
+      "back": "arbeiten Straße."
+    },
+    {
+      "front": "улица быстрый.",
+      "back": "Straße ist schnell."
+    },
+    {
+      "front": "читать школа.",
+      "back": "lesen Schule."
+    },
+    {
+      "front": "школа дорогой.",
+      "back": "Schule ist teuer."
+    },
+    {
+      "front": "спать остановка.",
+      "back": "schlafen Haltestelle."
+    },
+    {
+      "front": "остановка чистый.",
+      "back": "Haltestelle ist sauber."
+    },
+    {
+      "front": "понимать отель.",
+      "back": "verstehen Hotel."
+    },
+    {
+      "front": "отель хороший.",
+      "back": "Hotel ist gut."
+    },
+    {
+      "front": "помогать комната.",
+      "back": "helfen Zimmer."
+    },
+    {
+      "front": "комната дешёвый.",
+      "back": "Zimmer ist billig."
+    },
+    {
+      "front": "пить школа.",
+      "back": "trinken Schule."
+    },
+    {
+      "front": "школа закрытый.",
+      "back": "Schule ist geschlossen."
+    },
+    {
+      "front": "идти офис.",
+      "back": "gehen Büro."
+    },
+    {
+      "front": "офис красивый.",
+      "back": "Büro ist schön."
+    },
+    {
+      "front": "спать парк.",
+      "back": "schlafen Park."
+    },
+    {
+      "front": "парк чистый.",
+      "back": "Park ist sauber."
+    },
+    {
+      "front": "покупать аэропорт.",
+      "back": "kaufen Flughafen."
+    },
+    {
+      "front": "аэропорт тихий.",
+      "back": "Flughafen ist leise."
+    },
+    {
+      "front": "спать работа.",
+      "back": "schlafen Arbeit."
+    },
+    {
+      "front": "работа дешёвый.",
+      "back": "Arbeit ist billig."
+    },
+    {
+      "front": "читать друг.",
+      "back": "lesen Freund."
+    },
+    {
+      "front": "друг дешёвый.",
+      "back": "Freund ist billig."
+    },
+    {
+      "front": "помогать офис.",
+      "back": "helfen Büro."
+    },
+    {
+      "front": "офис тёплый.",
+      "back": "Büro ist warm."
+    },
+    {
+      "front": "пить аэропорт.",
+      "back": "trinken Flughafen."
+    },
+    {
+      "front": "аэропорт дешёвый.",
+      "back": "Flughafen ist billig."
+    },
+    {
+      "front": "читать ресторан.",
+      "back": "lesen Restaurant."
+    },
+    {
+      "front": "ресторан холодный.",
+      "back": "Restaurant ist kalt."
+    },
+    {
+      "front": "писать ресторан.",
+      "back": "schreiben Restaurant."
+    },
+    {
+      "front": "ресторан маленький.",
+      "back": "Restaurant ist klein."
+    },
+    {
+      "front": "искать дом.",
+      "back": "suchen Haus."
+    },
+    {
+      "front": "дом хороший.",
+      "back": "Haus ist gut."
+    },
+    {
+      "front": "пить улица.",
+      "back": "trinken Straße."
+    },
+    {
+      "front": "улица чистый.",
+      "back": "Straße ist sauber."
+    },
+    {
+      "front": "говорить комната.",
+      "back": "sprechen Zimmer."
+    },
+    {
+      "front": "комната маленький.",
+      "back": "Zimmer ist klein."
+    },
+    {
+      "front": "идти стул.",
+      "back": "gehen Stuhl."
+    },
+    {
+      "front": "стул красивый.",
+      "back": "Stuhl ist schön."
+    },
+    {
+      "front": "помогать университет.",
+      "back": "helfen Universität."
+    },
+    {
+      "front": "университет красивый.",
+      "back": "Universität ist schön."
+    },
+    {
+      "front": "помогать ресторан.",
+      "back": "helfen Restaurant."
+    },
+    {
+      "front": "ресторан открытый.",
+      "back": "Restaurant ist offen."
+    },
+    {
+      "front": "пить дом.",
+      "back": "trinken Haus."
+    },
+    {
+      "front": "дом большой.",
+      "back": "Haus ist groß."
+    },
+    {
+      "front": "понимать вокзал.",
+      "back": "verstehen Bahnhof."
+    },
+    {
+      "front": "вокзал закрытый.",
+      "back": "Bahnhof ist geschlossen."
+    },
+    {
+      "front": "работать офис.",
+      "back": "arbeiten Büro."
+    },
+    {
+      "front": "офис дешёвый.",
+      "back": "Büro ist billig."
+    },
+    {
+      "front": "искать отель.",
+      "back": "suchen Hotel."
+    },
+    {
+      "front": "отель закрытый.",
+      "back": "Hotel ist geschlossen."
+    },
+    {
+      "front": "помогать остановка.",
+      "back": "helfen Haltestelle."
+    },
+    {
+      "front": "остановка маленький.",
+      "back": "Haltestelle ist klein."
+    },
+    {
+      "front": "учить магазин.",
+      "back": "lernen Laden."
+    },
+    {
+      "front": "магазин открытый.",
+      "back": "Laden ist offen."
+    },
+    {
+      "front": "ехать комната.",
+      "back": "fahren Zimmer."
+    },
+    {
+      "front": "комната большой.",
+      "back": "Zimmer ist groß."
+    },
+    {
+      "front": "писать стул.",
+      "back": "schreiben Stuhl."
+    },
+    {
+      "front": "стул усталый.",
+      "back": "Stuhl ist müde."
+    },
+    {
+      "front": "помогать аэропорт.",
+      "back": "helfen Flughafen."
+    },
+    {
+      "front": "аэропорт тихий.",
+      "back": "Flughafen ist leise."
+    },
+    {
+      "front": "помогать стул.",
+      "back": "helfen Stuhl."
+    },
+    {
+      "front": "стул вкусный.",
+      "back": "Stuhl ist lecker."
+    },
+    {
+      "front": "говорить школа.",
+      "back": "sprechen Schule."
+    },
+    {
+      "front": "школа большой.",
+      "back": "Schule ist groß."
+    },
+    {
+      "front": "видеть университет.",
+      "back": "sehen Universität."
+    },
+    {
+      "front": "университет маленький.",
+      "back": "Universität ist klein."
+    },
+    {
+      "front": "помогать школа.",
+      "back": "helfen Schule."
+    },
+    {
+      "front": "школа хороший.",
+      "back": "Schule ist gut."
+    },
+    {
+      "front": "играть парк.",
+      "back": "spielen Park."
+    },
+    {
+      "front": "парк тёплый.",
+      "back": "Park ist warm."
+    },
+    {
+      "front": "учить больница.",
+      "back": "lernen Krankenhaus."
+    },
+    {
+      "front": "больница вкусный.",
+      "back": "Krankenhaus ist lecker."
+    },
+    {
+      "front": "видеть вокзал.",
+      "back": "sehen Bahnhof."
+    },
+    {
+      "front": "вокзал хороший.",
+      "back": "Bahnhof ist gut."
+    },
+    {
+      "front": "покупать кафе.",
+      "back": "kaufen Café."
+    },
+    {
+      "front": "кафе быстрый.",
+      "back": "Café ist schnell."
+    },
+    {
+      "front": "спать комната.",
+      "back": "schlafen Zimmer."
+    },
+    {
+      "front": "комната вкусный.",
+      "back": "Zimmer ist lecker."
+    },
+    {
+      "front": "идти больница.",
+      "back": "gehen Krankenhaus."
+    },
+    {
+      "front": "больница открытый.",
+      "back": "Krankenhaus ist offen."
+    },
+    {
+      "front": "понимать улица.",
+      "back": "verstehen Straße."
+    },
+    {
+      "front": "улица тихий.",
+      "back": "Straße ist leise."
+    },
+    {
+      "front": "искать магазин.",
+      "back": "suchen Laden."
+    },
+    {
+      "front": "магазин плохой.",
+      "back": "Laden ist schlecht."
+    },
+    {
+      "front": "пить комната.",
+      "back": "trinken Zimmer."
+    },
+    {
+      "front": "комната маленький.",
+      "back": "Zimmer ist klein."
+    },
+    {
+      "front": "искать стол.",
+      "back": "suchen Tisch."
+    }
+  ]
+}
