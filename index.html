@@ -1,75 +1,87 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lingualite</title>
-  <link rel="stylesheet" href="style.css?v=37">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
-  <meta http-equiv="Pragma" content="no-cache"/>
-  <meta http-equiv="Expires" content="0"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lingualite – Modular 2000</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="app-container">
     <header class="topbar">
-      <h1>Lingualite</h1>
-      <div class="meters">
-        <div id="scoreBox">Punkte: 0</div>
-        <div id="deckElo">Deck‑Elo: —</div>
-      </div>
+      <h1>Lingualite – Sprachen lernen</h1>
+      <nav class="nav">
+        <button type="button" data-view="learn">Lernen</button>
+        <button type="button" data-view="decks">Decks</button>
+        <button type="button" data-view="settings" class="icon-btn" title="Einstellungen">
+          <img src="settings.png" alt="Einstellungen">
+        </button>
+      </nav>
     </header>
 
-    <nav>
-      <button type="button" onclick="showSection('decks')"><i>Decks</i></button>
-      <button type="button" class="icon-btn" onclick="showSection('import')" title="Import/Export">
-        <img src="settings.svg" alt="Einstellungen">
-      </button>
-      <button type="button" class="danger outline" onclick="resetAll()">🔁 Reset</button>
-    </nav>
-
-    <section id="decks" class="section">
-      <h2><i>Decks</i></h2>
-      <div id="deckList" class="deckList"></div>
-      <div class="decks-footer">
-        <button type="button" id="learnBtn" class="primary go hidden" onclick="showSection('learn')">Lernen</button>
-      </div>
-      <div id="deckError" class="errorBox" style="display:none"></div>
-    </section>
-
-    <section id="learn" class="section hidden">
-      <h2>Lernen</h2>
-      <div class="learn-controls">
-        <label for="modeSelect">Modus wählen:</label>
-        <div class="select-wrap">
-          <select id="modeSelect" class="pretty-select" aria-label="Modus wählen">
-            <option value="flashcards">Flashcards</option>
-            <option value="multiple">Multiple Choice</option>
-            <option value="sentence">Satzpuzzle</option>
-          </select>
-          <svg class="select-caret" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-            <path d="M6 9l6 6 6-6" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
+    <main>
+      <section id="view-learn" class="view">
+        <div class="panel">
+          <div class="row">
+            <label>Deck</label>
+            <select id="deckSelect" class="input"></select>
+            <label>Modus</label>
+            <select id="modeSelect" class="input">
+              <option value="flashcards">Flashcards</option>
+              <option value="multiple">Multiple Choice</option>
+              <option value="sentence">Satzpuzzle</option>
+            </select>
+            <button type="button" id="startBtn" class="btn primary">Session starten</button>
+          </div>
+          <div id="learnArea" class="card"></div>
         </div>
-        <button type="button" class="primary go" id="startBtn">Session starten</button>
-      </div>
-      <div id="learningArea" aria-live="polite"></div>
-    </section>
+      </section>
 
-    <section id="import" class="section hidden">
-      <h2>Import/Export & Zurücksetzen</h2>
-      <div class="row">
-        <button type="button" id="reloadBtn">Decks aus Datei neu laden</button>
-      </div>
-      <input type="file" id="importFile">
-      <textarea id="importText" placeholder="front;back;example"></textarea>
-      <div class="row">
-        <button type="button" id="importTextBtn">Text importieren</button>
-        <button type="button" id="exportBtn">Decks exportieren</button>
-      </div>
-      <hr>
-      <button type="button" id="resetApp" class="danger">🔁 Alles zurücksetzen</button>
-    </section>
+      <section id="view-decks" class="view hidden">
+        <div class="panel">
+          <h2>Verfügbare Decks</h2>
+          <ul id="deckList" class="list"></ul>
+        </div>
+      </section>
+
+      <section id="view-settings" class="view hidden">
+        <div class="grid2">
+          <div class="panel">
+            <h2>Import/Export</h2>
+            <div class="row">
+              <input type="file" id="importFile" accept="application/json">
+              <button type="button" id="importBtn" class="btn">Importieren</button>
+              <button type="button" id="exportBtn" class="btn">Exportieren</button>
+            </div>
+            <details>
+              <summary>Deck-Schema</summary>
+              <pre class="code" id="schemaBox"></pre>
+            </details>
+          </div>
+          <div class="panel">
+            <h2>Planung & Zurücksetzen</h2>
+            <div class="row">
+              <label for="maxNew">Neue Karten/Session</label>
+              <input id="maxNew" class="input" type="number" min="0" max="200" step="5">
+              <label><input id="onlyDue" type="checkbox"> Nur fällige Karten zeigen</label>
+            </div>
+            <div class="row">
+              <button type="button" id="saveSettings" class="btn primary">Einstellungen speichern</button>
+            </div>
+            <hr>
+            <div class="row">
+              <button type="button" id="resetProgress" class="btn">Nur Fortschritt löschen</button>
+              <button type="button" id="resetAll" class="btn danger">⚠️ Alles löschen</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </div>
-  <script src="app.js?v=39"></script>
+
+  <script src="core/store.js"></script>
+  <script src="core/loader.js"></script>
+  <script src="ui/components.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>

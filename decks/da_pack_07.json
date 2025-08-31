@@ -1,0 +1,1608 @@
+{
+  "id": "da-de-pack-07",
+  "name": "Dänisch – Pack 07",
+  "src": "DE",
+  "tgt": "DA",
+  "cards": [
+    {
+      "front": "Das Küche ist schmutzig.",
+      "back": "Det køkken er beskidt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fensterplatz ist laut.",
+      "back": "Det vinduesplads er høj.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Nudeln ist billig.",
+      "back": "Det pasta er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Mutter ist freundlich.",
+      "back": "Det mor er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bett ist sauber.",
+      "back": "Det seng er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bett ist müde.",
+      "back": "Det seng er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wasser ist sauber.",
+      "back": "Det vand er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Sitzplatz ist lecker.",
+      "back": "Det sæde er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fahrrad ist geschlossen.",
+      "back": "Det cykel er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fisch ist groß.",
+      "back": "Det fisk er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Freund ist langsam.",
+      "back": "Det ven er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Rücken ist lecker.",
+      "back": "Det ryg er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tag ist warm.",
+      "back": "Det dag er varm.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Zug ist schön.",
+      "back": "Det tog er smuk.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Familie ist lecker.",
+      "back": "Det familie er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Suppe ist kalt.",
+      "back": "Det suppe er kold.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kreditkarte ist schmutzig.",
+      "back": "Det kreditkort er beskidt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Apfel ist billig.",
+      "back": "Det æble er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Straße ist laut.",
+      "back": "Det gade er høj.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bahnhof ist laut.",
+      "back": "Det banegård er høj.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Schule ist hungrig.",
+      "back": "Det skole er sulten.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Schule ist gut.",
+      "back": "Det skole er god.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Regenschirm ist müde.",
+      "back": "Det paraply er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Park ist schön.",
+      "back": "Det park er smuk.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wasser ist laut.",
+      "back": "Det vand er høj.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tasche ist müde.",
+      "back": "Det taske er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Brille ist durstig.",
+      "back": "Det briller er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Milch ist leise.",
+      "back": "Det mælk er lav.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das E-Mail ist schmutzig.",
+      "back": "Det e-mail er beskidt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Regenschirm ist lecker.",
+      "back": "Det paraply er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Brille ist billig.",
+      "back": "Det briller er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fuß ist langsam.",
+      "back": "Det fod er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wohnung ist freundlich.",
+      "back": "Det lejlighed er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Brötchen ist leise.",
+      "back": "Det bolle er lav.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bett ist müde.",
+      "back": "Det seng er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Adresse ist durstig.",
+      "back": "Det adresse er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Zahnarzt ist müde.",
+      "back": "Det tandlæge er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bus ist neu.",
+      "back": "Det bus er ny.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Minute ist klein.",
+      "back": "Det minut er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Sitzplatz ist freundlich.",
+      "back": "Det sæde er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Woche ist schlecht.",
+      "back": "Det uge er dårlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Arbeit ist sauber.",
+      "back": "Det arbejde er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bier ist laut.",
+      "back": "Det øl er høj.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Flughafen ist durstig.",
+      "back": "Det lufthavn er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kartoffel ist groß.",
+      "back": "Det kartoffel er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fensterplatz ist lecker.",
+      "back": "Det vinduesplads er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Krankenhaus ist durstig.",
+      "back": "Det hospital er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Restaurant ist alt.",
+      "back": "Det restaurant er gammel.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Suppe ist neu.",
+      "back": "Det suppe er ny.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Jacke ist geschlossen.",
+      "back": "Det jakke er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Ticketautomat ist langsam.",
+      "back": "Det billetautomat er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kinder ist offen.",
+      "back": "Det børn er åben.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fensterplatz ist schön.",
+      "back": "Det vinduesplads er smuk.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Regenschirm ist alt.",
+      "back": "Det paraply er gammel.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bett ist schmutzig.",
+      "back": "Det seng er beskidt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Hose ist lecker.",
+      "back": "Det bukser er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das E-Mail ist schnell.",
+      "back": "Det e-mail er hurtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Hemd ist klein.",
+      "back": "Det skjorte er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Mutter ist groß.",
+      "back": "Det mor er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Nudeln ist wichtig.",
+      "back": "Det pasta er vigtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wohnung ist müde.",
+      "back": "Det lejlighed er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fahrplan ist müde.",
+      "back": "Det køreplan er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Park ist geschlossen.",
+      "back": "Det park er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Flughafen ist groß.",
+      "back": "Det lufthavn er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Schuhe ist kalt.",
+      "back": "Det sko er kold.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wasser ist schön.",
+      "back": "Det vand er smuk.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Arzt ist klein.",
+      "back": "Det læge er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Familie ist langsam.",
+      "back": "Det familie er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fahrrad ist durstig.",
+      "back": "Det cykel er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fahrrad ist schön.",
+      "back": "Det cykel er smuk.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bauch ist kalt.",
+      "back": "Det mave er kold.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Mantel ist freundlich.",
+      "back": "Det frakke er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Haltestelle ist klein.",
+      "back": "Det stoppested er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fahrrad ist billig.",
+      "back": "Det cykel er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Vater ist gut.",
+      "back": "Det far er god.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Stunde ist geschlossen.",
+      "back": "Det time er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Krankenhaus ist leise.",
+      "back": "Det hospital er lav.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wohnung ist freundlich.",
+      "back": "Det lejlighed er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Zucker ist freundlich.",
+      "back": "Det sukker er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Mantel ist sauber.",
+      "back": "Det frakke er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fensterplatz ist hungrig.",
+      "back": "Det vinduesplads er sulten.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Universität ist freundlich.",
+      "back": "Det universitet er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Hotel ist klein.",
+      "back": "Det hotel er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Reis ist schlecht.",
+      "back": "Det ris er dårlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bier ist lecker.",
+      "back": "Det øl er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tochter ist klein.",
+      "back": "Det datter er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Obst ist billig.",
+      "back": "Det frugt er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Gleis ist geschlossen.",
+      "back": "Det perron er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Reis ist kalt.",
+      "back": "Det ris er kold.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Familie ist langsam.",
+      "back": "Det familie er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Auto ist durstig.",
+      "back": "Det bil er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Taxi ist geschlossen.",
+      "back": "Det taxa er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Restaurant ist laut.",
+      "back": "Det restaurant er høj.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das E-Mail ist durstig.",
+      "back": "Det e-mail er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fleisch ist warm.",
+      "back": "Det kød er varm.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Monat ist klein.",
+      "back": "Det måned er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Regenschirm ist schmutzig.",
+      "back": "Det paraply er beskidt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Uhr ist warm.",
+      "back": "Det ur er varm.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tür ist schlecht.",
+      "back": "Det dør er dårlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Zug ist langsam.",
+      "back": "Det tog er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Haus ist sauber.",
+      "back": "Det hus er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Freund ist billig.",
+      "back": "Det ven er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kreditkarte ist langsam.",
+      "back": "Det kreditkort er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Obst ist müde.",
+      "back": "Det frugt er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Haltestelle ist geschlossen.",
+      "back": "Det stoppested er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Sitzplatz ist freundlich.",
+      "back": "Det sæde er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bahnhof ist schlecht.",
+      "back": "Det banegård er dårlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Park ist schön.",
+      "back": "Det park er smuk.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Brötchen ist klein.",
+      "back": "Det bolle er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Geld ist sauber.",
+      "back": "Det penge er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Gemüse ist müde.",
+      "back": "Det grøntsager er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Haus ist freundlich.",
+      "back": "Det hus er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tag ist leise.",
+      "back": "Det dag er lav.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kaffee ist schlecht.",
+      "back": "Det kaffe er dårlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Jacke ist schnell.",
+      "back": "Det jakke er hurtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bad ist neu.",
+      "back": "Det badeværelse er ny.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Jacke ist laut.",
+      "back": "Det jakke er høj.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Salat ist groß.",
+      "back": "Det salat er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Regenschirm ist wichtig.",
+      "back": "Det paraply er vigtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Medikament ist teuer.",
+      "back": "Det medicin er dyr.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Rücken ist teuer.",
+      "back": "Det ryg er dyr.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kleid ist billig.",
+      "back": "Det kjole er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Apotheke ist wichtig.",
+      "back": "Det apotek er vigtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Nudeln ist leise.",
+      "back": "Det pasta er lav.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Brot ist schön.",
+      "back": "Det brød er smuk.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kreditkarte ist neu.",
+      "back": "Det kreditkort er ny.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kartoffel ist geschlossen.",
+      "back": "Det kartoffel er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bett ist alt.",
+      "back": "Det seng er gammel.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Banane ist müde.",
+      "back": "Det banan er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tasche ist gut.",
+      "back": "Det taske er god.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kartoffel ist gut.",
+      "back": "Det kartoffel er god.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bahnhof ist billig.",
+      "back": "Det banegård er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Rücken ist schnell.",
+      "back": "Det ryg er hurtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kaffee ist alt.",
+      "back": "Det kaffe er gammel.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tisch ist schlecht.",
+      "back": "Det bord er dårlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kartoffel ist durstig.",
+      "back": "Det kartoffel er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Restaurant ist offen.",
+      "back": "Det restaurant er åben.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Banane ist durstig.",
+      "back": "Det banan er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Zucker ist schmutzig.",
+      "back": "Det sukker er beskidt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Freundin ist wichtig.",
+      "back": "Det veninde er vigtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Flughafen ist offen.",
+      "back": "Det lufthavn er åben.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Rücken ist klein.",
+      "back": "Det ryg er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Freundin ist offen.",
+      "back": "Det veninde er åben.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wohnung ist leise.",
+      "back": "Det lejlighed er lav.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wein ist durstig.",
+      "back": "Det vin er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Jacke ist müde.",
+      "back": "Det jakke er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kind ist lecker.",
+      "back": "Det barn er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Familie ist freundlich.",
+      "back": "Det familie er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tee ist schlecht.",
+      "back": "Det te er dårlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Eltern ist kalt.",
+      "back": "Det forældre er kold.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Café ist müde.",
+      "back": "Det café er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Apfel ist schmutzig.",
+      "back": "Det æble er beskidt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Karte ist sauber.",
+      "back": "Det kort er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Salz ist groß.",
+      "back": "Det salt er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Krankenhaus ist leise.",
+      "back": "Det hospital er lav.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Nudeln ist groß.",
+      "back": "Det pasta er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kartoffel ist schön.",
+      "back": "Det kartoffel er smuk.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Stunde ist freundlich.",
+      "back": "Det time er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bauch ist geschlossen.",
+      "back": "Det mave er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Karte ist schnell.",
+      "back": "Det kort er hurtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Straße ist leise.",
+      "back": "Det gade er lav.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kinder ist lecker.",
+      "back": "Det børn er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Familie ist offen.",
+      "back": "Det familie er åben.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fuß ist warm.",
+      "back": "Det fod er varm.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Obst ist hungrig.",
+      "back": "Det frugt er sulten.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Banane ist freundlich.",
+      "back": "Det banan er venlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Monat ist wichtig.",
+      "back": "Det måned er vigtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Medikament ist durstig.",
+      "back": "Det medicin er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Tasche ist teuer.",
+      "back": "Det taske er dyr.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Laden ist sauber.",
+      "back": "Det butik er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Gleis ist billig.",
+      "back": "Det perron er billig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Hotel ist schnell.",
+      "back": "Det hotel er hurtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Mantel ist sauber.",
+      "back": "Det frakke er ren.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Museum ist warm.",
+      "back": "Det museum er varm.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Telefon ist klein.",
+      "back": "Det telefon er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Büro ist warm.",
+      "back": "Det kontor er varm.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Büro ist müde.",
+      "back": "Det kontor er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bett ist langsam.",
+      "back": "Det seng er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Fleisch ist müde.",
+      "back": "Det kød er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Vater ist groß.",
+      "back": "Det far er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Gemüse ist groß.",
+      "back": "Det grøntsager er stor.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Gemüse ist warm.",
+      "back": "Det grøntsager er varm.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Obst ist durstig.",
+      "back": "Det frugt er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Computer ist langsam.",
+      "back": "Det computer er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Hose ist neu.",
+      "back": "Det bukser er ny.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Termin ist schlecht.",
+      "back": "Det aftale er dårlig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Rücken ist geschlossen.",
+      "back": "Det ryg er lukket.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Termin ist schnell.",
+      "back": "Det aftale er hurtig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Auto ist klein.",
+      "back": "Det bil er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Hotel ist langsam.",
+      "back": "Det hotel er langsom.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Rucksack ist müde.",
+      "back": "Det rygsæk er træt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Adresse ist warm.",
+      "back": "Det adresse er varm.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Rucksack ist durstig.",
+      "back": "Det rygsæk er tørstig.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Milch ist lecker.",
+      "back": "Det mælk er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Hand ist lecker.",
+      "back": "Det hånd er lækker.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Bahnhof ist klein.",
+      "back": "Det banegård er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Kopf ist offen.",
+      "back": "Det hoved er åben.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Haus ist neu.",
+      "back": "Det hus er ny.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Jahr ist schmutzig.",
+      "back": "Det år er beskidt.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    },
+    {
+      "front": "Das Wohnung ist klein.",
+      "back": "Det lejlighed er lille.",
+      "example": "",
+      "tags": [
+        "combo"
+      ]
+    }
+  ]
+}

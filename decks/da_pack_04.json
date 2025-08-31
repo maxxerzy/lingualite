@@ -1,0 +1,1664 @@
+{
+  "id": "da-de-pack-04",
+  "name": "Dänisch – Pack 04",
+  "src": "DE",
+  "tgt": "DA",
+  "cards": [
+    {
+      "front": "Kann ich Tee bekommen?",
+      "back": "Kan jeg få te?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Schwester bekommen?",
+      "back": "Kan jeg få søster?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Brötchen bekommen?",
+      "back": "Kan jeg få bolle?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Tag bekommen?",
+      "back": "Kan jeg få dag?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Taxi bekommen?",
+      "back": "Kan jeg få taxa?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Schlüssel bekommen?",
+      "back": "Kan jeg få nøgle?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Flughafen bekommen?",
+      "back": "Kan jeg få lufthavn?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Restaurant bekommen?",
+      "back": "Kan jeg få restaurant?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Wein bekommen?",
+      "back": "Kan jeg få vin?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Nudeln bekommen?",
+      "back": "Kan jeg få pasta?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Zahn bekommen?",
+      "back": "Kan jeg få tand?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Straße bekommen?",
+      "back": "Kan jeg få gade?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Bus bekommen?",
+      "back": "Kan jeg få bus?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Suppe bekommen?",
+      "back": "Kan jeg få suppe?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Fuß bekommen?",
+      "back": "Kan jeg få fod?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Küche bekommen?",
+      "back": "Kan jeg få køkken?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Laden bekommen?",
+      "back": "Kan jeg få butik?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Termin bekommen?",
+      "back": "Kan jeg få aftale?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Computer bekommen?",
+      "back": "Kan jeg få computer?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Geld bekommen?",
+      "back": "Kan jeg få penge?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Telefon bekommen?",
+      "back": "Kan jeg få telefon?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Regenschirm bekommen?",
+      "back": "Kan jeg få paraply?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Orange bekommen?",
+      "back": "Kan jeg få appelsin?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Zug bekommen?",
+      "back": "Kan jeg få tog?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Bauch bekommen?",
+      "back": "Kan jeg få mave?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Fahrrad bekommen?",
+      "back": "Kan jeg få cykel?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Kann ich Freundin bekommen?",
+      "back": "Kan jeg få veninde?",
+      "example": "",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "front": "Wo ist Schule?",
+      "back": "Hvor er skole?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Universität?",
+      "back": "Hvor er universitet?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Büro?",
+      "back": "Hvor er kontor?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Krankenhaus?",
+      "back": "Hvor er hospital?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Apotheke?",
+      "back": "Hvor er apotek?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Supermarkt?",
+      "back": "Hvor er supermarked?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Bäckerei?",
+      "back": "Hvor er bager?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Bahnhof?",
+      "back": "Hvor er banegård?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Flughafen?",
+      "back": "Hvor er lufthavn?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Haltestelle?",
+      "back": "Hvor er stoppested?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Park?",
+      "back": "Hvor er park?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Museum?",
+      "back": "Hvor er museum?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Hotel?",
+      "back": "Hvor er hotel?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Restaurant?",
+      "back": "Hvor er restaurant?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Wo ist Café?",
+      "back": "Hvor er café?",
+      "example": "",
+      "tags": [
+        "place",
+        "question"
+      ]
+    },
+    {
+      "front": "Das ist gut.",
+      "back": "Det er god.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist schlecht.",
+      "back": "Det er dårlig.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist groß.",
+      "back": "Det er stor.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist klein.",
+      "back": "Det er lille.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist neu.",
+      "back": "Det er ny.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist alt.",
+      "back": "Det er gammel.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist teuer.",
+      "back": "Det er dyr.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist billig.",
+      "back": "Det er billig.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist schön.",
+      "back": "Det er smuk.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist lecker.",
+      "back": "Det er lækker.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist schnell.",
+      "back": "Det er hurtig.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist langsam.",
+      "back": "Det er langsom.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist kalt.",
+      "back": "Det er kold.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist warm.",
+      "back": "Det er varm.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist sauber.",
+      "back": "Det er ren.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist schmutzig.",
+      "back": "Det er beskidt.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist offen.",
+      "back": "Det er åben.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist geschlossen.",
+      "back": "Det er lukket.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist laut.",
+      "back": "Det er høj.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist leise.",
+      "back": "Det er lav.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist freundlich.",
+      "back": "Det er venlig.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist müde.",
+      "back": "Det er træt.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist hungrig.",
+      "back": "Det er sulten.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist durstig.",
+      "back": "Det er tørstig.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Das ist wichtig.",
+      "back": "Det er vigtig.",
+      "example": "",
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "front": "Ist Suppe gut?",
+      "back": "Er suppe god?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Kleid schlecht?",
+      "back": "Er kjole dårlig?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Gangplatz groß?",
+      "back": "Er gangplads stor?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Familie klein?",
+      "back": "Er familie lille?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Bäckerei neu?",
+      "back": "Er bager ny?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Arbeit alt?",
+      "back": "Er arbejde gammel?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Mantel teuer?",
+      "back": "Er frakke dyr?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Schuhe billig?",
+      "back": "Er sko billig?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Rucksack schön?",
+      "back": "Er rygsæk smuk?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Zimmer lecker?",
+      "back": "Er værelse lækker?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Wohnung schnell?",
+      "back": "Er lejlighed hurtig?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Tee langsam?",
+      "back": "Er te langsom?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Jahr kalt?",
+      "back": "Er år kold?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Brötchen warm?",
+      "back": "Er bolle varm?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Museum sauber?",
+      "back": "Er museum ren?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Apotheke schmutzig?",
+      "back": "Er apotek beskidt?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Tür offen?",
+      "back": "Er dør åben?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Tasche geschlossen?",
+      "back": "Er taske lukket?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Zucker laut?",
+      "back": "Er sukker høj?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Zahnarzt leise?",
+      "back": "Er tandlæge lav?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Tür freundlich?",
+      "back": "Er dør venlig?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Bäckerei müde?",
+      "back": "Er bager træt?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Woche hungrig?",
+      "back": "Er uge sulten?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Schwester durstig?",
+      "back": "Er søster tørstig?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Ist Museum wichtig?",
+      "back": "Er museum vigtig?",
+      "example": "",
+      "tags": [
+        "adjective",
+        "question"
+      ]
+    },
+    {
+      "front": "Heute essen ich Fahrrad.",
+      "back": "I dag spiser jeg cykel.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute trinken ich Schlüssel.",
+      "back": "I dag drikker jeg nøgle.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute kaufen ich Arzt.",
+      "back": "I dag køber jeg læge.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute lernen ich Apotheke.",
+      "back": "I dag lærer jeg apotek.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute arbeiten ich Tee.",
+      "back": "I dag arbejder jeg te.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute sprechen ich Banane.",
+      "back": "I dag taler jeg banan.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute verstehen ich Ticketautomat.",
+      "back": "I dag forstår jeg billetautomat.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute helfen ich Tisch.",
+      "back": "I dag hjælper jeg bord.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute spielen ich Käse.",
+      "back": "I dag spiller jeg ost.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute sehen ich Bauch.",
+      "back": "I dag ser jeg mave.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute gehen ich Tisch.",
+      "back": "I dag går jeg bord.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute fahren ich Bier.",
+      "back": "I dag kører jeg øl.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute schlafen ich Apfel.",
+      "back": "I dag sover jeg æble.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute lesen ich Hand.",
+      "back": "I dag læser jeg hånd.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute schreiben ich Laden.",
+      "back": "I dag skriver jeg butik.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Heute suchen ich Bäckerei.",
+      "back": "I dag leder efter jeg bager.",
+      "example": "",
+      "tags": [
+        "verb",
+        "present"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Telefon.",
+      "back": "Jeg tager til telefon.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Jacke.",
+      "back": "Jeg tager til jakke.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Büro.",
+      "back": "Jeg tager til kontor.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Laden.",
+      "back": "Jeg tager til butik.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Fuß.",
+      "back": "Jeg tager til fod.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Schwester.",
+      "back": "Jeg tager til søster.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Banane.",
+      "back": "Jeg tager til banan.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Platz.",
+      "back": "Jeg tager til torv.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Kopf.",
+      "back": "Jeg tager til hoved.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Brötchen.",
+      "back": "Jeg tager til bolle.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Bett.",
+      "back": "Jeg tager til seng.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Wein.",
+      "back": "Jeg tager til vin.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Ticket.",
+      "back": "Jeg tager til billet.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Flug.",
+      "back": "Jeg tager til fly.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Brot.",
+      "back": "Jeg tager til brød.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Kind.",
+      "back": "Jeg tager til barn.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Arzt.",
+      "back": "Jeg tager til læge.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Bus.",
+      "back": "Jeg tager til bus.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Fahrplan.",
+      "back": "Jeg tager til køreplan.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Computer.",
+      "back": "Jeg tager til computer.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Zahnarzt.",
+      "back": "Jeg tager til tandlæge.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Auto.",
+      "back": "Jeg tager til bil.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Suppe.",
+      "back": "Jeg tager til suppe.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Flughafen.",
+      "back": "Jeg tager til lufthavn.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Kleid.",
+      "back": "Jeg tager til kjole.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Zucker.",
+      "back": "Jeg tager til sukker.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Adresse.",
+      "back": "Jeg tager til adresse.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Apotheke.",
+      "back": "Jeg tager til apotek.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Stunde.",
+      "back": "Jeg tager til time.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Sitzplatz.",
+      "back": "Jeg tager til sæde.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Jahr.",
+      "back": "Jeg tager til år.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Orange.",
+      "back": "Jeg tager til appelsin.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Universität.",
+      "back": "Jeg tager til universitet.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Bruder.",
+      "back": "Jeg tager til bror.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Arbeit.",
+      "back": "Jeg tager til arbejde.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Hotel.",
+      "back": "Jeg tager til hotel.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Krankenhaus.",
+      "back": "Jeg tager til hospital.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Museum.",
+      "back": "Jeg tager til museum.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Schule.",
+      "back": "Jeg tager til skole.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Medikament.",
+      "back": "Jeg tager til medicin.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Kartoffel.",
+      "back": "Jeg tager til kartoffel.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Geld.",
+      "back": "Jeg tager til penge.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Restaurant.",
+      "back": "Jeg tager til restaurant.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Straße.",
+      "back": "Jeg tager til gade.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Käse.",
+      "back": "Jeg tager til ost.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Schmerz.",
+      "back": "Jeg tager til smerte.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Karte.",
+      "back": "Jeg tager til kort.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Minute.",
+      "back": "Jeg tager til minut.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Hose.",
+      "back": "Jeg tager til bukser.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Termin.",
+      "back": "Jeg tager til aftale.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Fenster.",
+      "back": "Jeg tager til vindue.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Salat.",
+      "back": "Jeg tager til salat.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Gangplatz.",
+      "back": "Jeg tager til gangplads.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Tag.",
+      "back": "Jeg tager til dag.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Mutter.",
+      "back": "Jeg tager til mor.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Wohnung.",
+      "back": "Jeg tager til lejlighed.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Sohn.",
+      "back": "Jeg tager til søn.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Supermarkt.",
+      "back": "Jeg tager til supermarked.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Apfel.",
+      "back": "Jeg tager til æble.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Schlüssel.",
+      "back": "Jeg tager til nøgle.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Küche.",
+      "back": "Jeg tager til køkken.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Park.",
+      "back": "Jeg tager til park.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Freund.",
+      "back": "Jeg tager til ven.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Haltestelle.",
+      "back": "Jeg tager til stoppested.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Pfeffer.",
+      "back": "Jeg tager til peber.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Mantel.",
+      "back": "Jeg tager til frakke.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Regenschirm.",
+      "back": "Jeg tager til paraply.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Nudeln.",
+      "back": "Jeg tager til pasta.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Familie.",
+      "back": "Jeg tager til familie.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Woche.",
+      "back": "Jeg tager til uge.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Zug.",
+      "back": "Jeg tager til tog.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Monat.",
+      "back": "Jeg tager til måned.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Hähnchen.",
+      "back": "Jeg tager til kylling.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Uhr.",
+      "back": "Jeg tager til ur.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Fahrrad.",
+      "back": "Jeg tager til cykel.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Fleisch.",
+      "back": "Jeg tager til kød.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Rucksack.",
+      "back": "Jeg tager til rygsæk.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Obst.",
+      "back": "Jeg tager til frugt.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Salz.",
+      "back": "Jeg tager til salt.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Wasser.",
+      "back": "Jeg tager til vand.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Kaffee.",
+      "back": "Jeg tager til kaffe.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Vater.",
+      "back": "Jeg tager til far.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Freundin.",
+      "back": "Jeg tager til veninde.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Bier.",
+      "back": "Jeg tager til øl.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Zimmer.",
+      "back": "Jeg tager til værelse.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Hemd.",
+      "back": "Jeg tager til skjorte.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Café.",
+      "back": "Jeg tager til café.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Kreditkarte.",
+      "back": "Jeg tager til kreditkort.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Tür.",
+      "back": "Jeg tager til dør.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Bad.",
+      "back": "Jeg tager til badeværelse.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Kinder.",
+      "back": "Jeg tager til børn.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    },
+    {
+      "front": "Ich gehe zu Eltern.",
+      "back": "Jeg tager til forældre.",
+      "example": "",
+      "tags": [
+        "travel"
+      ]
+    }
+  ]
+}

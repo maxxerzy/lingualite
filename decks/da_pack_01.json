@@ -1,0 +1,1653 @@
+{
+  "id": "da-de-pack-01",
+  "name": "Dänisch – Pack 01",
+  "src": "DE",
+  "tgt": "DA",
+  "cards": [
+    {
+      "front": "Hallo",
+      "back": "Hej",
+      "example": "Hej! Hvordan går det?",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Guten Morgen",
+      "back": "Godmorgen",
+      "example": "Godmorgen!",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Guten Abend",
+      "back": "Godaften",
+      "example": "Godaften!",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Auf Wiedersehen",
+      "back": "Farvel",
+      "example": "Farvel, vi ses!",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Danke",
+      "back": "Tak",
+      "example": "Mange tak!",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Bitte (gern geschehen)",
+      "back": "Det var så lidt",
+      "example": "Det var så lidt.",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Entschuldigung",
+      "back": "Undskyld",
+      "example": "Undskyld, jeg er forsinket.",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Wie geht es dir?",
+      "back": "Hvordan har du det?",
+      "example": "Hvordan har du det i dag?",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Ich heiße ...",
+      "back": "Jeg hedder ...",
+      "example": "Jeg hedder Anna.",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "Ich komme aus Deutschland",
+      "back": "Jeg kommer fra Tyskland",
+      "example": "Jeg kommer fra Berlin.",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "front": "eins",
+      "back": "en",
+      "example": "Jeg har en æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "zwei",
+      "back": "to",
+      "example": "Jeg har to æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "drei",
+      "back": "tre",
+      "example": "Jeg har tre æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "vier",
+      "back": "fire",
+      "example": "Jeg har fire æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "fünf",
+      "back": "fem",
+      "example": "Jeg har fem æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "sechs",
+      "back": "seks",
+      "example": "Jeg har seks æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "sieben",
+      "back": "syv",
+      "example": "Jeg har syv æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "acht",
+      "back": "otte",
+      "example": "Jeg har otte æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "neun",
+      "back": "ni",
+      "example": "Jeg har ni æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "zehn",
+      "back": "ti",
+      "example": "Jeg har ti æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "elf",
+      "back": "elleve",
+      "example": "Jeg har elleve æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "zwölf",
+      "back": "tolv",
+      "example": "Jeg har tolv æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "dreizehn",
+      "back": "tretten",
+      "example": "Jeg har tretten æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "vierzehn",
+      "back": "fjorten",
+      "example": "Jeg har fjorten æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "fünfzehn",
+      "back": "femten",
+      "example": "Jeg har femten æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "sechzehn",
+      "back": "seksten",
+      "example": "Jeg har seksten æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "siebzehn",
+      "back": "sytten",
+      "example": "Jeg har sytten æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "achtzehn",
+      "back": "atten",
+      "example": "Jeg har atten æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "neunzehn",
+      "back": "nitten",
+      "example": "Jeg har nitten æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "zwanzig",
+      "back": "tyve",
+      "example": "Jeg har tyve æbler.",
+      "tags": [
+        "numbers"
+      ]
+    },
+    {
+      "front": "Heute ist Montag.",
+      "back": "I dag er det mandag.",
+      "example": "",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "front": "Heute ist Dienstag.",
+      "back": "I dag er det tirsdag.",
+      "example": "",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "front": "Heute ist Mittwoch.",
+      "back": "I dag er det onsdag.",
+      "example": "",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "front": "Heute ist Donnerstag.",
+      "back": "I dag er det torsdag.",
+      "example": "",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "front": "Heute ist Freitag.",
+      "back": "I dag er det fredag.",
+      "example": "",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "front": "Heute ist Samstag.",
+      "back": "I dag er det lørdag.",
+      "example": "",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "front": "Heute ist Sonntag.",
+      "back": "I dag er det søndag.",
+      "example": "",
+      "tags": [
+        "time"
+      ]
+    },
+    {
+      "front": "Brot",
+      "back": "brød",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Wasser",
+      "back": "vand",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Kaffee",
+      "back": "kaffe",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Tee",
+      "back": "te",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Bier",
+      "back": "øl",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Wein",
+      "back": "vin",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Milch",
+      "back": "mælk",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Saft",
+      "back": "juice",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Zucker",
+      "back": "sukker",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Salz",
+      "back": "salt",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Pfeffer",
+      "back": "peber",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Gemüse",
+      "back": "grøntsager",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Obst",
+      "back": "frugt",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Apfel",
+      "back": "æble",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Banane",
+      "back": "banan",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Orange",
+      "back": "appelsin",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Kartoffel",
+      "back": "kartoffel",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Reis",
+      "back": "ris",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Nudeln",
+      "back": "pasta",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Fleisch",
+      "back": "kød",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Fisch",
+      "back": "fisk",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Hähnchen",
+      "back": "kylling",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Käse",
+      "back": "ost",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Ei",
+      "back": "æg",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Brötchen",
+      "back": "bolle",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Suppe",
+      "back": "suppe",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Salat",
+      "back": "salat",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Haus",
+      "back": "hus",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Wohnung",
+      "back": "lejlighed",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Zimmer",
+      "back": "værelse",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Küche",
+      "back": "køkken",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Bad",
+      "back": "badeværelse",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Bett",
+      "back": "seng",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Tisch",
+      "back": "bord",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Stuhl",
+      "back": "stol",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Tür",
+      "back": "dør",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Fenster",
+      "back": "vindue",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Schule",
+      "back": "skole",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Universität",
+      "back": "universitet",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Arbeit",
+      "back": "arbejde",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Büro",
+      "back": "kontor",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Krankenhaus",
+      "back": "hospital",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Apotheke",
+      "back": "apotek",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Supermarkt",
+      "back": "supermarked",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Bäckerei",
+      "back": "bager",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Bahnhof",
+      "back": "banegård",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Flughafen",
+      "back": "lufthavn",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Haltestelle",
+      "back": "stoppested",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Straße",
+      "back": "gade",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Platz",
+      "back": "torv",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Park",
+      "back": "park",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Museum",
+      "back": "museum",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Hotel",
+      "back": "hotel",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Restaurant",
+      "back": "restaurant",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Café",
+      "back": "café",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Laden",
+      "back": "butik",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Freund",
+      "back": "ven",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Freundin",
+      "back": "veninde",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Familie",
+      "back": "familie",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Mutter",
+      "back": "mor",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Vater",
+      "back": "far",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Eltern",
+      "back": "forældre",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Sohn",
+      "back": "søn",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Tochter",
+      "back": "datter",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Bruder",
+      "back": "bror",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Schwester",
+      "back": "søster",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Kind",
+      "back": "barn",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Kinder",
+      "back": "børn",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Arzt",
+      "back": "læge",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Krankenschwester",
+      "back": "sygeplejerske",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Medikament",
+      "back": "medicin",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Termin",
+      "back": "aftale",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Schmerz",
+      "back": "smerte",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Kopf",
+      "back": "hoved",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Bauch",
+      "back": "mave",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Rücken",
+      "back": "ryg",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Hand",
+      "back": "hånd",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Fuß",
+      "back": "fod",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Uhr",
+      "back": "ur",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Stunde",
+      "back": "time",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Minute",
+      "back": "minut",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Tag",
+      "back": "dag",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Woche",
+      "back": "uge",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Monat",
+      "back": "måned",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Jahr",
+      "back": "år",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Auto",
+      "back": "bil",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Fahrrad",
+      "back": "cykel",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Bus",
+      "back": "bus",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Zug",
+      "back": "tog",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Taxi",
+      "back": "taxa",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Ticket",
+      "back": "billet",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Karte",
+      "back": "kort",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Fahrplan",
+      "back": "køreplan",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Telefon",
+      "back": "telefon",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Computer",
+      "back": "computer",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "E-Mail",
+      "back": "e-mail",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Adresse",
+      "back": "adresse",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Zahn",
+      "back": "tand",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Zahnarzt",
+      "back": "tandlæge",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Brille",
+      "back": "briller",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Jacke",
+      "back": "jakke",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Schuhe",
+      "back": "sko",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Hemd",
+      "back": "skjorte",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Hose",
+      "back": "bukser",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Kleid",
+      "back": "kjole",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Mantel",
+      "back": "frakke",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Regenschirm",
+      "back": "paraply",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Schlüssel",
+      "back": "nøgle",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Geld",
+      "back": "penge",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Kreditkarte",
+      "back": "kreditkort",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Tasche",
+      "back": "taske",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Rucksack",
+      "back": "rygsæk",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Ticketautomat",
+      "back": "billetautomat",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Gleis",
+      "back": "perron",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Flug",
+      "back": "fly",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Sitzplatz",
+      "back": "sæde",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Fensterplatz",
+      "back": "vinduesplads",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Gangplatz",
+      "back": "gangplads",
+      "example": "",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "front": "Ich möchte Tag.",
+      "back": "Jeg vil gerne have dag.",
+      "example": "Kan jeg få dag, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Banane.",
+      "back": "Jeg vil gerne have banan.",
+      "example": "Kan jeg få banan, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Tee.",
+      "back": "Jeg vil gerne have te.",
+      "example": "Kan jeg få te, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Computer.",
+      "back": "Jeg vil gerne have computer.",
+      "example": "Kan jeg få computer, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Tür.",
+      "back": "Jeg vil gerne have dør.",
+      "example": "Kan jeg få dør, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Bad.",
+      "back": "Jeg vil gerne have badeværelse.",
+      "example": "Kan jeg få badeværelse, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Wohnung.",
+      "back": "Jeg vil gerne have lejlighed.",
+      "example": "Kan jeg få lejlighed, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Reis.",
+      "back": "Jeg vil gerne have ris.",
+      "example": "Kan jeg få ris, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Flug.",
+      "back": "Jeg vil gerne have fly.",
+      "example": "Kan jeg få fly, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Apfel.",
+      "back": "Jeg vil gerne have æble.",
+      "example": "Kan jeg få æble, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Fahrrad.",
+      "back": "Jeg vil gerne have cykel.",
+      "example": "Kan jeg få cykel, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Kreditkarte.",
+      "back": "Jeg vil gerne have kreditkort.",
+      "example": "Kan jeg få kreditkort, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Krankenschwester.",
+      "back": "Jeg vil gerne have sygeplejerske.",
+      "example": "Kan jeg få sygeplejerske, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Gemüse.",
+      "back": "Jeg vil gerne have grøntsager.",
+      "example": "Kan jeg få grøntsager, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Rücken.",
+      "back": "Jeg vil gerne have ryg.",
+      "example": "Kan jeg få ryg, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Café.",
+      "back": "Jeg vil gerne have café.",
+      "example": "Kan jeg få café, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Bier.",
+      "back": "Jeg vil gerne have øl.",
+      "example": "Kan jeg få øl, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Sitzplatz.",
+      "back": "Jeg vil gerne have sæde.",
+      "example": "Kan jeg få sæde, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Kleid.",
+      "back": "Jeg vil gerne have kjole.",
+      "example": "Kan jeg få kjole, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Haus.",
+      "back": "Jeg vil gerne have hus.",
+      "example": "Kan jeg få hus, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Zimmer.",
+      "back": "Jeg vil gerne have værelse.",
+      "example": "Kan jeg få værelse, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Bruder.",
+      "back": "Jeg vil gerne have bror.",
+      "example": "Kan jeg få bror, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Fuß.",
+      "back": "Jeg vil gerne have fod.",
+      "example": "Kan jeg få fod, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Jacke.",
+      "back": "Jeg vil gerne have jakke.",
+      "example": "Kan jeg få jakke, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Termin.",
+      "back": "Jeg vil gerne have aftale.",
+      "example": "Kan jeg få aftale, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Suppe.",
+      "back": "Jeg vil gerne have suppe.",
+      "example": "Kan jeg få suppe, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Karte.",
+      "back": "Jeg vil gerne have kort.",
+      "example": "Kan jeg få kort, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Monat.",
+      "back": "Jeg vil gerne have måned.",
+      "example": "Kan jeg få måned, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Taxi.",
+      "back": "Jeg vil gerne have taxa.",
+      "example": "Kan jeg få taxa, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Mantel.",
+      "back": "Jeg vil gerne have frakke.",
+      "example": "Kan jeg få frakke, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Restaurant.",
+      "back": "Jeg vil gerne have restaurant.",
+      "example": "Kan jeg få restaurant, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Rucksack.",
+      "back": "Jeg vil gerne have rygsæk.",
+      "example": "Kan jeg få rygsæk, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Freundin.",
+      "back": "Jeg vil gerne have veninde.",
+      "example": "Kan jeg få veninde, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Hose.",
+      "back": "Jeg vil gerne have bukser.",
+      "example": "Kan jeg få bukser, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Gleis.",
+      "back": "Jeg vil gerne have perron.",
+      "example": "Kan jeg få perron, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Brot.",
+      "back": "Jeg vil gerne have brød.",
+      "example": "Kan jeg få brød, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Fisch.",
+      "back": "Jeg vil gerne have fisk.",
+      "example": "Kan jeg få fisk, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Hemd.",
+      "back": "Jeg vil gerne have skjorte.",
+      "example": "Kan jeg få skjorte, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Supermarkt.",
+      "back": "Jeg vil gerne have supermarked.",
+      "example": "Kan jeg få supermarked, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Ticket.",
+      "back": "Jeg vil gerne have billet.",
+      "example": "Kan jeg få billet, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Fleisch.",
+      "back": "Jeg vil gerne have kød.",
+      "example": "Kan jeg få kød, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Zahnarzt.",
+      "back": "Jeg vil gerne have tandlæge.",
+      "example": "Kan jeg få tandlæge, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Stunde.",
+      "back": "Jeg vil gerne have time.",
+      "example": "Kan jeg få time, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Geld.",
+      "back": "Jeg vil gerne have penge.",
+      "example": "Kan jeg få penge, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    },
+    {
+      "front": "Ich möchte Brille.",
+      "back": "Jeg vil gerne have briller.",
+      "example": "Kan jeg få briller, tak?",
+      "tags": [
+        "phrase",
+        "wish"
+      ]
+    }
+  ]
+}
