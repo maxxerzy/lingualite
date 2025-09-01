@@ -1,0 +1,2008 @@
+{
+  "id": "da-de-mix-pack-01",
+  "name": "Dänisch ↔ Deutsch – Mix Pack 01 (500)",
+  "src": "DA/DE",
+  "tgt": "DE/DA",
+  "cards": [
+    {
+      "front": "hud",
+      "back": "haut"
+    },
+    {
+      "front": "peberfrugt",
+      "back": "paprika"
+    },
+    {
+      "front": "butik",
+      "back": "laden"
+    },
+    {
+      "front": "rød",
+      "back": "rot"
+    },
+    {
+      "front": "was",
+      "back": "hvad"
+    },
+    {
+      "front": "wie",
+      "back": "hvordan"
+    },
+    {
+      "front": "arbeiten",
+      "back": "arbejde"
+    },
+    {
+      "front": "mandag",
+      "back": "montag"
+    },
+    {
+      "front": "tablet",
+      "back": "tablet"
+    },
+    {
+      "front": "læge",
+      "back": "arzt"
+    },
+    {
+      "front": "november",
+      "back": "november"
+    },
+    {
+      "front": "ti",
+      "back": "zehn"
+    },
+    {
+      "front": "bedstefar",
+      "back": "großvater"
+    },
+    {
+      "front": "dass",
+      "back": "at"
+    },
+    {
+      "front": "kaffe",
+      "back": "kaffee"
+    },
+    {
+      "front": "sitzplatz",
+      "back": "sæde"
+    },
+    {
+      "front": "mobil",
+      "back": "handy"
+    },
+    {
+      "front": "forsinkelse",
+      "back": "verspätung"
+    },
+    {
+      "front": "ingeniør",
+      "back": "ingenieur"
+    },
+    {
+      "front": "dreizehn",
+      "back": "tretten"
+    },
+    {
+      "front": "sofa",
+      "back": "sofa"
+    },
+    {
+      "front": "to",
+      "back": "zwei"
+    },
+    {
+      "front": "blyant",
+      "back": "bleistift"
+    },
+    {
+      "front": "billig",
+      "back": "billig"
+    },
+    {
+      "front": "tirsdag",
+      "back": "dienstag"
+    },
+    {
+      "front": "bagved",
+      "back": "hinten"
+    },
+    {
+      "front": "ameise",
+      "back": "myre"
+    },
+    {
+      "front": "hane",
+      "back": "hahn"
+    },
+    {
+      "front": "unten",
+      "back": "nede"
+    },
+    {
+      "front": "ente",
+      "back": "and"
+    },
+    {
+      "front": "eins",
+      "back": "en"
+    },
+    {
+      "front": "ihr",
+      "back": "i"
+    },
+    {
+      "front": "öl",
+      "back": "olie"
+    },
+    {
+      "front": "fjern",
+      "back": "weit"
+    },
+    {
+      "front": "aprikose",
+      "back": "abrikos"
+    },
+    {
+      "front": "außen",
+      "back": "udenfor"
+    },
+    {
+      "front": "pfanne",
+      "back": "pande"
+    },
+    {
+      "front": "lautsprecher",
+      "back": "højttaler"
+    },
+    {
+      "front": "journalist",
+      "back": "journalist"
+    },
+    {
+      "front": "skrive",
+      "back": "schreiben"
+    },
+    {
+      "front": "zug",
+      "back": "tog"
+    },
+    {
+      "front": "kold",
+      "back": "kalt"
+    },
+    {
+      "front": "künstler",
+      "back": "kunstner"
+    },
+    {
+      "front": "tre",
+      "back": "drei"
+    },
+    {
+      "front": "himmel",
+      "back": "himmel"
+    },
+    {
+      "front": "datter",
+      "back": "tochter"
+    },
+    {
+      "front": "schwierig",
+      "back": "svær"
+    },
+    {
+      "front": "bjørn",
+      "back": "bär"
+    },
+    {
+      "front": "brot",
+      "back": "brød"
+    },
+    {
+      "front": "tante",
+      "back": "tante"
+    },
+    {
+      "front": "apfel",
+      "back": "æble"
+    },
+    {
+      "front": "vind",
+      "back": "wind"
+    },
+    {
+      "front": "fire",
+      "back": "vier"
+    },
+    {
+      "front": "bedstemor",
+      "back": "großmutter"
+    },
+    {
+      "front": "nahe",
+      "back": "nær"
+    },
+    {
+      "front": "øjne",
+      "back": "augen"
+    },
+    {
+      "front": "pen",
+      "back": "stift"
+    },
+    {
+      "front": "køreplan",
+      "back": "fahrplan"
+    },
+    {
+      "front": "mai",
+      "back": "maj"
+    },
+    {
+      "front": "meer",
+      "back": "hav"
+    },
+    {
+      "front": "zitrone",
+      "back": "citron"
+    },
+    {
+      "front": "fordi",
+      "back": "weil"
+    },
+    {
+      "front": "mantel",
+      "back": "frakke"
+    },
+    {
+      "front": "machen",
+      "back": "lave"
+    },
+    {
+      "front": "fußball",
+      "back": "fodbold"
+    },
+    {
+      "front": "blume",
+      "back": "blomst"
+    },
+    {
+      "front": "fisk",
+      "back": "fisch"
+    },
+    {
+      "front": "cykling",
+      "back": "radfahren"
+    },
+    {
+      "front": "din",
+      "back": "dein"
+    },
+    {
+      "front": "supermarked",
+      "back": "supermarkt"
+    },
+    {
+      "front": "beskidt",
+      "back": "schmutzig"
+    },
+    {
+      "front": "kommen",
+      "back": "komme"
+    },
+    {
+      "front": "lav",
+      "back": "leise"
+    },
+    {
+      "front": "bomuld",
+      "back": "baumwolle"
+    },
+    {
+      "front": "wolle",
+      "back": "uld"
+    },
+    {
+      "front": "forstå",
+      "back": "verstehen"
+    },
+    {
+      "front": "kopfhörer",
+      "back": "hovedtelefoner"
+    },
+    {
+      "front": "drikkepenge",
+      "back": "trinkgeld"
+    },
+    {
+      "front": "freitag",
+      "back": "fredag"
+    },
+    {
+      "front": "welche (pl.)",
+      "back": "hvilke"
+    },
+    {
+      "front": "hvorfor",
+      "back": "warum"
+    },
+    {
+      "front": "ur",
+      "back": "uhr"
+    },
+    {
+      "front": "være",
+      "back": "sein"
+    },
+    {
+      "front": "koffer",
+      "back": "kuffert"
+    },
+    {
+      "front": "skildpadde",
+      "back": "schildkröte"
+    },
+    {
+      "front": "mappe",
+      "back": "mappe"
+    },
+    {
+      "front": "og",
+      "back": "und"
+    },
+    {
+      "front": "haltestelle",
+      "back": "stoppested"
+    },
+    {
+      "front": "brief",
+      "back": "brev"
+    },
+    {
+      "front": "banane",
+      "back": "banan"
+    },
+    {
+      "front": "café",
+      "back": "café"
+    },
+    {
+      "front": "svamp",
+      "back": "pilz"
+    },
+    {
+      "front": "nem",
+      "back": "einfach"
+    },
+    {
+      "front": "laut",
+      "back": "høj"
+    },
+    {
+      "front": "stern",
+      "back": "stjerne"
+    },
+    {
+      "front": "schule",
+      "back": "skole"
+    },
+    {
+      "front": "bauch",
+      "back": "mave"
+    },
+    {
+      "front": "schuh",
+      "back": "sko"
+    },
+    {
+      "front": "teater",
+      "back": "theater"
+    },
+    {
+      "front": "bælte",
+      "back": "gürtel"
+    },
+    {
+      "front": "taxi",
+      "back": "taxa"
+    },
+    {
+      "front": "lørdag",
+      "back": "samstag"
+    },
+    {
+      "front": "bord",
+      "back": "tisch"
+    },
+    {
+      "front": "hånd",
+      "back": "hand"
+    },
+    {
+      "front": "forkølelse",
+      "back": "schnupfen"
+    },
+    {
+      "front": "jacke",
+      "back": "jakke"
+    },
+    {
+      "front": "lime",
+      "back": "limette"
+    },
+    {
+      "front": "kleid",
+      "back": "kjole"
+    },
+    {
+      "front": "freude",
+      "back": "glæde"
+    },
+    {
+      "front": "gryde",
+      "back": "topf"
+    },
+    {
+      "front": "rechteck",
+      "back": "rektangel"
+    },
+    {
+      "front": "torden",
+      "back": "donner"
+    },
+    {
+      "front": "cykel",
+      "back": "fahrrad"
+    },
+    {
+      "front": "krabbe",
+      "back": "krabbe"
+    },
+    {
+      "front": "bild",
+      "back": "billede"
+    },
+    {
+      "front": "bog",
+      "back": "buch"
+    },
+    {
+      "front": "bjerg",
+      "back": "berg"
+    },
+    {
+      "front": "durstig",
+      "back": "tørstig"
+    },
+    {
+      "front": "ringbind",
+      "back": "ordner"
+    },
+    {
+      "front": "pause",
+      "back": "pause"
+    },
+    {
+      "front": "ben",
+      "back": "bein"
+    },
+    {
+      "front": "klein",
+      "back": "lille"
+    },
+    {
+      "front": "fjernsyn",
+      "back": "fernseher"
+    },
+    {
+      "front": "restaurant",
+      "back": "restaurant"
+    },
+    {
+      "front": "grim",
+      "back": "hässlich"
+    },
+    {
+      "front": "pære",
+      "back": "birne"
+    },
+    {
+      "front": "køkken",
+      "back": "küche"
+    },
+    {
+      "front": "programmør",
+      "back": "programmierer"
+    },
+    {
+      "front": "nul",
+      "back": "null"
+    },
+    {
+      "front": "neu",
+      "back": "ny"
+    },
+    {
+      "front": "ferien",
+      "back": "ferie"
+    },
+    {
+      "front": "elev",
+      "back": "schüler"
+    },
+    {
+      "front": "ske",
+      "back": "löffel"
+    },
+    {
+      "front": "landmand",
+      "back": "bauer"
+    },
+    {
+      "front": "eichhörnchen",
+      "back": "egern"
+    },
+    {
+      "front": "sorg",
+      "back": "trauer"
+    },
+    {
+      "front": "hase",
+      "back": "hare"
+    },
+    {
+      "front": "te",
+      "back": "tee"
+    },
+    {
+      "front": "tand",
+      "back": "zahn"
+    },
+    {
+      "front": "tallerken",
+      "back": "teller"
+    },
+    {
+      "front": "gå",
+      "back": "gehen"
+    },
+    {
+      "front": "angst",
+      "back": "angst"
+    },
+    {
+      "front": "arm",
+      "back": "arm"
+    },
+    {
+      "front": "knoblauch",
+      "back": "hvidløg"
+    },
+    {
+      "front": "lim",
+      "back": "kleber"
+    },
+    {
+      "front": "weiß",
+      "back": "hvid"
+    },
+    {
+      "front": "september",
+      "back": "september"
+    },
+    {
+      "front": "sø",
+      "back": "see"
+    },
+    {
+      "front": "werden",
+      "back": "blive"
+    },
+    {
+      "front": "mus",
+      "back": "maus"
+    },
+    {
+      "front": "mund",
+      "back": "mund"
+    },
+    {
+      "front": "kat",
+      "back": "katze"
+    },
+    {
+      "front": "aftale",
+      "back": "termin"
+    },
+    {
+      "front": "kartoffel",
+      "back": "kartoffel"
+    },
+    {
+      "front": "arbejde",
+      "back": "arbeit"
+    },
+    {
+      "front": "hans",
+      "back": "seine"
+    },
+    {
+      "front": "gabel",
+      "back": "gaffel"
+    },
+    {
+      "front": "læge",
+      "back": "arztin"
+    },
+    {
+      "front": "decke",
+      "back": "tæppe"
+    },
+    {
+      "front": "krankenhaus",
+      "back": "hospital"
+    },
+    {
+      "front": "bahnsteig",
+      "back": "perron"
+    },
+    {
+      "front": "hendes",
+      "back": "ihre"
+    },
+    {
+      "front": "bildschirm",
+      "back": "skærm"
+    },
+    {
+      "front": "salz",
+      "back": "salt"
+    },
+    {
+      "front": "sne",
+      "back": "schnee"
+    },
+    {
+      "front": "geben",
+      "back": "give"
+    },
+    {
+      "front": "ged",
+      "back": "ziege"
+    },
+    {
+      "front": "søndag",
+      "back": "sonntag"
+    },
+    {
+      "front": "metall",
+      "back": "metal"
+    },
+    {
+      "front": "vorn",
+      "back": "foran"
+    },
+    {
+      "front": "kartofler",
+      "back": "kartoffeln"
+    },
+    {
+      "front": "smerte",
+      "back": "schmerz"
+    },
+    {
+      "front": "politibetjent",
+      "back": "polizist"
+    },
+    {
+      "front": "de",
+      "back": "sie (pl.)"
+    },
+    {
+      "front": "foto",
+      "back": "foto"
+    },
+    {
+      "front": "aber",
+      "back": "men"
+    },
+    {
+      "front": "sport",
+      "back": "sport"
+    },
+    {
+      "front": "gitarre",
+      "back": "guitar"
+    },
+    {
+      "front": "meine",
+      "back": "min"
+    },
+    {
+      "front": "bus",
+      "back": "bus"
+    },
+    {
+      "front": "schnell",
+      "back": "hurtig"
+    },
+    {
+      "front": "flugzeug",
+      "back": "fly"
+    },
+    {
+      "front": "trafiklys",
+      "back": "ampel"
+    },
+    {
+      "front": "visum",
+      "back": "visum"
+    },
+    {
+      "front": "lukke",
+      "back": "schließen"
+    },
+    {
+      "front": "bäckerei",
+      "back": "bager"
+    },
+    {
+      "front": "salat",
+      "back": "salat"
+    },
+    {
+      "front": "schere",
+      "back": "saks"
+    },
+    {
+      "front": "hände",
+      "back": "hænder"
+    },
+    {
+      "front": "krokodil",
+      "back": "krokodille"
+    },
+    {
+      "front": "alt",
+      "back": "gammel"
+    },
+    {
+      "front": "sprechen",
+      "back": "tale"
+    },
+    {
+      "front": "lampe",
+      "back": "lampe"
+    },
+    {
+      "front": "verkäufer",
+      "back": "sælger"
+    },
+    {
+      "front": "vorhang",
+      "back": "gardin"
+    },
+    {
+      "front": "tæppe",
+      "back": "teppich"
+    },
+    {
+      "front": "fahrer",
+      "back": "chauffør"
+    },
+    {
+      "front": "svømning",
+      "back": "schwimmen"
+    },
+    {
+      "front": "pude",
+      "back": "kissen"
+    },
+    {
+      "front": "ankunft",
+      "back": "ankomst"
+    },
+    {
+      "front": "trauben",
+      "back": "druer"
+    },
+    {
+      "front": "regen",
+      "back": "regn"
+    },
+    {
+      "front": "fod",
+      "back": "fuß"
+    },
+    {
+      "front": "zwiebel",
+      "back": "løg"
+    },
+    {
+      "front": "søster",
+      "back": "schwester"
+    },
+    {
+      "front": "torv",
+      "back": "platz"
+    },
+    {
+      "front": "zucker",
+      "back": "sukker"
+    },
+    {
+      "front": "stein",
+      "back": "sten"
+    },
+    {
+      "front": "slutte",
+      "back": "enden"
+    },
+    {
+      "front": "får",
+      "back": "schaf"
+    },
+    {
+      "front": "oben",
+      "back": "oppe"
+    },
+    {
+      "front": "vrede",
+      "back": "wut"
+    },
+    {
+      "front": "mor",
+      "back": "mutter"
+    },
+    {
+      "front": "besteck",
+      "back": "bestik"
+    },
+    {
+      "front": "suppe",
+      "back": "suppe"
+    },
+    {
+      "front": "plastik",
+      "back": "kunststoff"
+    },
+    {
+      "front": "achtzehn",
+      "back": "atten"
+    },
+    {
+      "front": "grün",
+      "back": "grøn"
+    },
+    {
+      "front": "fluss",
+      "back": "flod"
+    },
+    {
+      "front": "musiker",
+      "back": "musiker"
+    },
+    {
+      "front": "park",
+      "back": "park"
+    },
+    {
+      "front": "jakkesæt",
+      "back": "anzug"
+    },
+    {
+      "front": "smør",
+      "back": "butter"
+    },
+    {
+      "front": "strand",
+      "back": "strand"
+    },
+    {
+      "front": "schokolade",
+      "back": "chokolade"
+    },
+    {
+      "front": "huhn",
+      "back": "høne"
+    },
+    {
+      "front": "fünfzehn",
+      "back": "femten"
+    },
+    {
+      "front": "kærlighed",
+      "back": "liebe"
+    },
+    {
+      "front": "dreieck",
+      "back": "trekant"
+    },
+    {
+      "front": "have",
+      "back": "haben"
+    },
+    {
+      "front": "strømpe",
+      "back": "socke"
+    },
+    {
+      "front": "hähnchen",
+      "back": "kylling"
+    },
+    {
+      "front": "kontor",
+      "back": "büro"
+    },
+    {
+      "front": "forfatter",
+      "back": "schriftsteller"
+    },
+    {
+      "front": "quadrat",
+      "back": "kvadrat"
+    },
+    {
+      "front": "læse",
+      "back": "lesen"
+    },
+    {
+      "front": "prüfung",
+      "back": "eksamen"
+    },
+    {
+      "front": "schiff",
+      "back": "skib"
+    },
+    {
+      "front": "turkis",
+      "back": "türkis"
+    },
+    {
+      "front": "neid",
+      "back": "misundelse"
+    },
+    {
+      "front": "spielen",
+      "back": "spille"
+    },
+    {
+      "front": "nøgle",
+      "back": "schlüssel"
+    },
+    {
+      "front": "togbillet",
+      "back": "bahnticket"
+    },
+    {
+      "front": "email",
+      "back": "e-mail"
+    },
+    {
+      "front": "aufgabe",
+      "back": "opgave"
+    },
+    {
+      "front": "insel",
+      "back": "ø"
+    },
+    {
+      "front": "sie",
+      "back": "hun"
+    },
+    {
+      "front": "umschlag",
+      "back": "kuvert"
+    },
+    {
+      "front": "juni",
+      "back": "juni"
+    },
+    {
+      "front": "hut",
+      "back": "hat"
+    },
+    {
+      "front": "sauber",
+      "back": "ren"
+    },
+    {
+      "front": "december",
+      "back": "dezember"
+    },
+    {
+      "front": "glas",
+      "back": "glas"
+    },
+    {
+      "front": "svare",
+      "back": "antworten"
+    },
+    {
+      "front": "sygdom",
+      "back": "krankheit"
+    },
+    {
+      "front": "juli",
+      "back": "juli"
+    },
+    {
+      "front": "tomate",
+      "back": "tomat"
+    },
+    {
+      "front": "kino",
+      "back": "biograf"
+    },
+    {
+      "front": "skov",
+      "back": "wald"
+    },
+    {
+      "front": "kort",
+      "back": "karte"
+    },
+    {
+      "front": "kort",
+      "back": "karten"
+    },
+    {
+      "front": "børn",
+      "back": "kinder"
+    },
+    {
+      "front": "frø",
+      "back": "frosch"
+    },
+    {
+      "front": "radiergummi",
+      "back": "viskelæder"
+    },
+    {
+      "front": "dig",
+      "back": "dich"
+    },
+    {
+      "front": "sechzehn",
+      "back": "seksten"
+    },
+    {
+      "front": "ham",
+      "back": "ihn"
+    },
+    {
+      "front": "barn",
+      "back": "kind"
+    },
+    {
+      "front": "stor",
+      "back": "groß"
+    },
+    {
+      "front": "nitten",
+      "back": "neunzehn"
+    },
+    {
+      "front": "blomkål",
+      "back": "blumenkohl"
+    },
+    {
+      "front": "film",
+      "back": "film"
+    },
+    {
+      "front": "stof",
+      "back": "stoff"
+    },
+    {
+      "front": "håndbold",
+      "back": "handball"
+    },
+    {
+      "front": "wandern",
+      "back": "vandring"
+    },
+    {
+      "front": "computer",
+      "back": "computer"
+    },
+    {
+      "front": "rücken",
+      "back": "ryg"
+    },
+    {
+      "front": "broccoli",
+      "back": "brokkoli"
+    },
+    {
+      "front": "receptionist",
+      "back": "rezeptionist"
+    },
+    {
+      "front": "spørge",
+      "back": "fragen"
+    },
+    {
+      "front": "cirkel",
+      "back": "kreis"
+    },
+    {
+      "front": "gelb",
+      "back": "gul"
+    },
+    {
+      "front": "seng",
+      "back": "bett"
+    },
+    {
+      "front": "blau",
+      "back": "blå"
+    },
+    {
+      "front": "kaufen",
+      "back": "købe"
+    },
+    {
+      "front": "ich",
+      "back": "jeg"
+    },
+    {
+      "front": "stolz",
+      "back": "stolthed"
+    },
+    {
+      "front": "lufthavn",
+      "back": "flughafen"
+    },
+    {
+      "front": "juice",
+      "back": "saft"
+    },
+    {
+      "front": "lila",
+      "back": "lilla"
+    },
+    {
+      "front": "april",
+      "back": "april"
+    },
+    {
+      "front": "langsam",
+      "back": "langsom"
+    },
+    {
+      "front": "spiel",
+      "back": "spil"
+    },
+    {
+      "front": "gris",
+      "back": "schwein"
+    },
+    {
+      "front": "bukser",
+      "back": "hose"
+    },
+    {
+      "front": "klima",
+      "back": "klima"
+    },
+    {
+      "front": "slips",
+      "back": "krawatte"
+    },
+    {
+      "front": "pinguin",
+      "back": "pingvin"
+    },
+    {
+      "front": "hai",
+      "back": "haj"
+    },
+    {
+      "front": "nøglekort",
+      "back": "zimmerkarte"
+    },
+    {
+      "front": "bäcker",
+      "back": "bager"
+    },
+    {
+      "front": "elefant",
+      "back": "elefant"
+    },
+    {
+      "front": "messer",
+      "back": "kniv"
+    },
+    {
+      "front": "zimmer",
+      "back": "værelse"
+    },
+    {
+      "front": "hvilket",
+      "back": "welches"
+    },
+    {
+      "front": "spiegel",
+      "back": "spejl"
+    },
+    {
+      "front": "kopf",
+      "back": "hoved"
+    },
+    {
+      "front": "braun",
+      "back": "brun"
+    },
+    {
+      "front": "rechnung",
+      "back": "regning"
+    },
+    {
+      "front": "deres",
+      "back": "ihr (poss.)"
+    },
+    {
+      "front": "pasta",
+      "back": "nudeln"
+    },
+    {
+      "front": "reis",
+      "back": "ris"
+    },
+    {
+      "front": "august",
+      "back": "august"
+    },
+    {
+      "front": "ananas",
+      "back": "ananas"
+    },
+    {
+      "front": "kellner",
+      "back": "tjener"
+    },
+    {
+      "front": "verband",
+      "back": "bandage"
+    },
+    {
+      "front": "heft",
+      "back": "hæfte"
+    },
+    {
+      "front": "schauspieler",
+      "back": "skuespiller"
+    },
+    {
+      "front": "du",
+      "back": "du"
+    },
+    {
+      "front": "ohren",
+      "back": "ører"
+    },
+    {
+      "front": "mond",
+      "back": "måne"
+    },
+    {
+      "front": "medikament",
+      "back": "medicin"
+    },
+    {
+      "front": "vejrudsigten",
+      "back": "vorhersage"
+    },
+    {
+      "front": "printer",
+      "back": "drucker"
+    },
+    {
+      "front": "det",
+      "back": "es"
+    },
+    {
+      "front": "onkel",
+      "back": "onkel"
+    },
+    {
+      "front": "rechts",
+      "back": "højre"
+    },
+    {
+      "front": "vand",
+      "back": "wasser"
+    },
+    {
+      "front": "kød",
+      "back": "fleisch"
+    },
+    {
+      "front": "indenfor",
+      "back": "innen"
+    },
+    {
+      "front": "friseur",
+      "back": "frisør"
+    },
+    {
+      "front": "bønne",
+      "back": "bohne"
+    },
+    {
+      "front": "hjælpe",
+      "back": "helfen"
+    },
+    {
+      "front": "universitet",
+      "back": "universität"
+    },
+    {
+      "front": "forsikring",
+      "back": "versicherung"
+    },
+    {
+      "front": "søn",
+      "back": "sohn"
+    },
+    {
+      "front": "far",
+      "back": "vater"
+    },
+    {
+      "front": "nebel",
+      "back": "tåge"
+    },
+    {
+      "front": "schrank",
+      "back": "skab"
+    },
+    {
+      "front": "schlafen",
+      "back": "sove"
+    },
+    {
+      "front": "qualle",
+      "back": "vandmand"
+    },
+    {
+      "front": "essen",
+      "back": "spise"
+    },
+    {
+      "front": "zähne",
+      "back": "tænder"
+    },
+    {
+      "front": "uns",
+      "back": "os"
+    },
+    {
+      "front": "gut",
+      "back": "god"
+    },
+    {
+      "front": "ært",
+      "back": "erbse"
+    },
+    {
+      "front": "finde",
+      "back": "finden"
+    },
+    {
+      "front": "ville",
+      "back": "wollen"
+    },
+    {
+      "front": "feber",
+      "back": "fieber"
+    },
+    {
+      "front": "sonne",
+      "back": "sol"
+    },
+    {
+      "front": "rejse",
+      "back": "reise"
+    },
+    {
+      "front": "kamera",
+      "back": "kamera"
+    },
+    {
+      "front": "auge",
+      "back": "øje"
+    },
+    {
+      "front": "hvem",
+      "back": "wer"
+    },
+    {
+      "front": "plaster",
+      "back": "pflaster"
+    },
+    {
+      "front": "schach",
+      "back": "skak"
+    },
+    {
+      "front": "zwanzig",
+      "back": "tyve"
+    },
+    {
+      "front": "sechs",
+      "back": "seks"
+    },
+    {
+      "front": "mittwoch",
+      "back": "onsdag"
+    },
+    {
+      "front": "lernen",
+      "back": "lære"
+    },
+    {
+      "front": "gäste",
+      "back": "gæster"
+    },
+    {
+      "front": "forældre",
+      "back": "eltern"
+    },
+    {
+      "front": "brandmand",
+      "back": "feuerwehrmann"
+    },
+    {
+      "front": "kirsebær",
+      "back": "kirsche"
+    },
+    {
+      "front": "handschuh",
+      "back": "handske"
+    },
+    {
+      "front": "tiger",
+      "back": "tiger"
+    },
+    {
+      "front": "tolv",
+      "back": "zwölf"
+    },
+    {
+      "front": "læder",
+      "back": "leder"
+    },
+    {
+      "front": "drikke",
+      "back": "trinken"
+    },
+    {
+      "front": "studerende",
+      "back": "student"
+    },
+    {
+      "front": "affe",
+      "back": "abe"
+    },
+    {
+      "front": "lejlighed",
+      "back": "wohnung"
+    },
+    {
+      "front": "beginnen",
+      "back": "begynde"
+    },
+    {
+      "front": "sturm",
+      "back": "storm"
+    },
+    {
+      "front": "temperatur",
+      "back": "temperatur"
+    },
+    {
+      "front": "hue",
+      "back": "mütze"
+    },
+    {
+      "front": "seemann",
+      "back": "sømand"
+    },
+    {
+      "front": "han",
+      "back": "er"
+    },
+    {
+      "front": "fødder",
+      "back": "füße"
+    },
+    {
+      "front": "müde",
+      "back": "træt"
+    },
+    {
+      "front": "musik",
+      "back": "musik"
+    },
+    {
+      "front": "cousin",
+      "back": "fætter"
+    },
+    {
+      "front": "marts",
+      "back": "märz"
+    },
+    {
+      "front": "hjerte",
+      "back": "herz"
+    },
+    {
+      "front": "oktober",
+      "back": "oktober"
+    },
+    {
+      "front": "pilot",
+      "back": "pilot"
+    },
+    {
+      "front": "nehmen",
+      "back": "tage"
+    },
+    {
+      "front": "pas",
+      "back": "reisepass"
+    },
+    {
+      "front": "overraskelse",
+      "back": "überraschung"
+    },
+    {
+      "front": "können",
+      "back": "kunne"
+    },
+    {
+      "front": "januar",
+      "back": "januar"
+    },
+    {
+      "front": "hende",
+      "back": "sie (akk.)"
+    },
+    {
+      "front": "forsker",
+      "back": "wissenschaftler"
+    },
+    {
+      "front": "mig",
+      "back": "mich"
+    },
+    {
+      "front": "ankunftszeit",
+      "back": "ankomsttid"
+    },
+    {
+      "front": "gurke",
+      "back": "agurk"
+    },
+    {
+      "front": "schwarz",
+      "back": "sort"
+    },
+    {
+      "front": "suchen",
+      "back": "lede"
+    },
+    {
+      "front": "abfahrt",
+      "back": "afgang"
+    },
+    {
+      "front": "hals",
+      "back": "hals"
+    },
+    {
+      "front": "fem",
+      "back": "fünf"
+    },
+    {
+      "front": "fersken",
+      "back": "pfirsich"
+    },
+    {
+      "front": "krankenschwester",
+      "back": "sygeplejerske"
+    },
+    {
+      "front": "nederdel",
+      "back": "rock"
+    },
+    {
+      "front": "internet",
+      "back": "internet"
+    },
+    {
+      "front": "grau",
+      "back": "grå"
+    },
+    {
+      "front": "hvornår",
+      "back": "wann"
+    },
+    {
+      "front": "jeres",
+      "back": "euer"
+    },
+    {
+      "front": "gras",
+      "back": "græs"
+    },
+    {
+      "front": "baum",
+      "back": "træ"
+    },
+    {
+      "front": "serviette",
+      "back": "serviet"
+    },
+    {
+      "front": "gangplatz",
+      "back": "gangplads"
+    },
+    {
+      "front": "vogel",
+      "back": "fugl"
+    },
+    {
+      "front": "mechaniker",
+      "back": "mekaniker"
+    },
+    {
+      "front": "vierzehn",
+      "back": "fjorten"
+    },
+    {
+      "front": "pflaume",
+      "back": "blomme"
+    },
+    {
+      "front": "cousine",
+      "back": "kusine"
+    },
+    {
+      "front": "heiß",
+      "back": "varm"
+    },
+    {
+      "front": "klavier",
+      "back": "klaver"
+    },
+    {
+      "front": "wir",
+      "back": "vi"
+    },
+    {
+      "front": "løve",
+      "back": "löwe"
+    },
+    {
+      "front": "telefon",
+      "back": "telefon"
+    },
+    {
+      "front": "sulten",
+      "back": "hungrig"
+    },
+    {
+      "front": "februar",
+      "back": "februar"
+    },
+    {
+      "front": "bruder",
+      "back": "bror"
+    },
+    {
+      "front": "schuhe",
+      "back": "sko"
+    },
+    {
+      "front": "hoste",
+      "back": "husten"
+    },
+    {
+      "front": "sommerfugl",
+      "back": "schmetterling"
+    },
+    {
+      "front": "pfeffer",
+      "back": "peber"
+    },
+    {
+      "front": "wein",
+      "back": "vin"
+    },
+    {
+      "front": "erdbeere",
+      "back": "jordbær"
+    },
+    {
+      "front": "laufen",
+      "back": "løb"
+    },
+    {
+      "front": "afgangstid",
+      "back": "abfahrtszeit"
+    },
+    {
+      "front": "mælk",
+      "back": "milch"
+    },
+    {
+      "front": "scham",
+      "back": "skam"
+    },
+    {
+      "front": "arkitekt",
+      "back": "architekt"
+    },
+    {
+      "front": "badeværelse",
+      "back": "bad"
+    },
+    {
+      "front": "museum",
+      "back": "museum"
+    },
+    {
+      "front": "gewit­ter",
+      "back": "tordenvejr"
+    },
+    {
+      "front": "rosa",
+      "back": "lyserød"
+    },
+    {
+      "front": "socken",
+      "back": "strømper"
+    },
+    {
+      "front": "billet",
+      "back": "ticket"
+    },
+    {
+      "front": "unser",
+      "back": "vores"
+    },
+    {
+      "front": "kreuzung",
+      "back": "kryds"
+    },
+    {
+      "front": "verkaufen",
+      "back": "sælge"
+    },
+    {
+      "front": "dyr",
+      "back": "teuer"
+    },
+    {
+      "front": "køre",
+      "back": "fahren"
+    },
+    {
+      "front": "delfin",
+      "back": "delfin"
+    },
+    {
+      "front": "tastatur",
+      "back": "tastatur"
+    },
+    {
+      "front": "holz",
+      "back": "træ"
+    },
+    {
+      "front": "euch",
+      "back": "jer"
+    },
+    {
+      "front": "vejr",
+      "back": "wetter"
+    },
+    {
+      "front": "warm",
+      "back": "varm"
+    },
+    {
+      "front": "dans",
+      "back": "tanzen"
+    },
+    {
+      "front": "tennis",
+      "back": "tennis"
+    },
+    {
+      "front": "oder",
+      "back": "eller"
+    },
+    {
+      "front": "lied",
+      "back": "sang"
+    },
+    {
+      "front": "recept",
+      "back": "rezept"
+    },
+    {
+      "front": "overstregningstusch",
+      "back": "markierer"
+    },
+    {
+      "front": "notizbuch",
+      "back": "notesbog"
+    },
+    {
+      "front": "siebzehn",
+      "back": "sytten"
+    },
+    {
+      "front": "vigtig",
+      "back": "wichtig"
+    },
+    {
+      "front": "spinat",
+      "back": "spinat"
+    },
+    {
+      "front": "schlecht",
+      "back": "dårlig"
+    },
+    {
+      "front": "kalender",
+      "back": "kalender"
+    },
+    {
+      "front": "wolf",
+      "back": "ulv"
+    },
+    {
+      "front": "kop",
+      "back": "tasse"
+    },
+    {
+      "front": "sieben",
+      "back": "syv"
+    },
+    {
+      "front": "welcher",
+      "back": "hvilken"
+    },
+    {
+      "front": "øl",
+      "back": "bier"
+    },
+    {
+      "front": "ohr",
+      "back": "øre"
+    },
+    {
+      "front": "banegård",
+      "back": "bahnhof"
+    },
+    {
+      "front": "fensterplatz",
+      "back": "vinduesplads"
+    },
+    {
+      "front": "acht",
+      "back": "otte"
+    },
+    {
+      "front": "haus",
+      "back": "hus"
+    },
+    {
+      "front": "stol",
+      "back": "stuhl"
+    },
+    {
+      "front": "öffnen",
+      "back": "åbne"
+    },
+    {
+      "front": "koch",
+      "back": "kok"
+    },
+    {
+      "front": "wal",
+      "back": "hval"
+    },
+    {
+      "front": "bil",
+      "back": "auto"
+    },
+    {
+      "front": "hemd",
+      "back": "skjorte"
+    },
+    {
+      "front": "had",
+      "back": "hass"
+    },
+    {
+      "front": "sie (obj.)",
+      "back": "dem"
+    },
+    {
+      "front": "lineal",
+      "back": "lineal"
+    },
+    {
+      "front": "reservation",
+      "back": "reservierung"
+    },
+    {
+      "front": "mango",
+      "back": "mango"
+    },
+    {
+      "front": "empfang",
+      "back": "reception"
+    },
+    {
+      "front": "hund",
+      "back": "hund"
+    },
+    {
+      "front": "tafel",
+      "back": "tavle"
+    },
+    {
+      "front": "sehen",
+      "back": "se"
+    },
+    {
+      "front": "lærer",
+      "back": "lehrer"
+    },
+    {
+      "front": "schön",
+      "back": "smuk"
+    },
+    {
+      "front": "hotel",
+      "back": "hotel"
+    },
+    {
+      "front": "lyn",
+      "back": "blitz"
+    },
+    {
+      "front": "papier",
+      "back": "papir"
+    },
+    {
+      "front": "elf",
+      "back": "elleve"
+    },
+    {
+      "front": "mais",
+      "back": "majs"
+    },
+    {
+      "front": "pferd",
+      "back": "hest"
+    },
+    {
+      "front": "donnerstag",
+      "back": "torsdag"
+    },
+    {
+      "front": "ni",
+      "back": "neun"
+    }
+  ]
+}
