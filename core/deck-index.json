@@ -1,0 +1,49 @@
+{
+  "DA": {
+    "name": "Dänisch",
+    "packs": [
+      "decks/da_pack_01.json",
+      "decks/da_pack_02.json",
+      "decks/da_pack_03.json",
+      "decks/da_pack_04.json",
+      "decks/da_pack_05.json",
+      "decks/da_pack_06.json",
+      "decks/da_pack_07.json",
+      "decks/da_pack_08.json",
+      "decks/da_pack_09.json",
+      "decks/da_pack_10.json",
+      "decks/da_de_mix_pack_01.json",
+      "decks/da_de_mix_pack_02.json"
+    ]
+  },
+  "RU": {
+    "name": "Russisch",
+    "packs": [
+      "decks/ru_pack_01.json",
+      "decks/ru_pack_02.json",
+      "decks/ru_pack_03.json",
+      "decks/ru_pack_04.json",
+      "decks/ru_pack_05.json",
+      "decks/ru_pack_06.json",
+      "decks/ru_pack_07.json",
+      "decks/ru_pack_08.json",
+      "decks/ru_pack_09.json",
+      "decks/ru_pack_10.json"
+    ]
+  },
+  "LA": {
+    "name": "Latein",
+    "packs": [
+      "decks/la_pack_01.json",
+      "decks/la_pack_02.json",
+      "decks/la_pack_03.json",
+      "decks/la_pack_04.json",
+      "decks/la_pack_05.json",
+      "decks/la_pack_06.json",
+      "decks/la_pack_07.json",
+      "decks/la_pack_08.json",
+      "decks/la_pack_09.json",
+      "decks/la_pack_10.json"
+    ]
+  }
+}
